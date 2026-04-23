@@ -1,0 +1,77 @@
+{
+  "navbar": {
+    "services": "Tjänster",
+    "sustainability": "Hållbarhet",
+    "contact": "Kontakt",
+    "cta": "Begär konsultation",
+    "homeLabel": "Jointec startsida",
+    "toggleNavigation": "Växla navigering",
+    "languageLabel": "Språk",
+    "languages": {
+      "en": "EN",
+      "es": "ES",
+      "sv": "SV"
+    }
+  },
+  "hero": {
+    "eyebrow": "Cirkulär träbearbetning för modern industri",
+    "title": "Hållbar pallmaskinering och träåtervinningssystem utvecklade för hög prestanda.",
+    "description": "Jointec hjälper industriella verksamheter att minska avfall, återvinna användbart virke och modernisera produktionen med driftsäker utrustning, noggrann ingenjörskompetens och ett hållbarhetsdrivet arbetssätt.",
+    "primaryCta": "Utforska lösningar",
+    "secondaryCta": "Prata med en expert",
+    "stats": [
+      { "value": "35%", "label": "Mindre träspill" },
+      { "value": "24/7", "label": "Produktionskontinuitet" },
+      { "value": "100%", "label": "Cirkulär ambition" }
+    ]
+  },
+  "video": {
+    "eyebrow": "Industriell visning",
+    "title": "Se Jointecs system i rörelse.",
+    "description": "En fokuserad bild av produktionsmiljön, maskinernas rytm och den operativa precision som präglar Jointecs industriella erbjudande.",
+    "playLabel": "Spela upp presentationsvideo",
+    "videoLabel": "Jointec presentationsvideo",
+    "captionsLabel": "Svenska undertexter"
+  },
+  "services": {
+    "eyebrow": "Vad vi levererar",
+    "title": "Industriella system som förenar effektivitet, livslängd och ansvarsfull materialanvändning.",
+    "description": "Vårt arbetssätt är tydligt: robust maskinering, rena arbetsflöden och praktiska hållbarhetsvinster som håller i verkliga produktionsmiljöer.",
+    "items": [
+      {
+        "title": "System för träåtervinning",
+        "description": "Integrerade linjer för krossning, sortering och återvinning som minskar avfallskostnader och bevarar användbar råvara i ett cirkulärt produktionsflöde."
+      },
+      {
+        "title": "Pallmaskiner",
+        "description": "Automatiserade system för tillverkning, reparation, inspektion och transport av pallar med fokus på drifttid, säkerhet och kapacitet."
+      },
+      {
+        "title": "Optimering av anläggning",
+        "description": "Platsanpassat ingenjörsstöd för layouter, installationsplanering, flödesbalansering och långsiktig prestandaförbättring."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Inled en dialog",
+    "title": "Planerar ni en maskinuppgradering eller ett initiativ för träåtervinning?",
+    "description": "Dela anläggningens mål så ramar vi in en diskussion om kapacitet, återvinningspotential och en hållbar långsiktig driftmodell.",
+    "company": "Företag",
+    "companyPlaceholder": "Företagsnamn",
+    "email": "E-post",
+    "emailPlaceholder": "namn@foretag.se",
+    "projectDetails": "Projektbeskrivning",
+    "projectDetailsPlaceholder": "Berätta om era mål för återvinning eller pallmaskiner",
+    "submit": "Begär projektgranskning",
+    "emailSubject": "Projektförfrågan",
+    "emailBody": {
+      "company": "Företag",
+      "email": "E-post",
+      "projectDetails": "Projektbeskrivning"
+    }
+  },
+  "footer": {
+    "description": "System för träåtervinning och pallmaskiner för robust industriell drift.",
+    "tagline": "Utformat med ett precist och hållbarhetsdrivet industriellt synsätt."
+  }
+}

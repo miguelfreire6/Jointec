@@ -1,0 +1,77 @@
+{
+  "navbar": {
+    "services": "Servicios",
+    "sustainability": "Sostenibilidad",
+    "contact": "Contacto",
+    "cta": "Solicitar consulta",
+    "homeLabel": "Inicio de Jointec",
+    "toggleNavigation": "Abrir navegación",
+    "languageLabel": "Idioma",
+    "languages": {
+      "en": "EN",
+      "es": "ES",
+      "sv": "SV"
+    }
+  },
+  "hero": {
+    "eyebrow": "Procesamiento circular de madera para la industria moderna",
+    "title": "Maquinaria para palets y sistemas de reciclaje de madera diseñados para rendir.",
+    "description": "Jointec ayuda a los operadores industriales a reducir residuos, recuperar madera útil y modernizar la producción con equipos fiables, ingeniería cuidadosa y una estrategia centrada en la sostenibilidad.",
+    "primaryCta": "Explorar soluciones",
+    "secondaryCta": "Hablar con un experto",
+    "stats": [
+      { "value": "35%", "label": "Menos desperdicio de madera" },
+      { "value": "24/7", "label": "Continuidad de producción" },
+      { "value": "100%", "label": "Ambición circular" }
+    ]
+  },
+  "video": {
+    "eyebrow": "Muestra industrial",
+    "title": "Vea los sistemas de Jointec en movimiento.",
+    "description": "Una visión precisa del entorno de producción, el ritmo de la maquinaria y la disciplina operativa que definen la oferta industrial de Jointec.",
+    "playLabel": "Reproducir video de demostración",
+    "videoLabel": "Video de demostración de Jointec",
+    "captionsLabel": "Subtítulos en español"
+  },
+  "services": {
+    "eyebrow": "Qué ofrecemos",
+    "title": "Sistemas industriales que combinan eficiencia, durabilidad y uso responsable del material.",
+    "description": "Nuestro enfoque es claro: maquinaria robusta, flujos de trabajo limpios y mejoras de sostenibilidad que funcionan en entornos de producción reales.",
+    "items": [
+      {
+        "title": "Sistemas de reciclaje de madera",
+        "description": "Líneas integradas de trituración, clasificación y recuperación diseñadas para reducir costes de eliminación y conservar materia prima reutilizable dentro de un modelo circular."
+      },
+      {
+        "title": "Maquinaria para palets",
+        "description": "Sistemas automatizados para fabricación, reparación, inspección y transporte de palets, diseñados para maximizar disponibilidad, seguridad y rendimiento."
+      },
+      {
+        "title": "Optimización de planta",
+        "description": "Soporte de ingeniería específico para cada instalación, incluyendo layouts, planificación de implantación, equilibrio de flujos y mejora continua del rendimiento."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Inicie una conversación",
+    "title": "¿Está planificando una mejora de maquinaria o una iniciativa de recuperación de madera?",
+    "description": "Comparta los objetivos de su planta y prepararemos una conversación enfocada en capacidad, potencial de recuperación y un modelo operativo duradero.",
+    "company": "Empresa",
+    "companyPlaceholder": "Nombre de su empresa",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "nombre@empresa.com",
+    "projectDetails": "Detalles del proyecto",
+    "projectDetailsPlaceholder": "Cuéntenos sus objetivos de reciclaje o maquinaria para palets",
+    "submit": "Solicitar revisión del proyecto",
+    "emailSubject": "Consulta de proyecto",
+    "emailBody": {
+      "company": "Empresa",
+      "email": "Correo electrónico",
+      "projectDetails": "Detalles del proyecto"
+    }
+  },
+  "footer": {
+    "description": "Sistemas de reciclaje de madera y maquinaria para palets para operaciones industriales resilientes.",
+    "tagline": "Diseñado con una mentalidad industrial precisa y orientada a la sostenibilidad."
+  }
+}

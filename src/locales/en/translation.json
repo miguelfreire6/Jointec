@@ -1,0 +1,77 @@
+{
+  "navbar": {
+    "services": "Services",
+    "sustainability": "Sustainability",
+    "contact": "Contact",
+    "cta": "Request Consultation",
+    "homeLabel": "Jointec home",
+    "toggleNavigation": "Toggle navigation",
+    "languageLabel": "Language",
+    "languages": {
+      "en": "EN",
+      "es": "ES",
+      "sv": "SV"
+    }
+  },
+  "hero": {
+    "eyebrow": "Circular wood processing for modern industry",
+    "title": "Sustainable pallet machinery and wood recycling systems engineered for output.",
+    "description": "Jointec helps industrial operators reduce waste, recover usable timber, and modernize production with dependable equipment, careful engineering, and a sustainability-first operating model.",
+    "primaryCta": "Explore Solutions",
+    "secondaryCta": "Talk to an Expert",
+    "stats": [
+      { "value": "35%", "label": "Less timber waste" },
+      { "value": "24/7", "label": "Production continuity" },
+      { "value": "100%", "label": "Circular ambition" }
+    ]
+  },
+  "video": {
+    "eyebrow": "Industrial Showcase",
+    "title": "See Jointec systems in motion.",
+    "description": "A focused view of the production environment, machinery rhythm, and operational precision behind Jointec's industrial offering.",
+    "playLabel": "Play showcase video",
+    "videoLabel": "Jointec showcase video",
+    "captionsLabel": "English captions"
+  },
+  "services": {
+    "eyebrow": "What We Deliver",
+    "title": "Industrial systems that combine efficiency, longevity, and responsible material use.",
+    "description": "Our approach is straightforward: robust machinery, clean workflows, and practical sustainability gains that hold up in real production environments.",
+    "items": [
+      {
+        "title": "Wood Recycling Systems",
+        "description": "Integrated shredding, sorting, and recovery lines built to lower disposal costs while preserving usable raw material for a circular production loop."
+      },
+      {
+        "title": "Pallet Machinery",
+        "description": "Automated systems for pallet manufacturing, repair, inspection, and transport designed around uptime, operator safety, and clean throughput."
+      },
+      {
+        "title": "Plant Optimization",
+        "description": "Site-specific engineering support covering layouts, installation planning, workflow balancing, and long-term performance improvement."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Start a conversation",
+    "title": "Planning a machinery upgrade or wood recovery initiative?",
+    "description": "Share your plant objectives and we will frame a discussion around throughput, recovery potential, and a durable long-term operating model.",
+    "company": "Company",
+    "companyPlaceholder": "Your company name",
+    "email": "Email",
+    "emailPlaceholder": "name@company.com",
+    "projectDetails": "Project Details",
+    "projectDetailsPlaceholder": "Tell us about your recycling or pallet machinery goals",
+    "submit": "Request Project Review",
+    "emailSubject": "Project Inquiry",
+    "emailBody": {
+      "company": "Company",
+      "email": "Email",
+      "projectDetails": "Project Details"
+    }
+  },
+  "footer": {
+    "description": "Wood recycling systems and pallet machinery for resilient industrial operations.",
+    "tagline": "Designed with a precise, sustainability-led industrial mindset."
+  }
+}
