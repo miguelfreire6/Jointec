@@ -2,7 +2,5 @@ node_modules/
 dist/
 .DS_Store
 .vercel
-node_modules
-node_modules
-node_modules
-node_modules
+src/assets/hero.mp4
+*.mp4
