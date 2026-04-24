@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jointec — Corporate Presentation</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1e2d40;
+    --navy-light: #2a3f58;
+    --orange: #ff7a00;
+    --orange-dark: #e06a00;
+    --white: #ffffff;
+    --white-dim: rgba(255,255,255,0.7);
+    --white-faint: rgba(255,255,255,0.12);
+  }
+
+  html, body {
+    width: 100%; height: 100%;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    background: #0d1824;
+    overflow: hidden;
+    color: var(--white);
+  }
+
+  /* ── Deck container ── */
+  #deck {
+    width: 100vw; height: 100vh;
+    position: relative;
+  }
+
+  /* ── Slides ── */
+  .slide {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    padding: 60px 80px;
+    opacity: 0;
+    transform: translateX(60px);
+    transition: opacity 0.45s ease, transform 0.45s ease;
+    pointer-events: none;
+  }
+  .slide.active {
+    opacity: 1; transform: translateX(0);
+    pointer-events: all;
+  }
+  .slide.exit {
+    opacity: 0; transform: translateX(-60px);
+  }
+
+  /* ── Backgrounds ── */
+  .bg-dark   { background: var(--navy); }
+  .bg-darker { background: #141f2d; }
+  .bg-orange { background: var(--orange); }
+  .bg-split  { background: linear-gradient(135deg, var(--navy) 58%, var(--orange) 58%); }
+
+  /* ── Decorative grid overlay ── */
+  .slide::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+  }
+
+  /* ── Typography ── */
+  .eyebrow {
+    font-size: 11px; font-weight: 700;
+    letter-spacing: 0.28em; text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 20px;
+  }
+  .eyebrow.light { color: rgba(255,165,50,0.85); }
+
+  h1 {
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+  }
+  h2 {
+    font-size: clamp(1.6rem, 3.2vw, 2.6rem);
+    font-weight: 700;
+    line-height: 1.12;
+    letter-spacing: -0.025em;
+  }
+  h3 {
+    font-size: 1.1rem; font-weight: 700;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: clamp(0.88rem, 1.4vw, 1.05rem);
+    line-height: 1.7;
+    color: var(--white-dim);
+  }
+  p.lead {
+    font-size: clamp(1rem, 1.6vw, 1.2rem);
+    color: rgba(255,255,255,0.82);
+  }
+
+  /* ── Logo mark ── */
+  .logo-mark {
+    font-size: 2.4rem; font-weight: 700;
+    letter-spacing: -0.06em;
+    line-height: 1;
+  }
+  .logo-mark .join { color: var(--white); }
+  .logo-mark .tec  { color: var(--orange); }
+
+  /* ── Accent line ── */
+  .accent-line {
+    width: 48px; height: 3px;
+    background: var(--orange);
+    border-radius: 2px;
+    margin: 20px 0 28px;
+  }
+
+  /* ── Slide 1 – Title ── */
+  #s1 { text-align: center; }
+  #s1 .logo-hero {
+    font-size: clamp(3.5rem, 8vw, 7rem);
+    font-weight: 800;
+    letter-spacing: -0.06em;
+    margin-bottom: 24px;
+  }
+  #s1 .tagline {
+    font-size: clamp(0.9rem, 1.5vw, 1.15rem);
+    color: var(--white-dim);
+    max-width: 520px;
+    margin: 0 auto 40px;
+    line-height: 1.65;
+  }
+  #s1 .badge {
+    display: inline-block;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 100px;
+    padding: 8px 22px;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: rgba(255,165,50,0.9);
+  }
+  #s1 .glow {
+    position: absolute;
+    width: 600px; height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,122,0,0.12) 0%, transparent 70%);
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+
+  /* ── Slide 2 – Challenge ── */
+  #s2 .content { max-width: 820px; }
+  #s2 .big-stat {
+    font-size: clamp(3rem, 7vw, 6rem);
+    font-weight: 800;
+    color: var(--orange);
+    letter-spacing: -0.04em;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  #s2 .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 48px;
+  }
+  #s2 .stat-item {
+    border-top: 2px solid var(--white-faint);
+    padding-top: 20px;
+  }
+  #s2 .stat-item .num {
+    font-size: 2rem; font-weight: 800;
+    color: var(--orange);
+    letter-spacing: -0.03em;
+  }
+  #s2 .stat-item .label {
+    font-size: 0.78rem; text-transform: uppercase;
+    letter-spacing: 0.16em; color: var(--white-dim);
+    margin-top: 4px;
+  }
+
+  /* ── Slide 3 – About ── */
+  #s3 { align-items: stretch; padding: 0; }
+  #s3 .half {
+    flex: 1; display: flex; flex-direction: column;
+    justify-content: center; padding: 60px 70px;
+  }
+  #s3 .half-right {
+    background: var(--orange);
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: flex-start;
+    gap: 28px;
+  }
+  #s3 .flex-row { display: flex; flex-direction: row; width: 100%; height: 100%; }
+  #s3 .pillar {
+    display: flex; gap: 16px; align-items: flex-start;
+  }
+  #s3 .pillar-icon {
+    width: 40px; height: 40px; border-radius: 10px;
+    background: rgba(255,255,255,0.18);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem; flex-shrink: 0;
+  }
+  #s3 .pillar-text h4 {
+    font-size: 0.88rem; font-weight: 700;
+    color: var(--white); margin-bottom: 4px;
+  }
+  #s3 .pillar-text p {
+    font-size: 0.8rem; color: rgba(255,255,255,0.75); line-height: 1.5;
+  }
+
+  /* ── Service slides ── */
+  .service-slide { align-items: stretch; padding: 0; }
+  .service-slide .s-left {
+    width: 42%; display: flex; flex-direction: column;
+    justify-content: center; padding: 60px 64px;
+    background: var(--navy);
+  }
+  .service-slide .s-right {
+    flex: 1; display: flex; flex-direction: column;
+    justify-content: center; padding: 60px 64px;
+    background: #141f2d;
+    gap: 24px;
+  }
+  .service-slide .s-row { display: flex; width: 100%; height: 100%; }
+  .service-num {
+    font-size: 6rem; font-weight: 800;
+    line-height: 1; letter-spacing: -0.05em;
+    color: rgba(255,122,0,0.15);
+    margin-bottom: -16px;
+  }
+  .feature-item {
+    display: flex; gap: 14px; align-items: flex-start;
+  }
+  .feature-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--orange);
+    margin-top: 8px; flex-shrink: 0;
+  }
+  .feature-item p { font-size: 0.88rem; line-height: 1.6; }
+  .feature-item strong { color: var(--white); display: block; font-size: 0.9rem; margin-bottom: 2px; }
+
+  /* ── Slide 7 – Stats ── */
+  #s7 { text-align: center; }
+  #s7 .stats-row {
+    display: flex; gap: 2px;
+    margin-top: 52px; width: 100%; max-width: 900px;
+  }
+  #s7 .stat-card {
+    flex: 1; padding: 44px 32px;
+    display: flex; flex-direction: column;
+    align-items: center; gap: 12px;
+  }
+  #s7 .stat-card:nth-child(1) { background: var(--navy-light); border-radius: 20px 0 0 20px; }
+  #s7 .stat-card:nth-child(2) { background: var(--orange); }
+  #s7 .stat-card:nth-child(3) { background: var(--navy-light); border-radius: 0 20px 20px 0; }
+  #s7 .big-num {
+    font-size: clamp(2.8rem, 5vw, 4.5rem);
+    font-weight: 800; letter-spacing: -0.04em; line-height: 1;
+  }
+  #s7 .stat-card:nth-child(2) .big-num { color: var(--white); }
+  #s7 .stat-card:not(:nth-child(2)) .big-num { color: var(--orange); }
+  #s7 .stat-label {
+    font-size: 0.78rem; text-transform: uppercase;
+    letter-spacing: 0.2em; color: var(--white-dim); text-align: center;
+  }
+  #s7 .stat-card:nth-child(2) .stat-label { color: rgba(255,255,255,0.8); }
+
+  /* ── Slide 8 – Contact ── */
+  #s8 { text-align: center; background: var(--navy); }
+  #s8 .contact-box {
+    margin-top: 40px;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 20px;
+    padding: 40px 56px;
+    max-width: 580px;
+    background: rgba(255,255,255,0.04);
+  }
+  #s8 .contact-row {
+    display: flex; align-items: center; gap: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    text-align: left;
+  }
+  #s8 .contact-row:last-child { border-bottom: none; }
+  #s8 .contact-icon {
+    width: 36px; height: 36px; border-radius: 8px;
+    background: rgba(255,122,0,0.15);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.9rem; flex-shrink: 0;
+  }
+  #s8 .contact-detail { font-size: 0.88rem; }
+  #s8 .contact-detail span { display: block; color: var(--white-dim); font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 2px; }
+  #s8 .cta-btn {
+    display: inline-block; margin-top: 32px;
+    background: var(--orange); color: var(--white);
+    padding: 14px 40px; border-radius: 100px;
+    font-weight: 700; font-size: 0.9rem;
+    letter-spacing: 0.04em; text-decoration: none;
+    border: none; cursor: pointer;
+  }
+
+  /* ── Navigation ── */
+  #nav {
+    position: fixed; bottom: 32px; left: 50%;
+    transform: translateX(-50%);
+    display: flex; align-items: center; gap: 16px;
+    z-index: 100;
+  }
+  .nav-btn {
+    width: 44px; height: 44px; border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.06);
+    color: var(--white); font-size: 1.1rem;
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: background 0.2s, border-color 0.2s;
+    backdrop-filter: blur(8px);
+  }
+  .nav-btn:hover { background: rgba(255,255,255,0.14); border-color: rgba(255,255,255,0.4); }
+  .nav-btn:disabled { opacity: 0.25; cursor: default; }
+
+  /* ── Progress dots ── */
+  #dots {
+    display: flex; gap: 7px; align-items: center;
+  }
+  .dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: rgba(255,255,255,0.25);
+    transition: background 0.25s, transform 0.25s;
+    cursor: pointer;
+  }
+  .dot.active {
+    background: var(--orange);
+    transform: scale(1.3);
+  }
+
+  /* ── Slide counter ── */
+  #counter {
+    position: fixed; top: 28px; right: 36px;
+    font-size: 0.75rem; color: var(--white-dim);
+    letter-spacing: 0.1em; z-index: 100;
+  }
+
+  /* ── Logo fixed ── */
+  #fixed-logo {
+    position: fixed; top: 24px; left: 36px;
+    font-size: 1.1rem; font-weight: 700;
+    letter-spacing: -0.05em; z-index: 100;
+  }
+  #fixed-logo .join { color: var(--white); }
+  #fixed-logo .tec  { color: var(--orange); }
+</style>
+</head>
+<body>
+
+<div id="fixed-logo"><span class="join">JOIN</span><span class="tec">TEC</span></div>
+<div id="counter">1 / 8</div>
+
+<div id="deck">
+
+  <!-- Slide 1: Title -->
+  <div class="slide bg-darker active" id="s1">
+    <div class="glow"></div>
+    <div class="badge">Circular Wood Processing · Est. Sweden</div>
+    <div class="logo-hero" style="margin-top:28px;">
+      <span style="color:#fff">JOIN</span><span style="color:var(--orange)">TEC</span>
+    </div>
+    <p class="tagline">Sustainable pallet machinery and wood recycling systems engineered for industrial output.</p>
+    <div style="width:48px;height:3px;background:var(--orange);border-radius:2px;margin:0 auto;"></div>
+  </div>
+
+  <!-- Slide 2: The Challenge -->
+  <div class="slide bg-dark" id="s2">
+    <div class="content">
+      <p class="eyebrow">The Challenge</p>
+      <h2>Industrial wood waste is a<br>solvable problem.</h2>
+      <div class="accent-line"></div>
+      <p class="lead" style="max-width:620px;">Most pallet and timber operations lose significant raw material to avoidable waste. Outdated equipment, poor recovery workflows, and a lack of circular thinking turn recoverable wood into cost — not value.</p>
+      <div class="stat-grid">
+        <div class="stat-item">
+          <div class="num">30–40%</div>
+          <div class="label">Avg. timber waste in<br>pallet production</div>
+        </div>
+        <div class="stat-item">
+          <div class="num">↑ Costs</div>
+          <div class="label">Rising disposal &amp;<br>raw material costs</div>
+        </div>
+        <div class="stat-item">
+          <div class="num">Regulation</div>
+          <div class="label">Tightening EU circular<br>economy directives</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 3: About Jointec -->
+  <div class="slide" id="s3" style="padding:0;">
+    <div class="flex-row">
+      <div class="half bg-dark">
+        <p class="eyebrow">Who We Are</p>
+        <h2>Engineering-led.<br>Sustainability-first.</h2>
+        <div class="accent-line"></div>
+        <p>Jointec designs and delivers industrial machinery systems that help operators reduce timber waste, recover usable raw material, and run cleaner, more profitable production lines — without compromising on output or uptime.</p>
+      </div>
+      <div class="half half-right">
+        <div class="pillar">
+          <div class="pillar-icon">⚙️</div>
+          <div class="pillar-text">
+            <h4>Dependable Equipment</h4>
+            <p>Built for continuous industrial use with a focus on operator safety and long service life.</p>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">🔁</div>
+          <div class="pillar-text">
+            <h4>Circular by Design</h4>
+            <p>Every system is engineered to keep usable material in the production loop.</p>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">📐</div>
+          <div class="pillar-text">
+            <h4>Site-Specific Engineering</h4>
+            <p>We adapt to your plant layout, workflow, and operational targets — not the other way around.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 4: Wood Recycling Systems -->
+  <div class="slide service-slide" id="s4" style="padding:0;">
+    <div class="s-row">
+      <div class="s-left">
+        <div class="service-num">01</div>
+        <p class="eyebrow">Service</p>
+        <h2>Wood Recycling<br>Systems</h2>
+        <div class="accent-line"></div>
+        <p>Integrated shredding, sorting, and recovery lines that turn waste streams into recoverable raw material — reducing disposal costs while closing the production loop.</p>
+      </div>
+      <div class="s-right">
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Integrated Shredding &amp; Fragmentation</strong>Industry-grade wood fragmenting lines sized to your throughput requirements.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Automated Sorting</strong>Separation of recoverable timber from true waste — maximising material yield at every stage.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Recovery Loop Integration</strong>Recovered material re-enters the production cycle directly, reducing raw material procurement costs.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Reduced Disposal Cost</strong>Lower volume of waste material leaving the plant means lower waste management expenditure.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 5: Pallet Machinery -->
+  <div class="slide service-slide" id="s5" style="padding:0;">
+    <div class="s-row">
+      <div class="s-left">
+        <div class="service-num">02</div>
+        <p class="eyebrow">Service</p>
+        <h2>Pallet<br>Machinery</h2>
+        <div class="accent-line"></div>
+        <p>Automated systems for pallet manufacturing, repair, inspection, and transport — designed around uptime, operator safety, and consistent production throughput.</p>
+      </div>
+      <div class="s-right">
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Automated Manufacturing Lines</strong>High-throughput pallet production systems engineered for consistent output and minimal downtime.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Repair &amp; Inspection Systems</strong>Automated grading and repair workflows that extend pallet service life and reduce waste.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Intralogistics &amp; Transport</strong>Integrated conveying and handling systems that keep pallet flow moving at production pace.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Operator Safety Focus</strong>Every system is designed with machinery safety directives and operator ergonomics at the core.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 6: Plant Optimization -->
+  <div class="slide service-slide" id="s6" style="padding:0;">
+    <div class="s-row">
+      <div class="s-left">
+        <div class="service-num">03</div>
+        <p class="eyebrow">Service</p>
+        <h2>Plant<br>Optimization</h2>
+        <div class="accent-line"></div>
+        <p>Site-specific engineering support that improves how your plant operates — from floor layout to long-term performance gains.</p>
+      </div>
+      <div class="s-right">
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Plant Layout &amp; Design</strong>Optimised floor plans that improve material flow, reduce handling distance, and maximise usable space.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Installation Planning</strong>Structured rollout planning that minimises production disruption during machinery installation.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Workflow Balancing</strong>Analysis and adjustment of production flows to eliminate bottlenecks and improve line efficiency.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <p><strong>Long-Term Performance</strong>Ongoing engineering support focused on sustained output improvement over time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 7: Sustainability Stats -->
+  <div class="slide bg-darker" id="s7">
+    <p class="eyebrow">Impact &amp; Results</p>
+    <h2>Measurable gains in every<br>plant we work with.</h2>
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="big-num">35%</div>
+        <div class="stat-label">Less timber<br>waste</div>
+      </div>
+      <div class="stat-card">
+        <div class="big-num">24/7</div>
+        <div class="stat-label">Production<br>continuity</div>
+      </div>
+      <div class="stat-card">
+        <div class="big-num">100%</div>
+        <div class="stat-label">Circular<br>ambition</div>
+      </div>
+    </div>
+    <p style="margin-top:32px;font-size:0.8rem;color:rgba(255,255,255,0.35);max-width:500px;text-align:center;">Results based on operational data from Jointec-equipped production environments.</p>
+  </div>
+
+  <!-- Slide 8: Contact -->
+  <div class="slide bg-dark" id="s8">
+    <p class="eyebrow">Get in Touch</p>
+    <h2>Ready to reduce waste<br>and raise output?</h2>
+    <div class="accent-line" style="margin:20px auto 0;"></div>
+    <div class="contact-box">
+      <div class="contact-row">
+        <div class="contact-icon">🌐</div>
+        <div class="contact-detail">
+          <span>Website</span>
+          jointec.vercel.app
+        </div>
+      </div>
+      <div class="contact-row">
+        <div class="contact-icon">📍</div>
+        <div class="contact-detail">
+          <span>Headquarters</span>
+          Sweden
+        </div>
+      </div>
+      <div class="contact-row">
+        <div class="contact-icon">💬</div>
+        <div class="contact-detail">
+          <span>Languages</span>
+          English · Spanish · Swedish
+        </div>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://jointec.vercel.app/#contact" target="_blank">Request a Consultation</a>
+  </div>
+
+</div><!-- /deck -->
+
+<!-- Navigation -->
+<div id="nav">
+  <button class="nav-btn" id="prev" disabled>&#8592;</button>
+  <div id="dots"></div>
+  <button class="nav-btn" id="next">&#8594;</button>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const dotsContainer = document.getElementById('dots');
+  const prevBtn = document.getElementById('prev');
+  const nextBtn = document.getElementById('next');
+  const counter = document.getElementById('counter');
+  const total = slides.length;
+  let current = 0;
+
+  // Build dots
+  slides.forEach((_, i) => {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i === 0 ? ' active' : '');
+    d.addEventListener('click', () => goTo(i));
+    dotsContainer.appendChild(d);
+  });
+
+  function goTo(n) {
+    if (n < 0 || n >= total) return;
+    slides[current].classList.remove('active');
+    slides[current].classList.add('exit');
+    setTimeout(() => slides[current].classList.remove('exit'), 450);
+    current = n;
+    slides[current].classList.add('active');
+    document.querySelectorAll('.dot').forEach((d, i) => d.classList.toggle('active', i === current));
+    counter.textContent = `${current + 1} / ${total}`;
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current === total - 1;
+  }
+
+  prevBtn.addEventListener('click', () => goTo(current - 1));
+  nextBtn.addEventListener('click', () => goTo(current + 1));
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') goTo(current + 1);
+    if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   goTo(current - 1);
+  });
+</script>
+</body>
+</html>
