@@ -15,12 +15,12 @@
   },
   "hero": {
     "eyebrow": "Procesamiento circular de madera para la industria moderna",
-    "title": "Maquinaria para palets y sistemas de reciclaje de madera diseñados para rendir.",
-    "description": "Jointec ayuda a los operadores industriales a reducir residuos, recuperar madera útil y modernizar la producción con equipos fiables, ingeniería cuidadosa y una estrategia centrada en la sostenibilidad.",
+    "title": "Maquinaria para palets y sistemas de reciclaje de madera concebidos para el máximo rendimiento productivo.",
+    "description": "Jointec ayuda a los operadores industriales a reducir residuos, recuperar madera aprovechable y modernizar la producción con equipos fiables, ingeniería cuidadosa y una estrategia centrada en la sostenibilidad.",
     "primaryCta": "Explorar soluciones",
     "secondaryCta": "Hablar con un experto",
     "stats": [
-      { "value": "35%", "label": "Menos desperdicio de madera" },
+      { "value": "35%", "label": "Menos merma de madera" },
       { "value": "24/7", "label": "Continuidad de producción" },
       { "value": "100%", "label": "Ambición circular" }
     ]
@@ -40,22 +40,22 @@
     "items": [
       {
         "title": "Sistemas de reciclaje de madera",
-        "description": "Líneas integradas de trituración, clasificación y recuperación diseñadas para reducir costes de eliminación y conservar materia prima reutilizable dentro de un modelo circular."
+        "description": "Líneas integradas de trituración, clasificación y recuperación diseñadas para reducir los costes de gestión de residuos y conservar materia prima recuperable dentro de un circuito de producción circular."
       },
       {
         "title": "Maquinaria para palets",
-        "description": "Sistemas automatizados para fabricación, reparación, inspección y transporte de palets, diseñados para maximizar disponibilidad, seguridad y rendimiento."
+        "description": "Sistemas automatizados para fabricación, reparación, inspección y transporte de palets, diseñados en torno a la disponibilidad, la seguridad del operario y una cadencia de producción limpia y eficiente."
       },
       {
         "title": "Optimización de planta",
-        "description": "Soporte de ingeniería específico para cada instalación, incluyendo layouts, planificación de implantación, equilibrio de flujos y mejora continua del rendimiento."
+        "description": "Soporte de ingeniería específico para cada instalación, incluyendo distribución en planta, planificación de la instalación, equilibrio de flujos y mejora del rendimiento a largo plazo."
       }
     ]
   },
   "contact": {
     "eyebrow": "Inicie una conversación",
     "title": "¿Está planificando una mejora de maquinaria o una iniciativa de recuperación de madera?",
-    "description": "Comparta los objetivos de su planta y prepararemos una conversación enfocada en capacidad, potencial de recuperación y un modelo operativo duradero.",
+    "description": "Comparta los objetivos de su planta y estructuraremos una conversación en torno a la capacidad de producción, el potencial de recuperación y un modelo operativo sólido a largo plazo.",
     "company": "Empresa",
     "companyPlaceholder": "Nombre de su empresa",
     "email": "Correo electrónico",
