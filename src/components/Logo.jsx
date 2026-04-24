@@ -1,17 +1,14 @@
+import logoSrc from "../assets/logo-source.svg";
+
 function Logo({ size = "md", className = "" }) {
-  const sizeClass =
-    size === "sm"
-      ? "text-[1.75rem]"
-      : "text-[2rem] sm:text-[2.5rem]";
+  const heightClass = size === "sm" ? "h-7" : "h-8 sm:h-10";
 
   return (
-    <span
-      className={`inline-flex items-baseline font-semibold leading-none tracking-[-0.08em] ${sizeClass} ${className}`}
-      aria-hidden="true"
-    >
-      <span className="text-[#2f2f2f]">JOIN</span>
-      <span className="text-[#ff7a00]">TEC</span>
-    </span>
+    <img
+      src={logoSrc}
+      alt="Jointec"
+      className={`${heightClass} w-auto ${className}`}
+    />
   );
 }
 
