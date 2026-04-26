@@ -31,6 +31,14 @@
     "description": "Las virutas de madera se mezclan con adhesivo y se comprimen en vigas estructurales de 2,5 metros mediante un flujo industrial controlado.",
     "steps": ["Entrada", "Mezcla", "Extrusión", "Salida"]
   },
+  "video": {
+    "eyebrow": "Muestra industrial",
+    "title": "Vea los sistemas de Jointec en movimiento.",
+    "description": "Una visión precisa del entorno de producción, el ritmo de la maquinaria y la disciplina operativa que definen la oferta industrial de Jointec.",
+    "playLabel": "Reproducir video de demostración",
+    "videoLabel": "Video de demostración de Jointec",
+    "captionsLabel": "Subtítulos en español"
+  },
   "services": {
     "eyebrow": "Qué ofrecemos",
     "title": "Sistemas industriales que combinan eficiencia, durabilidad y uso responsable del material.",

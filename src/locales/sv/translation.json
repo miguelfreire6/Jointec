@@ -31,6 +31,14 @@
     "description": "Träspån blandas med lim och pressas till högkvalitativa bärreglar på 2,5 meter genom ett kontrollerat industriellt flöde.",
     "steps": ["Inmatning", "Blandning", "Extrudering", "Utmatning"]
   },
+  "video": {
+    "eyebrow": "Industriell visning",
+    "title": "Se Jointecs system i rörelse.",
+    "description": "En fokuserad bild av produktionsmiljön, maskinernas rytm och den operativa precision som präglar Jointecs industriella erbjudande.",
+    "playLabel": "Spela upp presentationsvideo",
+    "videoLabel": "Jointec presentationsvideo",
+    "captionsLabel": "Svenska undertexter"
+  },
   "services": {
     "eyebrow": "Vad vi levererar",
     "title": "Industriella system som förenar effektivitet, livslängd och ansvarsfull materialanvändning.",

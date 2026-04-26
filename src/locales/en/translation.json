@@ -31,6 +31,14 @@
     "description": "Wood chips are mixed with adhesive and compressed into high-quality 2.5 meter structural beams through a controlled industrial flow.",
     "steps": ["Infeed", "Mixing", "Extrusion", "Output"]
   },
+  "video": {
+    "eyebrow": "Industrial Showcase",
+    "title": "See Jointec systems in motion.",
+    "description": "A focused view of the production environment, machinery rhythm, and operational precision behind Jointec's industrial offering.",
+    "playLabel": "Play showcase video",
+    "videoLabel": "Jointec showcase video",
+    "captionsLabel": "English captions"
+  },
   "services": {
     "eyebrow": "What We Deliver",
     "title": "Industrial systems that combine efficiency, longevity, and responsible material use.",
