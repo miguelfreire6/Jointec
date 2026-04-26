@@ -25,13 +25,11 @@
       { "value": "100%", "label": "Cirkulär ambition" }
     ]
   },
-  "video": {
-    "eyebrow": "Industriell visning",
-    "title": "Se Jointecs system i rörelse.",
-    "description": "En fokuserad bild av produktionsmiljön, maskinernas rytm och den operativa precision som präglar Jointecs industriella erbjudande.",
-    "playLabel": "Spela upp presentationsvideo",
-    "videoLabel": "Jointec presentationsvideo",
-    "captionsLabel": "Svenska undertexter"
+  "processVideo": {
+    "eyebrow": "Processvisualisering",
+    "title": "Automatiserad materialbearbetning i kontinuerligt flöde.",
+    "description": "Träspån blandas med lim och pressas till högkvalitativa bärreglar på 2,5 meter genom ett kontrollerat industriellt flöde.",
+    "steps": ["Inmatning", "Blandning", "Extrudering", "Utmatning"]
   },
   "services": {
     "eyebrow": "Vad vi levererar",

@@ -4,3 +4,4 @@ dist/
 .vercel
 src/assets/hero.mp4
 *.mp4
+!public/machine_process.mp4
