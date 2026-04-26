@@ -30,7 +30,6 @@ function ProcessVideo() {
                 muted
                 loop
                 playsInline
-                controls
                 preload="metadata"
               />
             </div>
