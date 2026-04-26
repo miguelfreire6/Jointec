@@ -5,3 +5,4 @@ dist/
 src/assets/hero.mp4
 *.mp4
 !public/machine_process.mp4
+!public/videos/process.mp4

@@ -3,7 +3,6 @@ import fallbackPoster from "../assets/video/jointec-hero-fallback.jpg";
 
 function ProcessVideo() {
   const { t } = useTranslation();
-  const steps = t("processVideo.steps", { returnObjects: true });
 
   return (
     <section className="bg-brand-light py-16 sm:py-20 lg:py-24">
@@ -25,41 +24,16 @@ function ProcessVideo() {
             <div className="relative aspect-video w-full bg-zinc-100">
               <video
                 className="absolute inset-0 h-full w-full object-cover"
-                src="/machine_process.mp4"
+                src="/videos/process.mp4"
                 poster={fallbackPoster}
                 autoPlay
                 muted
                 loop
                 playsInline
                 controls
+                preload="metadata"
               />
-
-              <div className="pointer-events-none absolute inset-x-0 top-0 flex items-center justify-between gap-3 bg-gradient-to-b from-black/35 to-transparent px-4 py-3 sm:px-5 sm:py-4">
-                <div className="rounded-full border border-white/15 bg-black/35 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.24em] text-white/85">
-                  Infeed
-                </div>
-                <div className="rounded-full border border-white/15 bg-black/35 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.24em] text-white/85">
-                  Mixing
-                </div>
-                <div className="rounded-full border border-white/15 bg-black/35 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.24em] text-white/85">
-                  Extrusion
-                </div>
-                <div className="rounded-full border border-white/15 bg-black/35 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.24em] text-white/85">
-                  Output
-                </div>
-              </div>
             </div>
-          </div>
-
-          <div className="mt-5 flex flex-wrap items-center justify-center gap-3 text-xs font-semibold uppercase tracking-[0.22em] text-brand-dark/50">
-            {steps.map((step) => (
-              <span
-                key={step}
-                className="rounded-full border border-brand-dark/10 bg-white px-3 py-2"
-              >
-                {step}
-              </span>
-            ))}
           </div>
         </div>
       </div>
