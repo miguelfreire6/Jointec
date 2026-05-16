@@ -1,0 +1,70 @@
+{
+  "as_of": "2026-05-16",
+  "source_workbook": "Jointec_Relaunch_and_FEFPEB_2026.xlsx",
+  "leads": {
+    "total": 0,
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "asljunga": 0,
+    "klotsproduktionslinje": 0,
+    "plastning_nonstop": 0,
+    "topfoil_pallet": 0,
+    "cape_nailing": 0,
+    "cape_cable_drums": 0
+  },
+  "checklist": {
+    "Not started": 44,
+    "In progress": 0,
+    "Blocked": 0,
+    "Done": 1,
+    "N/A": 0,
+    "total": 45
+  },
+  "risks": {
+    "top_risks": [
+      {
+        "risk": "CAPE rejects Jointec own-machine display on the stand",
+        "score": 6
+      },
+      {
+        "risk": "Gyllsjö declines public naming",
+        "score": 6
+      },
+      {
+        "risk": "Lead-ownership friction with CAPE (whose lead?)",
+        "score": 4
+      },
+      {
+        "risk": "Website pages slip past FEFPEB",
+        "score": 4
+      },
+      {
+        "risk": "Åsljunga capacity / parking overflow",
+        "score": 4
+      }
+    ]
+  },
+  "budget": {
+    "low": 29500.0,
+    "high": 58500.0,
+    "planned": 42900.0,
+    "actual": 0.0
+  },
+  "eyebrow": "STATUS · 16 May",
+  "headline": "0 leads · 0 hot · 0 Åsljunga visits booked · 2% checklist · 137 days to Båstad.",
+  "asks": [
+    {
+      "owner": "Karl-Johan",
+      "action": "Close the written CAPE-stand agreement this week."
+    },
+    {
+      "owner": "Louise",
+      "action": "Ship the next two LinkedIn anchor posts."
+    },
+    {
+      "owner": "Miguel",
+      "action": "Land the Entra ID app registration for email triage."
+    }
+  ]
+}
