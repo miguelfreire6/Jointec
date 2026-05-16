@@ -2,16 +2,16 @@
   "as_of": "2026-05-16",
   "source_workbook": "Jointec_Relaunch_and_FEFPEB_2026.xlsx",
   "leads": {
-    "total": 0,
-    "A": 0,
-    "B": 0,
-    "C": 0,
-    "asljunga": 0,
-    "klotsproduktionslinje": 0,
-    "plastning_nonstop": 0,
-    "topfoil_pallet": 0,
-    "cape_nailing": 0,
-    "cape_cable_drums": 0
+    "total": 18,
+    "A": 6,
+    "B": 8,
+    "C": 4,
+    "asljunga": 5,
+    "klotsproduktionslinje": 3,
+    "plastning_nonstop": 2,
+    "topfoil_pallet": 3,
+    "cape_nailing": 3,
+    "cape_cable_drums": 2
   },
   "checklist": {
     "Not started": 44,
@@ -52,7 +52,7 @@
     "actual": 0.0
   },
   "eyebrow": "STATUS · 16 May",
-  "headline": "0 leads · 0 hot · 0 Åsljunga visits booked · 2% checklist · 137 days to Båstad.",
+  "headline": "18 leads · 6 hot · 5 Åsljunga visits booked · 2% checklist · 137 days to Båstad.",
   "asks": [
     {
       "owner": "Karl-Johan",
