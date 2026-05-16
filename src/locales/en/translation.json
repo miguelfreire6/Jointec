@@ -2,6 +2,9 @@
   "navbar": {
     "machines": "Machines",
     "cape": "CAPE",
+    "cases": "Cases",
+    "news": "News",
+    "about": "About",
     "services": "Services",
     "sustainability": "Sustainability",
     "contact": "Contact",
@@ -333,41 +336,285 @@
     }
   },
   "services": {
-    "eyebrow": "What We Deliver",
-    "title": "Industrial systems that combine efficiency, longevity, and responsible material use.",
-    "description": "Our approach is straightforward: robust machinery, clean workflows, and practical sustainability gains that hold up in real production environments.",
+    "eyebrow": "Beyond the machines",
+    "title": "Everything around the machine matters as much as the machine.",
+    "description": "Selling a pallet line is the easy part. Keeping it running for 20 years on three shifts is the work. Here is what comes with every Jointec installation — and every CAPE unit we sell.",
     "items": [
       {
-        "title": "Wood Recycling Systems",
-        "description": "Integrated shredding, sorting, and recovery lines built to lower disposal costs while preserving usable raw material for a circular production loop."
+        "title": "Specification & site survey",
+        "description": "We don't quote without a real understanding of your floor, your inputs and your throughput targets.",
+        "bullets": [
+          "On-site visit before any binding proposal",
+          "Material analysis: scrap pallet streams, offcuts, fines",
+          "Plant layout review and integration drawings",
+          "Indicative quote in your language, EN or SV"
+        ]
       },
       {
-        "title": "Pallet Machinery",
-        "description": "Automated systems for pallet manufacturing, repair, inspection, and transport designed around uptime, operator safety, and clean throughput."
+        "title": "Installation & commissioning",
+        "description": "Jointec engineers install every line we sell. The HMI you see on day one was wired by the people who pick up the phone in year five.",
+        "bullets": [
+          "Mechanical install on-site",
+          "Electrical, pneumatic and safety integration",
+          "Siemens SIMATIC HMI configuration",
+          "Acceptance tests against the agreed specification"
+        ]
       },
       {
-        "title": "Plant Optimization",
-        "description": "Site-specific engineering support covering layouts, installation planning, workflow balancing, and long-term performance improvement."
+        "title": "Training & first-pallet",
+        "description": "Your operators run the line under our coaching before we leave. The first pallet leaves the line with our team present.",
+        "bullets": [
+          "Operator training, in EN or SV",
+          "Maintenance and safety briefing for the line owner",
+          "Documentation in the customer's language",
+          "First-pallet ceremony — photographed and logged"
+        ]
+      },
+      {
+        "title": "Spare parts & second-hand exchange",
+        "description": "Wear parts, fast-moving spares and refurbished CAPE inventory — held in Sweden, shipped on demand.",
+        "bullets": [
+          "Critical wear-parts kit ships with every new line",
+          "Refurbished CAPE units for smaller buyers (SE / CH / AT)",
+          "Trade-in valuation on existing machinery",
+          "On-call parts logistics across Scandinavia"
+        ]
+      },
+      {
+        "title": "On-call service & remote support",
+        "description": "When the line stops, our engineers pick up. Most issues are resolved over Teams the same day.",
+        "bullets": [
+          "Remote diagnostics on the SIMATIC HMI",
+          "Phone & video support in EN, SV, DE",
+          "Travelling service engineer for hardware",
+          "Annual preventive maintenance contract option"
+        ]
+      },
+      {
+        "title": "Lifetime modernisation",
+        "description": "Jointec machines run for decades. We keep them current with control, safety and throughput upgrades.",
+        "bullets": [
+          "Control retrofits — modern HMI on older lines",
+          "Safety-system upgrades to current CE / EHS standards",
+          "Throughput tweaks based on field telemetry",
+          "Reversible upgrades — preserve the original line value"
+        ]
       }
     ]
   },
   "contact": {
-    "eyebrow": "Start a conversation",
-    "title": "Planning a machinery upgrade or wood recovery initiative?",
-    "description": "Share your plant objectives and we will frame a discussion around throughput, recovery potential, and a durable long-term operating model.",
+    "eyebrow": "Talk to the engineer, not a form",
+    "title": "Tell us what you're trying to make. We'll tell you whether we're the right engineering house.",
+    "description": "Most of our customers start with a sentence on the floor — \"we want to insource block production\", \"the wrap line is the bottleneck\", \"we need to protect pallets in outdoor storage\". A 20-minute call usually tells both sides whether to keep talking.",
+    "commercialLabel": "Commercial",
+    "demoLabel": "Demo facility",
+    "demoBlurb": "Live floor with Klotsproduktionslinje, Plastning Nonstop, Topfoil Pallet. 30 min from FEFPEB Båstad — book a slot.",
     "company": "Company",
     "companyPlaceholder": "Your company name",
-    "email": "Email",
+    "email": "Work email",
     "emailPlaceholder": "name@company.com",
-    "projectDetails": "Project Details",
-    "projectDetailsPlaceholder": "Tell us about your recycling or pallet machinery goals",
-    "submit": "Request Project Review",
-    "emailSubject": "Project Inquiry",
+    "projectDetails": "What are you trying to solve?",
+    "projectDetailsPlaceholder": "A sentence or two on the line, the volumes, and the constraint you want to fix.",
+    "submit": "Send to Karl-Johan",
+    "privacy": "Direct to karl@jointec.se · we read every message",
+    "emailSubject": "Project enquiry — jointec.vercel.app",
     "emailBody": {
       "company": "Company",
       "email": "Email",
       "projectDetails": "Project Details"
     }
+  },
+  "casesPage": {
+    "eyebrow": "Customer installations",
+    "title": "Lines running in the field, not lines on a brochure.",
+    "description": "Every Jointec line is engineered to one customer's floor. Here are the installations we are most proud of — the long-running ones that taught us what to build next.",
+    "labels": {
+      "featuredLabel": "Featured installation",
+      "moreLabel": "Other installations",
+      "moreTitle": "Where else our machines run.",
+      "challenge": "Challenge",
+      "solution": "Solution",
+      "result": "Result",
+      "ctaEyebrow": "See it for yourself",
+      "ctaTitle": "Visit a working installation.",
+      "ctaBody": "Most of our customers' installations are open to qualified visitors with a non-disclosure agreement. Tell us what you want to see; we will arrange the visit.",
+      "ctaButton": "Request a site visit"
+    },
+    "featured": {
+      "customer": "Gyllsjö Träindustri · Sweden",
+      "image": "/images/gyllsjo_hmi.webp",
+      "headline": "From scrap stream to engineered blocks — on the customer's own floor.",
+      "summary": "Gyllsjö Träindustri is one of Sweden's leading wood-block manufacturers. The Klotsproduktionslinje extruder line installed at their facility has been the reference installation that shaped how Jointec engineers every machine since.",
+      "challenge": "Block supply was external, exposed to import-price volatility, and disconnected from Gyllsjö's own scrap-wood streams. The team needed to close the loop on-site.",
+      "solution": "A Jointec Klotsproduktionslinje extruder line under Siemens SIMATIC HMI control. Integrated upstream with shredding and downstream with cutting and packing — installed and commissioned by Jointec engineers.",
+      "result": "Closed material loop. Block production decoupled from import markets. Reference installation Jointec returns to for every engineering decision.",
+      "numbers": [
+        { "label": "Machine",      "value": "Klotsproduktionslinje" },
+        { "label": "Controls",     "value": "Siemens SIMATIC HMI" },
+        { "label": "Configuration","value": "EUR / EPAL blocks" },
+        { "label": "Status",       "value": "In production · field-proven" }
+      ],
+      "quote": "When we wire up a new control screen for any customer, we still ask: would this make sense to the operator at Gyllsjö? That's the bar.",
+      "quoteAttribution": "Karl-Johan Berg · Commercial · Jointec"
+    },
+    "more": [
+      {
+        "country": "Norway", "year": "Anonymised",
+        "industry": "Pallet manufacturer",
+        "headline": "Continuous wrap retrofit on a high-throughput finishing line.",
+        "summary": "Replaced a stop-start wrapping setup with a Plastning Nonstop module. Removed the wrap stop as the line's throughput bottleneck.",
+        "machines": ["Plastning Nonstop"]
+      },
+      {
+        "country": "Sweden", "year": "Anonymised",
+        "industry": "Pallet recycler",
+        "headline": "On-site block production from end-of-life pallets.",
+        "summary": "Klotsproduktionslinje integrated with an existing pallet-disassembly line. Turning end-of-life pallets into new engineered blocks on the customer's own yard.",
+        "machines": ["Klotsproduktionslinje"]
+      },
+      {
+        "country": "Finland", "year": "Anonymised",
+        "industry": "Food & beverage logistics",
+        "headline": "Top-foil finishing for outdoor-stored finished goods pallets.",
+        "summary": "Topfoil Pallet module added at end-of-line to seal finished pallets ahead of multi-day outdoor storage before dispatch.",
+        "machines": ["Topfoil Pallet"]
+      },
+      {
+        "country": "Switzerland", "year": "Anonymised",
+        "industry": "Pallet manufacturer",
+        "headline": "Refurbished CAPE nailing line.",
+        "summary": "Replaced an ageing nailing setup with a Jointec-refurbished CAPE CP110 unit. Lower CAPEX than new, with the full Jointec install + support behind it.",
+        "machines": ["CAPE CP110-1", "CAPE CP110-2"]
+      },
+      {
+        "country": "Denmark", "year": "Anonymised",
+        "industry": "Pallet manufacturer",
+        "headline": "Integrated wrap + top-foil finishing line.",
+        "summary": "Both Plastning Nonstop and Topfoil Pallet installed on the same finishing area. Pallets exit wrapped, top-foiled, and ready for outdoor storage in one continuous flow.",
+        "machines": ["Plastning Nonstop", "Topfoil Pallet"]
+      },
+      {
+        "country": "Austria", "year": "Anonymised",
+        "industry": "Cable drum manufacturer",
+        "headline": "Wooden cable-drum flange production via CAPE Bobimatic.",
+        "summary": "Bobimatic combined line for wooden flange production, supplied and supported by Jointec under the CAPE agency for Austria.",
+        "machines": ["CAPE Bobimatic 1", "CAPE Bobimatic 2"]
+      }
+    ]
+  },
+  "newsPage": {
+    "eyebrow": "News & insight",
+    "title": "What we're learning, building, and shipping.",
+    "description": "Field notes from a 38-year-old Swedish engineering house — written by the people running the lines, not the marketing department.",
+    "labels": {
+      "byline": "By",
+      "moreLabel": "More from the floor",
+      "ctaEyebrow": "Follow along",
+      "ctaTitle": "Most of what we publish lands on LinkedIn first.",
+      "ctaBody": "Weekly notes from the factory, FEFPEB run-up, and installation milestones. Two posts a week, no fluff.",
+      "ctaButton": "Follow us on LinkedIn"
+    },
+    "articles": [
+      {
+        "tag": "Announcement",
+        "date": "2026-05-12",
+        "headline": "Three machines at FEFPEB 2026 in Båstad — and a live demo 30 minutes away.",
+        "summary": "Jointec is bringing its three own-developed machines to the 73rd FEFPEB Congress in Båstad: Klotsproduktionslinje, Plastning Nonstop, and Topfoil Pallet. The live demo floor in Åsljunga is open to congress visitors all week.",
+        "author": "Karl-Johan Berg",
+        "image": "/images/onsite_line_cad.webp"
+      },
+      {
+        "tag": "Partnership",
+        "date": "2026-04-30",
+        "headline": "Jointec is CAPE's exclusive agent for Scandinavia, Switzerland and Austria.",
+        "summary": "After years of installing and supporting CAPE pallet machinery across the Nordics, the partnership is now formal. Full new-and-second-hand CAPE inventory — supplied, installed and supported by Jointec engineers in Sweden.",
+        "author": "Karl-Johan Berg",
+        "image": "/images/klots_extrusion.webp"
+      },
+      {
+        "tag": "Field note",
+        "date": "2026-04-18",
+        "headline": "Gyllsjö Träindustri — five years of on-site block production.",
+        "summary": "What the five-year mark looks like on a working Klotsproduktionslinje. Uptime, operator handover, and the upgrade-path decisions that paid off.",
+        "author": "Jointec Engineering",
+        "image": "/images/klots_warehouse.webp"
+      },
+      {
+        "tag": "Industry POV",
+        "date": "2026-03-22",
+        "headline": "PPWR and the case for on-site block production.",
+        "summary": "The new EU Packaging and Packaging Waste Regulation pushes pallet manufacturers toward recycled-content thresholds and traceability. On-site block production from your own scrap stream is one of the simplest ways to comply.",
+        "author": "Jointec Engineering",
+        "image": "/images/recycling_input.webp"
+      }
+    ]
+  },
+  "aboutPage": {
+    "eyebrow": "About Jointec",
+    "title": "Pallet machinery, engineered in Sweden since 1988.",
+    "description": "Six engineers in southern Sweden who design, build, install and support pallet machinery for the people who make the world's pallets.",
+    "labels": {
+      "storyLabel": "Our story",
+      "storyTitle": "Why we're still here after 38 years.",
+      "principlesLabel": "How we work",
+      "principlesTitle": "Four principles that explain most of our decisions.",
+      "teamLabel": "Who you talk to",
+      "teamTitle": "The people behind the line.",
+      "ctaEyebrow": "Start a conversation",
+      "ctaTitle": "Same office. Same engineers. Same number since 1988.",
+      "ctaBody": "Tell us what you're trying to make. We'll tell you whether we're the right engineering house.",
+      "ctaButton": "Get in touch"
+    },
+    "numbers": [
+      { "value": "1988",       "label": "Year founded" },
+      { "value": "SE",         "label": "Designed in" },
+      { "value": "SE · CH · AT","label": "CAPE territory" },
+      { "value": "3",          "label": "Own machines worldwide" }
+    ],
+    "story": [
+      "Jointec was founded in 1988 to build one thing well — pallet machinery that runs for decades, on the customer's own floor, under the customer's own operators. Thirty-eight years later, the brief is unchanged.",
+      "Most pallet machinery companies are either large legacy houses with slow internal cycles, or small shops with no operational leverage. Jointec sits in the middle on purpose. We have six engineers in southern Sweden who specify, install and support every line we sell. We don't subcontract the parts that matter.",
+      "In the early days we built and sold our own machines. Over time we became the engineering house that pallet manufacturers across Scandinavia called when they needed something specific. That's how the Klotsproduktionslinje at Gyllsjö Träindustri started — and that installation, more than any other, has shaped how we engineer every machine since.",
+      "In 2026 we formalised an old relationship: Jointec is the exclusive agent for CAPE in Scandinavia, Switzerland and Austria. New units, refurbished units, full Jointec install and support. And our three own-developed machines — Klotsproduktionslinje, Plastning Nonstop, Topfoil Pallet — are sold worldwide. Two businesses, one engineering team."
+    ],
+    "principles": [
+      {
+        "title": "Spec before we sell.",
+        "body": "No binding quote without a site survey. We need to see the floor, the materials and the target throughput first."
+      },
+      {
+        "title": "Engineering, not subcontracted.",
+        "body": "The same six people who specify the line also install and support it. The HMI you see on day one was wired by the person who picks up the phone in year five."
+      },
+      {
+        "title": "Reversible upgrades.",
+        "body": "We don't strand customers on dead-end configurations. Modernisations preserve the original line value and the option to reverse the change."
+      },
+      {
+        "title": "Demo floor, not brochure.",
+        "body": "Our Åsljunga facility runs the three own machines live. If you're considering a line, the cheapest evaluation is to come see it running."
+      }
+    ],
+    "team": [
+      {
+        "name": "Karl-Johan Berg",
+        "initials": "KB",
+        "role": "Commercial · Sales",
+        "contact": "karl@jointec.se"
+      },
+      {
+        "name": "Louise Berg",
+        "initials": "LB",
+        "role": "Brand & Marketing",
+        "contact": "louise@jointec.se"
+      },
+      {
+        "name": "Jointec Engineering",
+        "initials": "JE",
+        "role": "Design · Install · Support",
+        "contact": ""
+      }
+    ]
   },
   "footer": {
     "description": "Pallet machinery engineered in Sweden since 1988. Exclusive CAPE agent for Scandinavia, Switzerland and Austria.",

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
 import Logo from "./Logo";
@@ -7,22 +8,34 @@ function Navbar() {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+  const isHome = location.pathname === "/";
 
-  const links = [
-    { label: t("navbar.machines"), href: "#machines" },
-    { label: t("navbar.cape"), href: "#cape" },
-    { label: t("navbar.services"), href: "#services" },
-    { label: t("navbar.contact"), href: "#contact" },
+  // Mix of in-page anchors (when on home) and full anchors (when on a sub-page)
+  const machinesHref = isHome ? "#machines" : "/#machines";
+  const capeHref     = isHome ? "#cape"     : "/#cape";
+  const servicesHref = isHome ? "#services" : "/#services";
+  const contactHref  = isHome ? "#contact"  : "/#contact";
+
+  const navItems = [
+    { label: t("navbar.machines"), href: machinesHref, kind: "anchor" },
+    { label: t("navbar.cape"),     href: capeHref,     kind: "anchor" },
+    { label: t("navbar.cases"),    to: "/cases" },
+    { label: t("navbar.news"),     to: "/news" },
+    { label: t("navbar.about"),    to: "/about" },
   ];
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 12);
-
     handleScroll();
     window.addEventListener("scroll", handleScroll, { passive: true });
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Close the mobile menu on route change
+  useEffect(() => {
+    setOpen(false);
+  }, [location.pathname]);
 
   return (
     <header
@@ -32,31 +45,40 @@ function Navbar() {
           : "bg-white/88 backdrop-blur-lg"
       }`}
     >
-      <div className="section-shell flex items-center justify-between py-4 sm:py-5">
-        <a
-          href="#top"
-          className="logo mr-4 inline-flex shrink-0 items-center sm:mr-6"
+      <div className="section-shell flex items-center justify-between gap-4 py-4 sm:py-5">
+        <Link
+          to="/"
+          className="logo mr-2 inline-flex shrink-0 items-center sm:mr-4"
           aria-label={t("navbar.homeLabel")}
         >
           <Logo />
-        </a>
+        </Link>
 
-        <nav className="hidden items-center gap-5 lg:flex">
+        <nav className="hidden flex-1 items-center justify-center gap-7 lg:flex">
+          {navItems.map((item) =>
+            item.to ? (
+              <Link key={item.label} to={item.to} className="nav-link">
+                {item.label}
+              </Link>
+            ) : (
+              <a key={item.label} href={item.href} className="nav-link">
+                {item.label}
+              </a>
+            ),
+          )}
+        </nav>
+
+        <div className="hidden items-center gap-4 lg:flex">
           <LanguageSwitcher />
-          {links.map((link) => (
-            <a key={link.href} href={link.href} className="nav-link">
-              {link.label}
-            </a>
-          ))}
-          <a href="#contact" className="primary-button px-5 py-3">
+          <a href={contactHref} className="primary-button px-5 py-2.5 text-xs">
             {t("navbar.cta")}
           </a>
-        </nav>
+        </div>
 
         <button
           type="button"
           className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-brand-dark/10 text-brand-dark transition hover:border-brand-accent/40 hover:text-brand-accent lg:hidden"
-          onClick={() => setOpen((value) => !value)}
+          onClick={() => setOpen((v) => !v)}
           aria-expanded={open}
           aria-label={t("navbar.toggleNavigation")}
         >
@@ -66,19 +88,34 @@ function Navbar() {
 
       {open ? (
         <div className="border-t border-brand-dark/8 bg-white lg:hidden">
-          <div className="section-shell flex flex-col gap-4 py-4">
+          <div className="section-shell flex flex-col gap-3 py-5">
             <LanguageSwitcher />
-            {links.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="nav-link w-fit"
-                onClick={() => setOpen(false)}
-              >
-                {link.label}
-              </a>
-            ))}
-            <a href="#contact" className="primary-button w-full" onClick={() => setOpen(false)}>
+            {navItems.map((item) =>
+              item.to ? (
+                <Link
+                  key={item.label}
+                  to={item.to}
+                  className="nav-link w-fit"
+                  onClick={() => setOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  className="nav-link w-fit"
+                  onClick={() => setOpen(false)}
+                >
+                  {item.label}
+                </a>
+              ),
+            )}
+            <a
+              href={contactHref}
+              className="primary-button w-full"
+              onClick={() => setOpen(false)}
+            >
               {t("navbar.cta")}
             </a>
           </div>

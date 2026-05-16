@@ -2,6 +2,9 @@
   "navbar": {
     "machines": "Máquinas",
     "cape": "CAPE",
+    "cases": "Casos",
+    "news": "Novedades",
+    "about": "Quiénes somos",
     "services": "Servicios",
     "sustainability": "Sostenibilidad",
     "contact": "Contacto",
@@ -181,37 +184,237 @@
       }
     ]
   },
+  "machinePages": {
+    "labels": {
+      "back": "Todas las máquinas",
+      "whatItIs": "Qué es",
+      "keyFeatures": "Características clave",
+      "specs": "Especificaciones",
+      "indicativeSpecs": "Especificaciones indicativas",
+      "specCaveat": "Cifras indicativas para planificación. La especificación final, capacidad y precio dependen de una visita técnica, alcance de suministro y orden firmada.",
+      "applications": "Aplicaciones",
+      "applicationsTitle": "Donde esta máquina gana su sitio en su planta.",
+      "gallery": "Galería",
+      "galleryTitle": "Desde nuestra fábrica en Suecia.",
+      "fefpebEyebrow": "FEFPEB 2026",
+      "fefpebTitle": "Véala funcionar, a 30 minutos del recinto.",
+      "fefpebBody": "Nuestra planta de demostración en Åsljunga opera esta máquina en directo durante la semana del congreso. Le recogemos en Båstad.",
+      "fefpebCta": "Reservar visita a Åsljunga",
+      "requestQuote": "Solicitar oferta indicativa",
+      "bookAsljunga": "Reservar demo Åsljunga",
+      "nextMachine": "Siguiente máquina"
+    },
+    "specLabels": {
+      "block_dimensions": "Dimensiones del bloque",
+      "throughput": "Capacidad",
+      "footprint": "Espacio",
+      "power": "Potencia",
+      "controls": "Control",
+      "lead_time": "Plazo de entrega",
+      "territory": "Territorio",
+      "wrap_mode": "Modo de envoltura",
+      "film": "Film",
+      "application": "Aplicación",
+      "foil_source": "Origen de la lámina",
+      "foil_grade": "Calidad de la lámina"
+    },
+    "klotsproduktionslinje": {
+      "eyebrow": "Línea extrusora de bloques",
+      "name": "Klotsproduktionslinje",
+      "headline": "Producción de bloques de madera prensada — del residuo al bloque listo para clavar.",
+      "description": "Una línea extrusora completa que toma madera triturada, la mezcla con aglutinante y extruye bloques diseñados en dimensiones EUR/EPAL. Construida por Jointec, instalada por los ingenieros de Jointec y soportada desde Suecia. Probada en Gyllsjö Träindustri.",
+      "whatItIs": {
+        "title": "Deje de importar bloques. Fabríquelos en su propia planta.",
+        "body": "La mayoría de los fabricantes europeos de palets compran los bloques a terceros y pagan dos veces — una por el flete y otra por el margen. La Klotsproduktionslinje cierra ese círculo: sus recortes, sus palets desguazados, su propia planta. Usted alimenta la línea con materia prima y aglutinante; del otro lado salen bloques diseñados en las dimensiones que sus palets necesitan, hora tras hora."
+      },
+      "features": [
+        "Ciclo cerrado de materiales: su merma se convierte en su entrada",
+        "Dimensiones de bloque configurables (EUR / EPAL / personalizadas)",
+        "Control Siemens SIMATIC HMI, probado en Gyllsjö Träindustri",
+        "Integración aguas arriba con trituradora, aguas abajo con corte y embalaje",
+        "Diseñada para operación 24/7 con baja exigencia al operario",
+        "Extrusión energéticamente eficiente — sin horno de alta temperatura"
+      ],
+      "applications": [
+        "Fabricantes de palets que quieren internalizar la producción de bloques",
+        "Recicladores y reparadores que quieren revalorizar palets desechados",
+        "Aserraderos con flujos de recortes buscando una línea de ingresos circular",
+        "Integradores logísticos que producen palets en sus propias instalaciones"
+      ],
+      "specs": {
+        "block_dimensions": "Configurables · medidas estándar EUR / EPAL",
+        "throughput":       "Dimensionado al cliente",
+        "footprint":        "Compacta · cabe en una nave industrial estándar",
+        "power":            "Trifásica industrial",
+        "controls":         "Siemens SIMATIC HMI",
+        "lead_time":        "Bajo consulta",
+        "territory":        "Mundial · vendida directamente por Jointec"
+      },
+      "gallery": {
+        "blocks":    "Bloques de madera prensada · salida de la extrusora",
+        "detail":    "Bloque diseñado · primer plano de la estructura prensada",
+        "fixture":   "Bloque en utillaje de la máquina · línea de producción",
+        "warehouse": "Almacén de bloques · Gyllsjö Träindustri"
+      }
+    },
+    "plastning_nonstop": {
+      "eyebrow": "Envoltura continua",
+      "name": "Plastning Nonstop",
+      "headline": "Envoltura continua para líneas de palets que no paran.",
+      "description": "Envuelva un palé, encole el siguiente, sin paradas. Corte y reenhebrado automático del film entre palés. El compañero de capacidad para cualquier línea de acabado continua — y la alimentación natural para el acabador Topfoil Pallet.",
+      "whatItIs": {
+        "title": "Elimine la parada de envoltura. Mantenga la línea en marcha.",
+        "body": "Las envolvedoras tradicionales paran la línea en cada ciclo: palé envuelto, film cortado, intervención del operario, siguiente palé cargado. El tiempo de inactividad acumulado es el asesino silencioso del rendimiento en una zona de acabado continua. Plastning Nonstop está construida para seguir el ritmo de la línea — los palés entran, se envuelven y salen mientras el siguiente ya se está cargando."
+      },
+      "features": [
+        "Alimentación continua: sin paradas de línea",
+        "Corte y reenhebrado automático del film entre palés",
+        "Recetas de envoltura configurables (vueltas, refuerzo, tensión)",
+        "Sensores de estabilidad de carga y detección de rotura de film",
+        "Compatible con transportador o AGV",
+        "Espacio compacto frente a envolvedoras nonstop competidoras"
+      ],
+      "applications": [
+        "Fabricantes de palets con líneas de acabado de alta capacidad",
+        "FMCG, alimentación y bebidas y logística con producción de palets sostenida",
+        "Plantas que quieren eliminar el cuello de botella de envoltura",
+        "Operaciones que sustituyen envolvedoras manuales o automáticas con parada"
+      ],
+      "specs": {
+        "wrap_mode":  "Continua nonstop",
+        "throughput": "Adaptada a la velocidad de la línea aguas arriba",
+        "film":       "Film estirable estándar, calibre configurable",
+        "footprint":  "Compacta en línea",
+        "controls":   "PLC + HMI · por receta",
+        "lead_time":  "Bajo consulta",
+        "territory":  "Mundial · vendida directamente por Jointec"
+      },
+      "gallery": {
+        "line":     "Palés acabados · salida de una línea envuelta",
+        "controls": "Interior de la línea · PLC e HMI"
+      }
+    },
+    "topfoil_pallet": {
+      "eyebrow": "Aplicador de lámina superior",
+      "name": "Topfoil Pallet",
+      "headline": "Aplicación automática de lámina superior — resistente al clima, al polvo, con acabado profesional.",
+      "description": "Un aplicador en línea de lámina superior que coloca una hoja protectora sobre un palé envuelto antes de salir de la zona de acabado. Combina de forma natural con Plastning Nonstop o con cualquier envolvedora existente. Protege la carga de la lluvia, el polvo y la abrasión durante el almacenamiento exterior y el transporte.",
+      "whatItIs": {
+        "title": "Acabe cada palé, automáticamente.",
+        "body": "Si sus palés acabados se almacenan al aire libre antes del despacho, o atraviesan cadenas logísticas húmedas, la parte superior de la carga es donde primero ocurre el daño. La colocación manual del film superior es lenta, inconsistente y dependiente del operario. Topfoil Pallet la sustituye por un módulo en línea que aplica una hoja protectora a cada palé — misma operación, mismo tiempo de ciclo, sin intervención del operario."
+      },
+      "features": [
+        "Aplicación automática de lámina superior en línea",
+        "Compatible con palés envueltos o sin envolver",
+        "Dimensiones y voladizo de lámina configurables",
+        "Sellada contra lluvia, polvo, salpicaduras y UV (según la calidad de lámina)",
+        "Sustituye la colocación manual: consistente, rápida y sin desperdicio",
+        "Sistema alimentado por rollo con baja exigencia al operario"
+      ],
+      "applications": [
+        "Palés almacenados al aire libre a la espera de despacho",
+        "Cargas sensibles: alimentos, electrónica, productos farmacéuticos, materiales de construcción",
+        "Logística que requiere palés de acabado profesional para exportación",
+        "Operaciones que sustituyen la aplicación manual de la lámina superior"
+      ],
+      "specs": {
+        "application": "Automática, en línea",
+        "foil_source": "Alimentación por rollo",
+        "foil_grade":  "Polietileno estándar · configurable",
+        "throughput":  "Adaptada a la línea de envoltura aguas arriba",
+        "footprint":   "Módulo compacto en línea",
+        "lead_time":   "Bajo consulta",
+        "territory":   "Mundial · vendida directamente por Jointec"
+      },
+      "gallery": {
+        "finished":  "Palé acabado · envuelto y con lámina superior",
+        "packaging": "Carga con lámina superior · lista para almacenamiento exterior"
+      }
+    }
+  },
   "services": {
-    "eyebrow": "Qué ofrecemos",
-    "title": "Sistemas industriales que combinan eficiencia, durabilidad y uso responsable del material.",
-    "description": "Nuestro enfoque es claro: maquinaria robusta, flujos de trabajo limpios y mejoras de sostenibilidad que funcionan en entornos de producción reales.",
+    "eyebrow": "Más allá de las máquinas",
+    "title": "Todo lo que rodea a la máquina importa tanto como la máquina.",
+    "description": "Vender una línea de palets es lo fácil. Mantenerla en marcha 20 años a tres turnos es el trabajo real. Esto es lo que acompaña a cada instalación Jointec — y a cada unidad CAPE que vendemos.",
     "items": [
       {
-        "title": "Sistemas de reciclaje de madera",
-        "description": "Líneas integradas de trituración, clasificación y recuperación diseñadas para reducir los costes de gestión de residuos y conservar materia prima recuperable dentro de un circuito de producción circular."
+        "title": "Especificación y visita técnica",
+        "description": "No ofertamos sin entender de verdad su planta, sus materiales de entrada y sus objetivos de capacidad.",
+        "bullets": [
+          "Visita técnica antes de cualquier propuesta vinculante",
+          "Análisis de material: palets de desecho, recortes, finos",
+          "Revisión de layout y planos de integración",
+          "Oferta indicativa en su idioma, EN o SV"
+        ]
       },
       {
-        "title": "Maquinaria para palets",
-        "description": "Sistemas automatizados para fabricación, reparación, inspección y transporte de palets, diseñados en torno a la disponibilidad, la seguridad del operario y una cadencia de producción limpia y eficiente."
+        "title": "Instalación y puesta en marcha",
+        "description": "Los ingenieros de Jointec instalan cada línea que vendemos. La HMI que ve el primer día la cableó la misma gente que descuelga el teléfono el año cinco.",
+        "bullets": [
+          "Instalación mecánica in situ",
+          "Integración eléctrica, neumática y de seguridad",
+          "Configuración de Siemens SIMATIC HMI",
+          "Pruebas de aceptación contra la especificación acordada"
+        ]
       },
       {
-        "title": "Optimización de planta",
-        "description": "Soporte de ingeniería específico para cada instalación, incluyendo distribución en planta, planificación de la instalación, equilibrio de flujos y mejora del rendimiento a largo plazo."
+        "title": "Formación y primer palet",
+        "description": "Sus operarios manejan la línea bajo nuestra tutela antes de que nos marchemos. El primer palet sale con nuestro equipo presente.",
+        "bullets": [
+          "Formación de operario en EN o SV",
+          "Sesión de mantenimiento y seguridad para el responsable de la línea",
+          "Documentación en el idioma del cliente",
+          "Ceremonia de primer palet — fotografiada y registrada"
+        ]
+      },
+      {
+        "title": "Repuestos y segunda mano",
+        "description": "Piezas de desgaste, repuestos de alta rotación y stock CAPE reacondicionado — en Suecia, enviado bajo demanda.",
+        "bullets": [
+          "Kit de piezas de desgaste críticas con cada línea nueva",
+          "Unidades CAPE reacondicionadas para compradores pequeños (SE / CH / AT)",
+          "Valoración de cambio sobre maquinaria existente",
+          "Logística de repuestos a demanda en toda Escandinavia"
+        ]
+      },
+      {
+        "title": "Servicio en guardia y soporte remoto",
+        "description": "Cuando la línea para, nuestros ingenieros responden. La mayoría de incidencias se resuelven por Teams el mismo día.",
+        "bullets": [
+          "Diagnóstico remoto sobre la HMI SIMATIC",
+          "Soporte telefónico y vídeo en EN, SV, DE",
+          "Ingeniero de servicio desplazado para hardware",
+          "Contrato anual de mantenimiento preventivo opcional"
+        ]
+      },
+      {
+        "title": "Modernización a lo largo de la vida útil",
+        "description": "Las máquinas Jointec funcionan durante décadas. Las mantenemos al día con actualizaciones de control, seguridad y capacidad.",
+        "bullets": [
+          "Retrofit de control — HMI moderna en líneas más antiguas",
+          "Actualizaciones de sistemas de seguridad a normativa CE / EHS vigente",
+          "Ajustes de capacidad basados en telemetría de campo",
+          "Actualizaciones reversibles — preservan el valor original de la línea"
+        ]
       }
     ]
   },
   "contact": {
-    "eyebrow": "Inicie una conversación",
-    "title": "¿Está planificando una mejora de maquinaria o una iniciativa de recuperación de madera?",
-    "description": "Comparta los objetivos de su planta y estructuraremos una conversación en torno a la capacidad de producción, el potencial de recuperación y un modelo operativo sólido a largo plazo.",
+    "eyebrow": "Hable con el ingeniero, no con un formulario",
+    "title": "Cuéntenos qué intenta fabricar. Le diremos si somos la ingeniería adecuada.",
+    "description": "La mayoría de nuestros clientes empieza con una frase en planta — \"queremos internalizar la producción de bloques\", \"la línea de envoltura es el cuello de botella\", \"necesitamos proteger palets en almacenamiento exterior\". Una llamada de 20 minutos suele bastar para que ambas partes sepan si seguir hablando.",
+    "commercialLabel": "Comercial",
+    "demoLabel": "Planta de demostración",
+    "demoBlurb": "Planta en directo con Klotsproduktionslinje, Plastning Nonstop, Topfoil Pallet. A 30 min de FEFPEB Båstad — reserve una visita.",
     "company": "Empresa",
     "companyPlaceholder": "Nombre de su empresa",
-    "email": "Correo electrónico",
+    "email": "Correo profesional",
     "emailPlaceholder": "nombre@empresa.com",
-    "projectDetails": "Detalles del proyecto",
-    "projectDetailsPlaceholder": "Cuéntenos sus objetivos de reciclaje o maquinaria para palets",
-    "submit": "Solicitar revisión del proyecto",
-    "emailSubject": "Consulta de proyecto",
+    "projectDetails": "¿Qué intenta resolver?",
+    "projectDetailsPlaceholder": "Una o dos frases sobre la línea, los volúmenes y la limitación que quiere solucionar.",
+    "submit": "Enviar a Karl-Johan",
+    "privacy": "Directo a karl@jointec.se · leemos cada mensaje",
+    "emailSubject": "Consulta de proyecto — jointec.vercel.app",
     "emailBody": {
       "company": "Empresa",
       "email": "Correo electrónico",

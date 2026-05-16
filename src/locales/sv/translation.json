@@ -2,6 +2,9 @@
   "navbar": {
     "machines": "Maskiner",
     "cape": "CAPE",
+    "cases": "Referenser",
+    "news": "Nyheter",
+    "about": "Om oss",
     "services": "Tjänster",
     "sustainability": "Hållbarhet",
     "contact": "Kontakt",
@@ -181,37 +184,237 @@
       }
     ]
   },
+  "machinePages": {
+    "labels": {
+      "back": "Alla maskiner",
+      "whatItIs": "Vad det är",
+      "keyFeatures": "Viktiga egenskaper",
+      "specs": "Specifikationer",
+      "indicativeSpecs": "Indikativa specifikationer",
+      "specCaveat": "Indikativa siffror för planering. Slutlig specifikation, kapacitet och pris förutsätter platsbesök, omfattning av leverans och signerad order.",
+      "applications": "Användning",
+      "applicationsTitle": "Där maskinen gör nytta på ditt golv.",
+      "gallery": "Galleri",
+      "galleryTitle": "Från vår fabrik i Sverige.",
+      "fefpebEyebrow": "FEFPEB 2026",
+      "fefpebTitle": "Se den i drift, 30 minuter från kongressorten.",
+      "fefpebBody": "Vår demoyta i Åsljunga kör maskinen live under kongressveckan. Vi hämtar dig från Båstad.",
+      "fefpebCta": "Boka en Åsljunga-tid",
+      "requestQuote": "Begär indikativ offert",
+      "bookAsljunga": "Boka Åsljunga-demo",
+      "nextMachine": "Nästa maskin"
+    },
+    "specLabels": {
+      "block_dimensions": "Klotsmått",
+      "throughput": "Kapacitet",
+      "footprint": "Yta",
+      "power": "Effekt",
+      "controls": "Styrsystem",
+      "lead_time": "Leveranstid",
+      "territory": "Territorium",
+      "wrap_mode": "Plastningsläge",
+      "film": "Film",
+      "application": "Påläggning",
+      "foil_source": "Plastkälla",
+      "foil_grade": "Plastkvalitet"
+    },
+    "klotsproduktionslinje": {
+      "eyebrow": "Extruderlinje för klots",
+      "name": "Klotsproduktionslinje",
+      "headline": "Tillverkning av pressade träklotsar — från träavfall till färdiga klotsar.",
+      "description": "En komplett extruderlinje som tar krossat träavfall, blandar det med bindemedel och pressar ut konstruerade klotsar i EUR/EPAL-dimensioner. Byggd av Jointec, installerad av Jointecs ingenjörer, supporterad från Sverige. Beprövad hos Gyllsjö Träindustri.",
+      "whatItIs": {
+        "title": "Sluta importera pallklotsar. Tillverka dem på din egen anläggning.",
+        "body": "De flesta europeiska palltillverkare köper klotsar från externa leverantörer och betalar dubbelt — en gång för frakten och en gång för marginalen. Klotsproduktionslinje sluter cirkeln: ditt spill, dina krossade spillpallar, din egen anläggning. Du matar linjen med råmaterial och bindemedel; ut kommer konstruerade klotsar i de mått som dina pallar behöver, timme efter timme."
+      },
+      "features": [
+        "Slutet materialkretslopp — ditt spill blir ditt insatsmaterial",
+        "Konfigurerbara klotsmått för EUR / EPAL / specialpall",
+        "Siemens SIMATIC HMI-styrning, beprövad hos Gyllsjö Träindustri",
+        "Integreras upstream med kross, nedströms med kapning och packning",
+        "Designad för 24/7-drift med låg operatörsnivå",
+        "Energieffektiv extrudering — ingen högtemperaturugn"
+      ],
+      "applications": [
+        "Palltillverkare som vill ta hem klotstillverkningen",
+        "Pallåtervinnare och reparatörer som vill uppcykla spillpall",
+        "Sågverk med spillströmmar som söker cirkulär intäkt",
+        "Logistikaktörer som tillverkar pall på egna anläggningar"
+      ],
+      "specs": {
+        "block_dimensions": "Konfigurerbara · standard EUR / EPAL",
+        "throughput":       "Anpassas efter kundens behov",
+        "footprint":        "Kompakt · ryms i en standardhall",
+        "power":            "3-fas industriell",
+        "controls":         "Siemens SIMATIC HMI",
+        "lead_time":        "På förfrågan",
+        "territory":        "Världen över · säljs direkt av Jointec"
+      },
+      "gallery": {
+        "blocks":    "Pressade träklotsar · output från extrudern",
+        "detail":    "Konstruerad kloss · närbild av pressad struktur",
+        "fixture":   "Kloss i maskinfixtur · produktionslinje",
+        "warehouse": "Klotslager · Gyllsjö Träindustri"
+      }
+    },
+    "plastning_nonstop": {
+      "eyebrow": "Kontinuerlig sträckfilmsplastning",
+      "name": "Plastning Nonstop",
+      "headline": "Kontinuerlig plastning för palllinjer som aldrig stannar.",
+      "description": "Plasta en pall, köa nästa, ingen avstanning. Automatisk filmklippning och återträdning mellan pallar. Kapacitetspartnern till varje kontinuerlig palllinje — och naturlig in-feed till Topfoil Pallet-finisher.",
+      "whatItIs": {
+        "title": "Ta bort plastningsstoppen. Håll linjen igång.",
+        "body": "Traditionella plastare stannar linjen varje cykel: pall plastad, film klippt, operatör ingriper, nästa pall laddad. Den ackumulerade stilleståndstiden är den tysta flaskhalsen i en kontinuerlig finbearbetning. Plastning Nonstop är byggd för att följa linjens rytm — pallar går in, plastas och går ut medan nästa redan laddas."
+      },
+      "features": [
+        "Kontinuerlig matning — ingen linjestopp",
+        "Automatisk filmklippning och återträdning mellan pallar",
+        "Konfigurerbara plastningsrecept (varv, förstärkning, spänning)",
+        "Sensorer för laststabilitet och filmbrottsdetektering",
+        "Kompatibel med transportör eller AGV-matning",
+        "Kompakt yta jämfört med konkurrenters nonstop-plastare"
+      ],
+      "applications": [
+        "Palltillverkare med högkapacitets-finbearbetning",
+        "FMCG, livsmedel/dryck och logistik med jämn pallproduktion",
+        "Anläggningar som vill ta bort plastningsflaskhalsen",
+        "Verksamheter som ersätter manuell eller start-stop-automatisk plastare"
+      ],
+      "specs": {
+        "wrap_mode":  "Kontinuerlig nonstop",
+        "throughput": "Matchas mot upstream-linjehastighet",
+        "film":       "Standardsträckfilm, konfigurerbar tjocklek",
+        "footprint":  "Kompakt i linje",
+        "controls":   "PLC + HMI · receptbaserat",
+        "lead_time":  "På förfrågan",
+        "territory":  "Världen över · säljs direkt av Jointec"
+      },
+      "gallery": {
+        "line":     "Färdiga pallar · output från en plastad linje",
+        "controls": "Produktionslinjens interna delar · PLC och HMI"
+      }
+    },
+    "topfoil_pallet": {
+      "eyebrow": "Topplastapplikator",
+      "name": "Topfoil Pallet",
+      "headline": "Automatisk topplastpåläggning — väderskyddade, dammtäta pallar med proffsig finish.",
+      "description": "En in-line-applicator för topplast som lägger ett skyddsark på en plastad pall innan den lämnar finbearbetningen. Passar naturligt med Plastning Nonstop eller någon befintlig plastare. Skyddar lasten från regn, damm och nötning under utomhuslagring och transport.",
+      "whatItIs": {
+        "title": "Avsluta varje pall, automatiskt.",
+        "body": "Om dina färdiga pallar står utomhus före leverans, eller färdas genom fuktiga logistikkedjor, är toppen av lasten där skadan börjar. Manuell topparkläggning är långsam, inkonsekvent och operatörsberoende. Topfoil Pallet ersätter det med en in-line-modul som lägger ett skyddande ark på varje pall — samma operation, samma cykeltid, ingen operatörsåtgärd."
+      },
+      "features": [
+        "Automatisk in-line-påläggning av topplast",
+        "Kompatibel med plastade eller oplastade pallar",
+        "Konfigurerbar plastdimension och överhäng",
+        "Förseglad mot regn, damm, stänk och UV (plastkvalitetsberoende)",
+        "Ersätter handpålagda ark — konsekvent, snabbt, utan spill",
+        "Rullmatat system med låg operatörsnivå"
+      ],
+      "applications": [
+        "Pallar lagrade utomhus i väntan på leverans",
+        "Känsliga laster: livsmedel, elektronik, läkemedel, byggmaterial",
+        "Logistik som kräver proffsfinish för export",
+        "Verksamheter som ersätter manuell topparkläggning"
+      ],
+      "specs": {
+        "application": "Automatisk, in-line",
+        "foil_source": "Rullmatad",
+        "foil_grade":  "Standard polyeten · konfigurerbar",
+        "throughput":  "Matchad mot upstream-plastlinje",
+        "footprint":   "Kompakt in-line-modul",
+        "lead_time":   "På förfrågan",
+        "territory":   "Världen över · säljs direkt av Jointec"
+      },
+      "gallery": {
+        "finished":  "Färdig pall · plastad och topplastad",
+        "packaging": "Topplastad last · klar för utomhuslagring"
+      }
+    }
+  },
   "services": {
-    "eyebrow": "Vad vi levererar",
-    "title": "Industriella system som förenar effektivitet, livslängd och ansvarsfull materialanvändning.",
-    "description": "Vårt arbetssätt är tydligt: robusta maskiner, rena arbetsflöden och praktiska hållbarhetsvinster som håller i verkliga produktionsmiljöer.",
+    "eyebrow": "Bortom maskinerna",
+    "title": "Allt runt maskinen är lika viktigt som maskinen själv.",
+    "description": "Att sälja en pallinje är det enkla. Att hålla den igång i 20 år på tre skift är jobbet. Här är vad som följer med varje Jointec-installation — och varje CAPE-enhet vi säljer.",
     "items": [
       {
-        "title": "System för träåtervinning",
-        "description": "Integrerade linjer för fragmentering, sortering och återvinning som minskar avfallskostnader och bevarar användbar råvara i ett cirkulärt produktionsflöde."
+        "title": "Specifikation & platsbesök",
+        "description": "Vi offererar inte utan en verklig förståelse för ditt golv, dina insatsmaterial och dina kapacitetsmål.",
+        "bullets": [
+          "Platsbesök innan något bindande förslag",
+          "Materialanalys: spillpallar, spillbitar, finfraktioner",
+          "Layoutgranskning och integrationsritningar",
+          "Indikativ offert på ditt språk, EN eller SV"
+        ]
       },
       {
-        "title": "Pallmaskiner",
-        "description": "Automatiserade system för tillverkning, reparation, inspektion och transport av pallar med fokus på drifttid, operatörssäkerhet och effektivt genomflöde."
+        "title": "Installation & driftsättning",
+        "description": "Jointecs ingenjörer installerar varje linje vi säljer. HMI:n du ser dag ett kopplades av samma personer som svarar i telefonen år fem.",
+        "bullets": [
+          "Mekanisk installation på plats",
+          "Elektrisk, pneumatisk och säkerhetsintegration",
+          "Konfiguration av Siemens SIMATIC HMI",
+          "Acceptanstester mot överenskommen specifikation"
+        ]
       },
       {
-        "title": "Optimering av anläggning",
-        "description": "Platsanpassat ingenjörsstöd för layouter, installationsplanering, flödesbalansering och långsiktig prestandaförbättring."
+        "title": "Utbildning & första pall",
+        "description": "Era operatörer kör linjen under vår coachning innan vi lämnar. Första pallen lämnar linjen med vårt team på plats.",
+        "bullets": [
+          "Operatörsutbildning på EN eller SV",
+          "Underhålls- och säkerhetsgenomgång för linjeägaren",
+          "Dokumentation på kundens språk",
+          "Första-pall-ceremoni — fotograferad och loggförd"
+        ]
+      },
+      {
+        "title": "Reservdelar & begagnatutbyte",
+        "description": "Slitdelar, snabbrörliga reservdelar och renoverat CAPE-lager — i Sverige, levereras på beställning.",
+        "bullets": [
+          "Kit med kritiska slitdelar följer med varje ny linje",
+          "Renoverade CAPE-enheter för mindre kunder (SE / CH / AT)",
+          "Inbytesvärdering på befintlig utrustning",
+          "Reservdelslogistik på begäran över hela Skandinavien"
+        ]
+      },
+      {
+        "title": "Servicejour & fjärrsupport",
+        "description": "När linjen stannar svarar våra ingenjörer. De flesta problem löses över Teams samma dag.",
+        "bullets": [
+          "Fjärrdiagnostik på SIMATIC HMI:n",
+          "Telefon- och videosupport på EN, SV, DE",
+          "Resande serviceingenjör för hårdvara",
+          "Årligt förebyggande underhållsavtal som tillval"
+        ]
+      },
+      {
+        "title": "Modernisering över livstid",
+        "description": "Jointec-maskiner kör i decennier. Vi håller dem aktuella med uppgraderingar av styrning, säkerhet och kapacitet.",
+        "bullets": [
+          "Retrofit av styrning — modern HMI på äldre linjer",
+          "Säkerhetssystemsuppgraderingar till aktuell CE / EHS-standard",
+          "Kapacitetsjusteringar baserade på fälttelemetri",
+          "Reversibla uppgraderingar — bevarar originallinjens värde"
+        ]
       }
     ]
   },
   "contact": {
-    "eyebrow": "Inled en dialog",
-    "title": "Planerar ni en maskinuppgradering eller ett initiativ för träåtervinning?",
-    "description": "Dela era anläggningsmål så lägger vi upp en diskussion om produktionstakt, återvinningspotential och en hållbar långsiktig driftmodell.",
+    "eyebrow": "Prata med ingenjören, inte ett formulär",
+    "title": "Berätta vad ni försöker tillverka. Vi säger om vi är rätt ingenjörshus.",
+    "description": "De flesta av våra kunder börjar med en mening på golvet — \"vi vill tillverka klotsar själva\", \"plastlinjen är flaskhalsen\", \"vi måste skydda pallar i utomhuslagring\". Ett 20-minuters samtal räcker oftast för båda parter att veta om vi ska fortsätta prata.",
+    "commercialLabel": "Försäljning",
+    "demoLabel": "Demoanläggning",
+    "demoBlurb": "Livegolv med Klotsproduktionslinje, Plastning Nonstop, Topfoil Pallet. 30 min från FEFPEB Båstad — boka en tid.",
     "company": "Företag",
     "companyPlaceholder": "Företagsnamn",
-    "email": "E-post",
+    "email": "Arbets-e-post",
     "emailPlaceholder": "namn@foretag.se",
-    "projectDetails": "Projektbeskrivning",
-    "projectDetailsPlaceholder": "Berätta om era mål för återvinning eller pallmaskiner",
-    "submit": "Begär projektgranskning",
-    "emailSubject": "Projektförfrågan",
+    "projectDetails": "Vad försöker ni lösa?",
+    "projectDetailsPlaceholder": "En mening eller två om linjen, volymerna och den begränsning ni vill åtgärda.",
+    "submit": "Skicka till Karl-Johan",
+    "privacy": "Direkt till karl@jointec.se · vi läser varje meddelande",
+    "emailSubject": "Projektförfrågan — jointec.vercel.app",
     "emailBody": {
       "company": "Företag",
       "email": "E-post",
