@@ -1,5 +1,7 @@
 {
   "navbar": {
+    "machines": "Maskiner",
+    "cape": "CAPE",
     "services": "Tjänster",
     "sustainability": "Hållbarhet",
     "contact": "Kontakt",
@@ -14,11 +16,13 @@
     }
   },
   "hero": {
-    "eyebrow": "Cirkulär träbearbetning för modern industri",
-    "title": "Hållbara pallmaskiner och träåtervinningssystem utvecklade för hög produktionskapacitet.",
-    "description": "Jointec hjälper industriella verksamheter att minska avfall, ta tillvara användbart virke och modernisera produktionen med driftsäker utrustning, noggrann ingenjörskonst och ett hållbarhetsdrivet arbetssätt.",
-    "primaryCta": "Utforska lösningar",
-    "secondaryCta": "Prata med en expert",
+    "eyebrow": "Pallmaskiner · Sedan 1988",
+    "title": "Från en enskild kloss till en helt färdig pall.",
+    "description": "Jointec konstruerar och tillverkar pallmaskiner i Sverige — och är exklusiv agent för CAPE i Skandinavien, Schweiz och Österrike. Ingenjörskonst för dem som bygger världens pallar.",
+    "primaryCta": "Våra maskiner",
+    "secondaryCta": "Prata med en ingenjör",
+    "partnerLabel": "Exklusiv agent",
+    "partnerText": "CAPE-maskiner för Skandinavien, Schweiz & Österrike",
     "stats": [
       { "value": "35%", "label": "Mindre träspill" },
       { "value": "24/7", "label": "Produktionskontinuitet" },
@@ -38,6 +42,106 @@
     "playLabel": "Spela upp presentationsvideo",
     "videoLabel": "Jointec presentationsvideo",
     "captionsLabel": "Svenska undertexter"
+  },
+  "machines": {
+    "eyebrow": "FEFPEB 2026 · Lansering",
+    "title": "Tre Jointec-maskiner, säljs världen över.",
+    "description": "Konstruerade i Sverige, installerade och supporterade av Jointec. Från en enda kloss av träavfall till en färdigt plastad och topplastad pall — tillverkad på din egen anläggning.",
+    "worldwide": "Världen över",
+    "featuresLabel": "Viktiga egenskaper",
+    "cta": "Diskutera din linje",
+    "fefpebEyebrow": "FEFPEB 2026 · Livedemo",
+    "fefpebTitle": "Se alla tre i drift, 30 minuter från kongressorten.",
+    "fefpebDescription": "30 september – 2 oktober 2026 · Båstad. Livedemo i Åsljunga, Skåne — boka en tid så hämtar vi dig.",
+    "fefpebCta": "Boka en Åsljunga-tid",
+    "items": [
+      {
+        "anchor": "klotsproduktionslinje",
+        "product": "Klotsproduktionslinje",
+        "headline": "Extruderlinje för pressade träklotsar.",
+        "description": "Ta krossat träavfall, blanda med bindemedel, pressa ut konstruerade klotsar för EUR/EPAL-pall. Beprövad hos Gyllsjö. Sluta importera klotsar — tillverka dem på din egen anläggning.",
+        "features": [
+          "Slutet materialkretslopp — ditt spill blir ditt insatsmaterial",
+          "Konfigurerbara klotsmått för EUR / EPAL / special",
+          "Siemens SIMATIC HMI-styrning",
+          "Designad för 24/7-drift, kräver låg operatörsnivå"
+        ]
+      },
+      {
+        "anchor": "plastning-nonstop",
+        "product": "Plastning Nonstop",
+        "headline": "Kontinuerlig plastning utan linjestopp.",
+        "description": "Plasta en pall, köa nästa, inga avbrott. Automatisk filmklippning och återträdning mellan pallar. Kapacitet som matchar finbearbetningen.",
+        "features": [
+          "Kontinuerlig matning — ingen linjestopp",
+          "Automatisk filmklippning och återträdning mellan pallar",
+          "Konfigurerbara recept (varv, förstärkning, spänning)",
+          "Kompatibel med transportör eller AGV-matning"
+        ]
+      },
+      {
+        "anchor": "topfoil-pallet",
+        "product": "Topfoil Pallet",
+        "headline": "Automatisk topplastpåläggning, i linje.",
+        "description": "Lägg ett skyddande topplastark på varje pall innan den lämnar finbearbetningen. Passar naturligt med Plastning Nonstop. Väderskyddad, dammtät, proffsig finish.",
+        "features": [
+          "Automatisk in-line-påläggning av topplast",
+          "Kompatibel med plastade eller oplastade pallar",
+          "Konfigurerbar plastdimension och överhäng",
+          "Ersätter handpålagda ark — konsekvent, snabbt, utan spill"
+        ]
+      }
+    ]
+  },
+  "cape": {
+    "eyebrow": "Exklusiv agent · CAPE",
+    "title": "CAPE-maskiner — sålda och servade från Sverige.",
+    "description": "Jointec är exklusiv agent för CAPE i Skandinavien, Schweiz och Österrike. CAPE är ett ingenjörshus i Barcelona med kontinuerlig FoU och installationer världen över. Vi säljer hela sortimentet nytt, anskaffar och renoverar begagnade enheter och tillhandahåller installation och eftermarknadsservice från Sverige.",
+    "partnerLine": "CAPE · Från Barcelona till världen · Sedan 1988",
+    "territories": [
+      { "code": "Skandinavien", "name": "SE · NO · DK · FI", "flag": "🇸🇪" },
+      { "code": "Schweiz", "name": "Schweiz", "flag": "🇨🇭" },
+      { "code": "Österrike", "name": "Österreich", "flag": "🇦🇹" }
+    ],
+    "inventoryCta": "Fråga efter nytt och begagnat lager",
+    "categories": [
+      {
+        "slug": "nailers",
+        "title": "Pallspikmaskiner",
+        "tagline": "Fristående spikmaskiner och kompletta produktionslinjer för nytillverkade pallar. Från manuell matning till helautomatiska däcks- och bottenmaskiner.",
+        "models": ["CP110-1", "CP110-2", "CPA", "CPE", "CPI", "CPR"]
+      },
+      {
+        "slug": "cable-drums",
+        "title": "Kabeltrummemaskiner",
+        "tagline": "Tillverkning av trägavlar för kabeltrummor — kombinerade Bobimatic-maskiner, dedikerade spikmaskiner och L.A.B. kontinuerlig automatiserad linje.",
+        "models": ["Bobimatic 1", "Bobimatic 2", "CB110", "CB210", "CP", "L.A.B."]
+      },
+      {
+        "slug": "feeders-stackers",
+        "title": "Matare & stackningsmaskiner",
+        "tagline": "Automatiska bräd-, klots- och slå-matare. Pall- och däckstackningsmaskiner — inklusive antropomorfa robotmatare och -stackare.",
+        "models": ["AMD", "AMS", "ATG", "CCPA", "PMV", "TM4", "XG", "APP1", "APR", "PRM"]
+      },
+      {
+        "slug": "cutters-finishing",
+        "title": "Klotssågar & finbearbetning",
+        "tagline": "Klotssågning, brännmärkning, fasning, hörnsågning, hackning. Karusellsågar och modulära in-line-finbearbetningsenheter.",
+        "models": ["T1C", "T3C", "TC10", "BMM1", "BMQ1", "BMT1", "BMV1", "BMX", "CA70", "CABI", "CHAN", "MME"]
+      },
+      {
+        "slug": "lines",
+        "title": "Utvalda linjer",
+        "tagline": "CAPE:s signatur — kompletta pallproduktionslinjer. Nyckelfärdiga, integrerade, med banbrytande kapacitet. Konstruerade för EUR/EPAL- och specialpall i exportkvalitet.",
+        "models": ["Mach 1", "Tandem 1"]
+      },
+      {
+        "slug": "used",
+        "title": "Begagnat & renoverat",
+        "tagline": "Kvalitetskontrollerade begagnade CAPE-maskiner, anskaffade och renoverade av Jointec i Sverige. Lägre ingångsinvestering för mindre palltillverkare och återvinnare.",
+        "models": ["På förfrågan"]
+      }
+    ]
   },
   "services": {
     "eyebrow": "Vad vi levererar",

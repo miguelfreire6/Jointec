@@ -1,5 +1,7 @@
 {
   "navbar": {
+    "machines": "Machines",
+    "cape": "CAPE",
     "services": "Services",
     "sustainability": "Sustainability",
     "contact": "Contact",
@@ -14,11 +16,13 @@
     }
   },
   "hero": {
-    "eyebrow": "Circular wood processing for modern industry",
-    "title": "Sustainable pallet machinery and wood recycling systems engineered for output.",
-    "description": "Jointec helps industrial operators reduce waste, recover usable timber, and modernize production with dependable equipment, careful engineering, and a sustainability-first operating model.",
-    "primaryCta": "Explore Solutions",
-    "secondaryCta": "Talk to an Expert",
+    "eyebrow": "Pallet machinery · Since 1988",
+    "title": "From a single block to a fully finished pallet.",
+    "description": "Jointec designs and manufactures pallet machinery in Sweden — and is the exclusive agent for CAPE in Scandinavia, Switzerland and Austria. Engineering for the people who build the world's pallets.",
+    "primaryCta": "Our machines",
+    "secondaryCta": "Talk to an engineer",
+    "partnerLabel": "Exclusive agent",
+    "partnerText": "CAPE machinery for Scandinavia, Switzerland & Austria",
     "stats": [
       { "value": "35%", "label": "Less timber waste" },
       { "value": "24/7", "label": "Production continuity" },
@@ -38,6 +42,106 @@
     "playLabel": "Play showcase video",
     "videoLabel": "Jointec showcase video",
     "captionsLabel": "English captions"
+  },
+  "machines": {
+    "eyebrow": "FEFPEB 2026 launch",
+    "title": "Three Jointec machines, sold worldwide.",
+    "description": "Engineered in Sweden, installed and supported by Jointec. From a single waste-wood block to a fully wrapped and top-foiled pallet — made on your own site.",
+    "worldwide": "Worldwide",
+    "featuresLabel": "Key features",
+    "cta": "Discuss your line",
+    "fefpebEyebrow": "FEFPEB 2026 · Live demo",
+    "fefpebTitle": "See all three running, 30 minutes from the venue.",
+    "fefpebDescription": "30 September – 2 October 2026 · Båstad, Sweden. Live demo floor in Åsljunga, Skåne — book a slot and we will drive you.",
+    "fefpebCta": "Book an Åsljunga slot",
+    "items": [
+      {
+        "anchor": "klotsproduktionslinje",
+        "product": "Klotsproduktionslinje",
+        "headline": "Pressed-wood block extruder line.",
+        "description": "Take shredded wood waste, mix with binder, press out engineered blocks for EUR/EPAL pallets. Field-proven at Gyllsjö. Stop importing blocks — make them on your own site.",
+        "features": [
+          "Closed material loop — your scrap becomes your input",
+          "Configurable block dimensions for EUR / EPAL / custom",
+          "Siemens SIMATIC HMI control",
+          "Designed for 24/7 operation, low-skill operator running"
+        ]
+      },
+      {
+        "anchor": "plastning-nonstop",
+        "product": "Plastning Nonstop",
+        "headline": "Continuous stretch-wrapping with no line stops.",
+        "description": "Wrap one pallet, queue the next, no shutdown. Automatic film-cut and re-thread between pallets. Throughput that keeps up with finishing.",
+        "features": [
+          "Continuous in-feed — no production line stop",
+          "Automatic film-cut and re-thread between pallets",
+          "Configurable wrap recipes (turns, reinforcement, tension)",
+          "Compatible with conveyor or AGV in-feed"
+        ]
+      },
+      {
+        "anchor": "topfoil-pallet",
+        "product": "Topfoil Pallet",
+        "headline": "Automatic top-foil application, in-line.",
+        "description": "Lay a protective top sheet onto each pallet before it leaves finishing. Pairs naturally with Plastning Nonstop. Weather-proof, dust-proof, professional finish.",
+        "features": [
+          "Automatic in-line top-foil application",
+          "Compatible with wrapped or unwrapped pallets",
+          "Configurable foil dimensions and overhang",
+          "Replaces hand-laid sheets — consistent, fast, no waste"
+        ]
+      }
+    ]
+  },
+  "cape": {
+    "eyebrow": "Exclusive agent · CAPE",
+    "title": "CAPE machinery — sold and serviced from Sweden.",
+    "description": "Jointec is the exclusive agent for CAPE in Scandinavia, Switzerland and Austria. CAPE is a Barcelona engineering house with continuous R&D and global installations. We sell the full lineup new, source and refurbish second-hand units, and provide installation and after-sales support from Sweden.",
+    "partnerLine": "CAPE · From Barcelona to the world · Since 1988",
+    "territories": [
+      { "code": "Scandinavia", "name": "SE · NO · DK · FI", "flag": "🇸🇪" },
+      { "code": "Switzerland", "name": "Schweiz", "flag": "🇨🇭" },
+      { "code": "Austria", "name": "Österreich", "flag": "🇦🇹" }
+    ],
+    "inventoryCta": "Ask about new and second-hand inventory",
+    "categories": [
+      {
+        "slug": "nailers",
+        "title": "Pallet nailers",
+        "tagline": "Stand-alone nailing machines and complete production lines for new pallet assembly. From manual feed to fully automatic deck and bottom-assembly machines.",
+        "models": ["CP110-1", "CP110-2", "CPA", "CPE", "CPI", "CPR"]
+      },
+      {
+        "slug": "cable-drums",
+        "title": "Cable drum machinery",
+        "tagline": "Wooden cable-drum flange production — all-in-one Bobimatic combined machines, dedicated nailers, and the L.A.B. continuous-cycle automated line.",
+        "models": ["Bobimatic 1", "Bobimatic 2", "CB110", "CB210", "CP", "L.A.B."]
+      },
+      {
+        "slug": "feeders-stackers",
+        "title": "Feeders & stackers",
+        "tagline": "Automatic board, block, and runner feeders. Pallet and deck stackers — including robotic anthropomorphic feeders and stackers.",
+        "models": ["AMD", "AMS", "ATG", "CCPA", "PMV", "TM4", "XG", "APP1", "APR", "PRM"]
+      },
+      {
+        "slug": "cutters-finishing",
+        "title": "Block cutters & finishing",
+        "tagline": "Block cutting, branding, chamfering, corner cutting, notching. Carrousel cutters and modular in-line finishing components.",
+        "models": ["T1C", "T3C", "TC10", "BMM1", "BMQ1", "BMT1", "BMV1", "BMX", "CA70", "CABI", "CHAN", "MME"]
+      },
+      {
+        "slug": "lines",
+        "title": "Featured lines",
+        "tagline": "CAPE's signature complete pallet production lines — turnkey, integrated, with cutting-edge throughput. Engineered for export-grade EUR/EPAL and custom pallets.",
+        "models": ["Mach 1", "Tandem 1"]
+      },
+      {
+        "slug": "used",
+        "title": "Used & refurbished",
+        "tagline": "Quality-checked second-hand CAPE machines, sourced and refurbished by Jointec in Sweden. Lower entry CAPEX for smaller pallet producers and recyclers.",
+        "models": ["On request"]
+      }
+    ]
   },
   "services": {
     "eyebrow": "What We Deliver",

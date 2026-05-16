@@ -1,5 +1,7 @@
+import CapeAgent from "./components/CapeAgent";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+import Machines from "./components/Machines";
 import Navbar from "./components/Navbar";
 import ProcessVideo from "./components/ProcessVideo";
 import Services from "./components/Services";
@@ -11,8 +13,10 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <VideoSection />
+        <Machines />
+        <CapeAgent />
         <ProcessVideo />
+        <VideoSection />
         <Services />
       </main>
       <Footer />

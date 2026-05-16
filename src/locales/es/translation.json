@@ -1,5 +1,7 @@
 {
   "navbar": {
+    "machines": "Máquinas",
+    "cape": "CAPE",
     "services": "Servicios",
     "sustainability": "Sostenibilidad",
     "contact": "Contacto",
@@ -14,11 +16,13 @@
     }
   },
   "hero": {
-    "eyebrow": "Procesamiento circular de madera para la industria moderna",
-    "title": "Maquinaria para palets y sistemas de reciclaje de madera concebidos para el máximo rendimiento productivo.",
-    "description": "Jointec ayuda a los operadores industriales a reducir residuos, recuperar madera aprovechable y modernizar la producción con equipos fiables, ingeniería cuidadosa y una estrategia centrada en la sostenibilidad.",
-    "primaryCta": "Explorar soluciones",
-    "secondaryCta": "Hablar con un experto",
+    "eyebrow": "Maquinaria para palets · Desde 1988",
+    "title": "De un solo bloque a un palé totalmente acabado.",
+    "description": "Jointec diseña y fabrica maquinaria para palets en Suecia, y es el agente exclusivo de CAPE en Escandinavia, Suiza y Austria. Ingeniería para quienes construyen los palets del mundo.",
+    "primaryCta": "Nuestras máquinas",
+    "secondaryCta": "Hablar con un ingeniero",
+    "partnerLabel": "Agente exclusivo",
+    "partnerText": "Maquinaria CAPE para Escandinavia, Suiza y Austria",
     "stats": [
       { "value": "35%", "label": "Menos merma de madera" },
       { "value": "24/7", "label": "Continuidad de producción" },
@@ -38,6 +42,106 @@
     "playLabel": "Reproducir video de demostración",
     "videoLabel": "Video de demostración de Jointec",
     "captionsLabel": "Subtítulos en español"
+  },
+  "machines": {
+    "eyebrow": "Lanzamiento FEFPEB 2026",
+    "title": "Tres máquinas Jointec, vendidas en todo el mundo.",
+    "description": "Diseñadas en Suecia, instaladas y soportadas por Jointec. Desde un solo bloque de madera reciclada hasta un palé totalmente envuelto y con lámina superior, fabricado en su propia planta.",
+    "worldwide": "Mundial",
+    "featuresLabel": "Características clave",
+    "cta": "Hablar de su línea",
+    "fefpebEyebrow": "FEFPEB 2026 · Demo en vivo",
+    "fefpebTitle": "Vea las tres en marcha, a 30 minutos del recinto.",
+    "fefpebDescription": "30 de septiembre – 2 de octubre de 2026 · Båstad, Suecia. Demostración en directo en Åsljunga, Escania — reserve un turno y le llevamos.",
+    "fefpebCta": "Reservar visita a Åsljunga",
+    "items": [
+      {
+        "anchor": "klotsproduktionslinje",
+        "product": "Klotsproduktionslinje",
+        "headline": "Línea extrusora de bloques de madera prensada.",
+        "description": "Tome madera triturada, mézclela con aglutinante y extruya bloques diseñados para palés EUR/EPAL. Probada en Gyllsjö. Deje de importar bloques: fabríquelos en su propia planta.",
+        "features": [
+          "Ciclo cerrado de materiales: su merma se convierte en su entrada",
+          "Dimensiones de bloque configurables (EUR / EPAL / personalizadas)",
+          "Control Siemens SIMATIC HMI",
+          "Diseñada para operación 24/7, baja exigencia al operario"
+        ]
+      },
+      {
+        "anchor": "plastning-nonstop",
+        "product": "Plastning Nonstop",
+        "headline": "Envoltura continua sin paradas de línea.",
+        "description": "Envuelva un palé, encole el siguiente, sin paradas. Corte y reenhebrado automático del film entre palés. Una cadencia que sigue el ritmo de la línea.",
+        "features": [
+          "Alimentación continua: sin paradas de línea",
+          "Corte y reenhebrado automático del film entre palés",
+          "Recetas de envoltura configurables (vueltas, refuerzo, tensión)",
+          "Compatible con transportador o AGV"
+        ]
+      },
+      {
+        "anchor": "topfoil-pallet",
+        "product": "Topfoil Pallet",
+        "headline": "Aplicación automática de lámina superior, en línea.",
+        "description": "Coloca una lámina protectora sobre cada palé antes de salir de la zona de acabado. Combina de forma natural con Plastning Nonstop. Resistente al clima y al polvo, acabado profesional.",
+        "features": [
+          "Aplicación automática de lámina superior en línea",
+          "Compatible con palés envueltos o sin envolver",
+          "Dimensiones y voladizo de lámina configurables",
+          "Sustituye la colocación manual: consistente, rápida y sin desperdicio"
+        ]
+      }
+    ]
+  },
+  "cape": {
+    "eyebrow": "Agente exclusivo · CAPE",
+    "title": "Maquinaria CAPE — venta y servicio desde Suecia.",
+    "description": "Jointec es el agente exclusivo de CAPE en Escandinavia, Suiza y Austria. CAPE es una ingeniería de Barcelona con I+D continua e instalaciones en todo el mundo. Vendemos toda la gama nueva, gestionamos y reacondicionamos unidades de segunda mano y proporcionamos instalación y servicio postventa desde Suecia.",
+    "partnerLine": "CAPE · De Barcelona al mundo · Desde 1988",
+    "territories": [
+      { "code": "Escandinavia", "name": "SE · NO · DK · FI", "flag": "🇸🇪" },
+      { "code": "Suiza", "name": "Schweiz", "flag": "🇨🇭" },
+      { "code": "Austria", "name": "Österreich", "flag": "🇦🇹" }
+    ],
+    "inventoryCta": "Consultar nuevo y segunda mano",
+    "categories": [
+      {
+        "slug": "nailers",
+        "title": "Clavadoras de palets",
+        "tagline": "Clavadoras independientes y líneas completas para fabricación de palets nuevos. Desde alimentación manual hasta máquinas totalmente automáticas de tableros y fondo.",
+        "models": ["CP110-1", "CP110-2", "CPA", "CPE", "CPI", "CPR"]
+      },
+      {
+        "slug": "cable-drums",
+        "title": "Maquinaria para bobinas de cable",
+        "tagline": "Fabricación de bridas de madera para bobinas — máquinas combinadas Bobimatic, clavadoras específicas y la línea L.A.B. de ciclo continuo automatizado.",
+        "models": ["Bobimatic 1", "Bobimatic 2", "CB110", "CB210", "CP", "L.A.B."]
+      },
+      {
+        "slug": "feeders-stackers",
+        "title": "Alimentadores y apiladores",
+        "tagline": "Alimentadores automáticos de tableros, tacos y largueros. Apiladores de palets y tableros — incluidos alimentadores y apiladores robóticos antropomórficos.",
+        "models": ["AMD", "AMS", "ATG", "CCPA", "PMV", "TM4", "XG", "APP1", "APR", "PRM"]
+      },
+      {
+        "slug": "cutters-finishing",
+        "title": "Cortadoras de tacos y acabado",
+        "tagline": "Corte de tacos, marcado por fuego, chaflanado, corte de esquinas, muescas. Cortadoras tipo carrusel y módulos de acabado en línea.",
+        "models": ["T1C", "T3C", "TC10", "BMM1", "BMQ1", "BMT1", "BMV1", "BMX", "CA70", "CABI", "CHAN", "MME"]
+      },
+      {
+        "slug": "lines",
+        "title": "Líneas destacadas",
+        "tagline": "Las líneas insignia de CAPE — producción completa de palets, llave en mano, integrada, con rendimiento de vanguardia. Para EUR/EPAL y palets personalizados de exportación.",
+        "models": ["Mach 1", "Tandem 1"]
+      },
+      {
+        "slug": "used",
+        "title": "Segunda mano y reacondicionado",
+        "tagline": "Máquinas CAPE de segunda mano con control de calidad, gestionadas y reacondicionadas por Jointec en Suecia. Menor CAPEX inicial para fabricantes y recicladores más pequeños.",
+        "models": ["Bajo consulta"]
+      }
+    ]
   },
   "services": {
     "eyebrow": "Qué ofrecemos",

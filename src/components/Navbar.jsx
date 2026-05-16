@@ -9,8 +9,9 @@ function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
   const links = [
+    { label: t("navbar.machines"), href: "#machines" },
+    { label: t("navbar.cape"), href: "#cape" },
     { label: t("navbar.services"), href: "#services" },
-    { label: t("navbar.sustainability"), href: "#sustainability" },
     { label: t("navbar.contact"), href: "#contact" },
   ];
 
