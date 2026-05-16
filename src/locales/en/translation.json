@@ -43,6 +43,44 @@
     "videoLabel": "Jointec showcase video",
     "captionsLabel": "English captions"
   },
+  "about": {
+    "eyebrow": "Since 1988",
+    "title": "A Swedish engineering house quietly building pallet lines for 38 years.",
+    "description": "We design, manufacture and install pallet machinery from our facility in Sweden. Our equipment runs in the field at customer sites across Europe — including the Gyllsjö Träindustri block production line that has shaped how we engineer every machine since.",
+    "referenceLabel": "Reference installation",
+    "referenceName": "Gyllsjö Träindustri · Sweden",
+    "referenceText": "One of Sweden's leading wood-block producers runs a Jointec extruder line with Siemens SIMATIC HMI control. Field-proven uptime, on Swedish soil.",
+    "numbers": [
+      { "value": "1988",    "label": "Year founded",       "sub": "38 years on the line" },
+      { "value": "SE · CH · AT", "label": "CAPE territory", "sub": "Exclusive agent" },
+      { "value": "3",       "label": "Own machines",       "sub": "Sold worldwide" },
+      { "value": "EN · SV · ES", "label": "Languages",     "sub": "Documentation & support" }
+    ],
+    "pillars": [
+      {
+        "title": "Two businesses, one brand.",
+        "body": "Exclusive CAPE agent for Scandinavia, Switzerland and Austria — new and second-hand. And the engineering house behind three own-developed machines sold worldwide."
+      },
+      {
+        "title": "Engineering, not just sales.",
+        "body": "Our team specifies, installs, and supports every line we sell. The Siemens HMI screen on a Gyllsjö pallet block press was wired by the people who pick up the phone when you call."
+      },
+      {
+        "title": "Demo floor, not a brochure.",
+        "body": "Our Åsljunga facility runs the Klotsproduktionslinje, Plastning Nonstop and Topfoil Pallet live, on the floor. You can see them in motion this week — 30 minutes from Båstad during FEFPEB."
+      }
+    ]
+  },
+  "strips": {
+    "line": {
+      "eyebrow": "Engineered in Sweden",
+      "headline": "From a 9.7-meter on-site processing line to a single pressed block."
+    },
+    "gyllsjo": {
+      "eyebrow": "Reference installation",
+      "headline": "Gyllsjö Träindustri · running Jointec equipment under Siemens SIMATIC HMI."
+    }
+  },
   "machines": {
     "eyebrow": "FEFPEB 2026 launch",
     "title": "Three Jointec machines, sold worldwide.",
@@ -143,6 +181,157 @@
       }
     ]
   },
+  "machinePages": {
+    "labels": {
+      "back": "All machines",
+      "whatItIs": "What it is",
+      "keyFeatures": "Key features",
+      "specs": "Specifications",
+      "indicativeSpecs": "Indicative specifications",
+      "specCaveat": "Indicative figures for planning. Final spec, throughput and pricing depend on a site survey, scope of supply and signed order.",
+      "applications": "Applications",
+      "applicationsTitle": "Where this machine earns its place on your floor.",
+      "gallery": "Gallery",
+      "galleryTitle": "From our factory in Sweden.",
+      "fefpebEyebrow": "FEFPEB 2026",
+      "fefpebTitle": "See it running, 30 minutes from the venue.",
+      "fefpebBody": "Our Åsljunga demo floor runs this machine live during congress week. We will pick you up from Båstad.",
+      "fefpebCta": "Book an Åsljunga slot",
+      "requestQuote": "Request indicative quote",
+      "bookAsljunga": "Book Åsljunga demo",
+      "nextMachine": "Next machine"
+    },
+    "specLabels": {
+      "block_dimensions": "Block dimensions",
+      "throughput": "Throughput",
+      "footprint": "Footprint",
+      "power": "Power",
+      "controls": "Controls",
+      "lead_time": "Lead time",
+      "territory": "Territory",
+      "wrap_mode": "Wrap mode",
+      "film": "Film",
+      "application": "Application",
+      "foil_source": "Foil source",
+      "foil_grade": "Foil grade"
+    },
+
+    "klotsproduktionslinje": {
+      "eyebrow": "Block extruder line",
+      "name": "Klotsproduktionslinje",
+      "headline": "Pressed-wood block production — from waste wood to ready-to-nail blocks.",
+      "description": "A complete extruder line that takes shredded wood waste, mixes it with binder, and presses out engineered pressed-wood blocks in EUR/EPAL-style dimensions. Built by Jointec, installed by Jointec engineers, supported from Sweden. Field-proven at Gyllsjö Träindustri.",
+      "whatItIs": {
+        "title": "Stop importing pallet blocks. Make them on your own site.",
+        "body": "Most European pallet manufacturers buy blocks from third-party suppliers, paying twice — once for the freight and once for the markup. The Klotsproduktionslinje closes that loop: your offcuts, your shredded waste pallets, your own facility. You feed the line raw material and a binder; out the other end come engineered blocks in the dimensions your pallets need, hour after hour."
+      },
+      "features": [
+        "Closed material loop — your scrap becomes your input",
+        "Configurable block dimensions for EUR / EPAL / custom pallets",
+        "Siemens SIMATIC HMI control, field-proven at Gyllsjö Träindustri",
+        "Integrates upstream with shredder, downstream with cutting and packing",
+        "Designed for 24/7 operation with low-skill operator running",
+        "Energy-efficient extrusion — no high-temperature kiln"
+      ],
+      "applications": [
+        "Pallet manufacturers wanting to insource block production",
+        "Pallet recyclers and repairers looking to upcycle scrap pallets",
+        "Sawmills with offcut streams seeking a circular revenue line",
+        "Logistics integrators producing pallets at their own sites"
+      ],
+      "specs": {
+        "block_dimensions": "Configurable · standard EUR / EPAL sizes",
+        "throughput":       "Sized to customer demand",
+        "footprint":        "Compact · fits a standard industrial bay",
+        "power":            "3-phase industrial",
+        "controls":         "Siemens SIMATIC HMI",
+        "lead_time":        "On request",
+        "territory":        "Worldwide · sold direct by Jointec"
+      },
+      "gallery": {
+        "blocks":    "Pressed-wood blocks · output from the extruder",
+        "detail":    "Engineered block · close-up of pressed structure",
+        "fixture":   "Block on machine fixture · production line",
+        "warehouse": "Block warehouse · Gyllsjö Träindustri"
+      }
+    },
+
+    "plastning_nonstop": {
+      "eyebrow": "Continuous stretch-wrap",
+      "name": "Plastning Nonstop",
+      "headline": "Continuous stretch-wrapping for pallet lines that never stop.",
+      "description": "Wrap one pallet, queue the next, no shutdown. Automatic film-cut and re-thread between pallets. The throughput partner for any continuous pallet production line — and the natural in-feed for the Topfoil Pallet finisher.",
+      "whatItIs": {
+        "title": "Remove the wrap stop. Keep the line moving.",
+        "body": "Traditional stretch-wrappers stop the line every cycle: pallet wrapped, film cut, operator intervention, next pallet loaded. The cumulative downtime is the silent throughput killer in a continuous finishing area. Plastning Nonstop is built to follow the rhythm of the line — pallets enter, get wrapped, and exit while the next one is already loading."
+      },
+      "features": [
+        "Continuous in-feed — no production line stop",
+        "Automatic film-cut and re-thread between pallets",
+        "Configurable wrap recipes (turns, top/bottom reinforcement, tension)",
+        "Sensors for load-stability and film-break detection",
+        "Compatible with conveyor or AGV in-feed",
+        "Compact footprint vs. competing nonstop wrappers"
+      ],
+      "applications": [
+        "Pallet manufacturers running high-throughput finishing lines",
+        "FMCG, food & beverage and logistics with sustained pallet output",
+        "Plants wanting to remove the wrapping bottleneck",
+        "Operations replacing manual or stop-start automatic wrappers"
+      ],
+      "specs": {
+        "wrap_mode":  "Non-stop continuous",
+        "throughput": "Matched to upstream line speed",
+        "film":       "Standard stretch film, configurable gauge",
+        "footprint":  "Compact in-line",
+        "controls":   "PLC + HMI · recipe-based",
+        "lead_time":  "On request",
+        "territory":  "Worldwide · sold direct by Jointec"
+      },
+      "gallery": {
+        "line":      "Finished pallets · output from a wrapped line",
+        "controls":  "Production-line internals · PLC and HMI"
+      }
+    },
+
+    "topfoil_pallet": {
+      "eyebrow": "Top-foil applicator",
+      "name": "Topfoil Pallet",
+      "headline": "Automatic top-foil application — weatherproof, dustproof, professional finish.",
+      "description": "An in-line top-foil applicator that lays a protective sheet onto a wrapped pallet before it leaves the finishing area. Pairs naturally with Plastning Nonstop or any existing wrapper. Protects the load from rain, dust, and abrasion during outdoor storage and transit.",
+      "whatItIs": {
+        "title": "Finish every pallet, automatically.",
+        "body": "If your finished pallets sit outdoors before dispatch, or travel through humid logistics chains, the top of the load is where damage happens first. Manual top-sheet application is slow, inconsistent and operator-dependent. Topfoil Pallet replaces that with an in-line module that applies a protective top sheet to every pallet — same operation, same cycle time, no operator intervention."
+      },
+      "features": [
+        "Automatic in-line top-foil application",
+        "Compatible with wrapped or unwrapped pallets",
+        "Configurable foil dimensions and overhang",
+        "Sealed against rain, dust, splash and UV (foil-grade dependent)",
+        "Replaces hand-laid sheets — consistent, fast, no waste",
+        "Roll-fed system with low-skill operator running"
+      ],
+      "applications": [
+        "Pallets stored outdoors awaiting dispatch",
+        "Sensitive loads: food, electronics, pharmaceuticals, building materials",
+        "Logistics requiring professional-finish pallets for export",
+        "Operations replacing manual top-sheet hand-application"
+      ],
+      "specs": {
+        "application": "Automatic, in-line",
+        "foil_source": "Roll-fed",
+        "foil_grade":  "Standard polyethylene · configurable",
+        "throughput":  "Matched to upstream wrap line",
+        "footprint":   "Compact in-line module",
+        "lead_time":   "On request",
+        "territory":   "Worldwide · sold direct by Jointec"
+      },
+      "gallery": {
+        "finished":  "Finished pallet · wrapped and top-foiled",
+        "packaging": "Top-foiled load · ready for outdoor storage"
+      }
+    }
+  },
   "services": {
     "eyebrow": "What We Deliver",
     "title": "Industrial systems that combine efficiency, longevity, and responsible material use.",
@@ -181,7 +370,17 @@
     }
   },
   "footer": {
-    "description": "Wood recycling systems and pallet machinery for resilient industrial operations.",
-    "tagline": "Designed with a precise, sustainability-led industrial mindset."
+    "description": "Pallet machinery engineered in Sweden since 1988. Exclusive CAPE agent for Scandinavia, Switzerland and Austria.",
+    "tagline": "Precise · sustainability-led · made on your own site.",
+    "col_machines": "Machines",
+    "col_company": "Company",
+    "col_contact": "Contact",
+    "cape_link": "CAPE catalog →",
+    "about_link": "About",
+    "services_link": "Services",
+    "contact_link": "Get in touch",
+    "demo_label": "Demo facility",
+    "rights": "All rights reserved.",
+    "languages": "Available in"
   }
 }

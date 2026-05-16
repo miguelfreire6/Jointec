@@ -43,6 +43,44 @@
     "videoLabel": "Video de demostración de Jointec",
     "captionsLabel": "Subtítulos en español"
   },
+  "about": {
+    "eyebrow": "Desde 1988",
+    "title": "Una ingeniería sueca que lleva 38 años construyendo líneas de palets.",
+    "description": "Diseñamos, fabricamos e instalamos maquinaria para palets desde nuestras instalaciones en Suecia. Nuestros equipos operan en plantas de clientes en toda Europa, incluida la línea de producción de bloques de Gyllsjö Träindustri, que ha dado forma a cómo diseñamos cada máquina desde entonces.",
+    "referenceLabel": "Instalación de referencia",
+    "referenceName": "Gyllsjö Träindustri · Suecia",
+    "referenceText": "Uno de los principales productores suecos de bloques de madera utiliza una línea extrusora Jointec con control Siemens SIMATIC HMI. Disponibilidad probada en territorio sueco.",
+    "numbers": [
+      { "value": "1988",    "label": "Año de fundación",   "sub": "38 años en la línea" },
+      { "value": "SE · CH · AT", "label": "Territorio CAPE", "sub": "Agente exclusivo" },
+      { "value": "3",       "label": "Máquinas propias",   "sub": "Vendidas en todo el mundo" },
+      { "value": "EN · SV · ES", "label": "Idiomas",       "sub": "Documentación y soporte" }
+    ],
+    "pillars": [
+      {
+        "title": "Dos negocios, una marca.",
+        "body": "Agente exclusivo de CAPE para Escandinavia, Suiza y Austria — nuevo y segunda mano. E ingeniería propia detrás de tres máquinas vendidas en todo el mundo."
+      },
+      {
+        "title": "Ingeniería, no solo ventas.",
+        "body": "Nuestro equipo especifica, instala y mantiene cada línea que vende. La pantalla Siemens HMI de la prensa de Gyllsjö la cableó la misma gente que coge el teléfono."
+      },
+      {
+        "title": "Planta de demos, no folleto.",
+        "body": "Nuestra planta de Åsljunga opera Klotsproduktionslinje, Plastning Nonstop y Topfoil Pallet en directo. Puede verlas funcionar esta misma semana — a 30 minutos de Båstad durante FEFPEB."
+      }
+    ]
+  },
+  "strips": {
+    "line": {
+      "eyebrow": "Ingeniería sueca",
+      "headline": "De una línea de procesamiento de 9,7 metros a un solo bloque prensado."
+    },
+    "gyllsjo": {
+      "eyebrow": "Instalación de referencia",
+      "headline": "Gyllsjö Träindustri · operando equipos Jointec bajo Siemens SIMATIC HMI."
+    }
+  },
   "machines": {
     "eyebrow": "Lanzamiento FEFPEB 2026",
     "title": "Tres máquinas Jointec, vendidas en todo el mundo.",
@@ -181,7 +219,17 @@
     }
   },
   "footer": {
-    "description": "Sistemas de reciclaje de madera y maquinaria para palets para operaciones industriales resilientes.",
-    "tagline": "Diseñado con una mentalidad industrial precisa y orientada a la sostenibilidad."
+    "description": "Maquinaria para palets diseñada en Suecia desde 1988. Agente exclusivo de CAPE para Escandinavia, Suiza y Austria.",
+    "tagline": "Precisa · sostenible · fabricada en su propia planta.",
+    "col_machines": "Máquinas",
+    "col_company": "Empresa",
+    "col_contact": "Contacto",
+    "cape_link": "Catálogo CAPE →",
+    "about_link": "Quiénes somos",
+    "services_link": "Servicios",
+    "contact_link": "Contactar",
+    "demo_label": "Planta de demostración",
+    "rights": "Todos los derechos reservados.",
+    "languages": "Disponible en"
   }
 }

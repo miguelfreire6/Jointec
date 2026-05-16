@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /internal/
+Disallow: /api/
+
+Sitemap: https://jointec.vercel.app/sitemap.xml

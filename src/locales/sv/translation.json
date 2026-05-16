@@ -43,6 +43,44 @@
     "videoLabel": "Jointec presentationsvideo",
     "captionsLabel": "Svenska undertexter"
   },
+  "about": {
+    "eyebrow": "Sedan 1988",
+    "title": "Ett svenskt ingenjörshus som byggt pallinjer i 38 år.",
+    "description": "Vi konstruerar, tillverkar och installerar pallmaskiner från vår anläggning i Sverige. Vår utrustning är i drift hos kunder över hela Europa — bland annat Gyllsjö Träindustris klotsproduktionslinje, som har präglat hur vi konstruerar varje maskin sedan dess.",
+    "referenceLabel": "Referensinstallation",
+    "referenceName": "Gyllsjö Träindustri · Sverige",
+    "referenceText": "En av Sveriges ledande träklotsproducenter kör en Jointec-extruderlinje med Siemens SIMATIC HMI-styrning. Beprövad drifttid, på svensk mark.",
+    "numbers": [
+      { "value": "1988",    "label": "Grundat",            "sub": "38 år på linjen" },
+      { "value": "SE · CH · AT", "label": "CAPE-territorium", "sub": "Exklusiv agent" },
+      { "value": "3",       "label": "Egna maskiner",      "sub": "Säljs världen över" },
+      { "value": "EN · SV · ES", "label": "Språk",         "sub": "Dokumentation & support" }
+    ],
+    "pillars": [
+      {
+        "title": "Två affärer, ett varumärke.",
+        "body": "Exklusiv CAPE-agent för Skandinavien, Schweiz och Österrike — nytt och begagnat. Och ingenjörshuset bakom tre egenutvecklade maskiner som säljs världen över."
+      },
+      {
+        "title": "Ingenjörskonst, inte bara försäljning.",
+        "body": "Vårt team specificerar, installerar och stöttar varje linje vi säljer. Siemens HMI-skärmen på Gyllsjö-pressen kopplades av samma personer som svarar när du ringer."
+      },
+      {
+        "title": "Demogolv, inte broschyr.",
+        "body": "Vår anläggning i Åsljunga kör Klotsproduktionslinje, Plastning Nonstop och Topfoil Pallet live på golvet. Du kan se dem i drift denna vecka — 30 minuter från Båstad under FEFPEB."
+      }
+    ]
+  },
+  "strips": {
+    "line": {
+      "eyebrow": "Konstruerat i Sverige",
+      "headline": "Från en 9,7 meters processlinje till en enda pressad kloss."
+    },
+    "gyllsjo": {
+      "eyebrow": "Referensinstallation",
+      "headline": "Gyllsjö Träindustri · kör Jointec-utrustning under Siemens SIMATIC HMI."
+    }
+  },
   "machines": {
     "eyebrow": "FEFPEB 2026 · Lansering",
     "title": "Tre Jointec-maskiner, säljs världen över.",
@@ -181,7 +219,17 @@
     }
   },
   "footer": {
-    "description": "System för träåtervinning och pallmaskiner för robust industriell drift.",
-    "tagline": "Utformat med ett precist och hållbarhetsdrivet industriellt synsätt."
+    "description": "Pallmaskiner konstruerade i Sverige sedan 1988. Exklusiv CAPE-agent för Skandinavien, Schweiz och Österrike.",
+    "tagline": "Precist · hållbart · tillverkat på din egen anläggning.",
+    "col_machines": "Maskiner",
+    "col_company": "Företaget",
+    "col_contact": "Kontakt",
+    "cape_link": "CAPE-katalog →",
+    "about_link": "Om oss",
+    "services_link": "Tjänster",
+    "contact_link": "Kontakta oss",
+    "demo_label": "Demoanläggning",
+    "rights": "Alla rättigheter förbehållna.",
+    "languages": "Tillgängligt på"
   }
 }
