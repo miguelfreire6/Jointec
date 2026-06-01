@@ -36,6 +36,8 @@
     "eyebrow": "Process Visualization",
     "title": "Automated material processing in continuous motion.",
     "description": "Wood chips are mixed with adhesive and compressed into high-quality 2.5 meter structural beams through a controlled industrial flow.",
+    "unmuteLabel": "Unmute video",
+    "muteLabel": "Mute video",
     "steps": ["Infeed", "Mixing", "Extrusion", "Output"]
   },
   "video": {
@@ -76,10 +78,12 @@
   },
   "strips": {
     "line": {
+      "alt": "Jointec on-site processing line CAD render",
       "eyebrow": "Engineered in Sweden",
       "headline": "From a 9.7-meter on-site processing line to a single pressed block."
     },
     "gyllsjo": {
+      "alt": "Gyllsjö Träindustri — Jointec control interface",
       "eyebrow": "Reference installation",
       "headline": "Gyllsjö Träindustri · running Jointec equipment under Siemens SIMATIC HMI."
     }
@@ -408,6 +412,7 @@
     "description": "Most of our customers start with a sentence on the floor — \"we want to insource block production\", \"the wrap line is the bottleneck\", \"we need to protect pallets in outdoor storage\". A 20-minute call usually tells both sides whether to keep talking.",
     "commercialLabel": "Commercial",
     "demoLabel": "Demo facility",
+    "demoLocation": "Åsljunga · Skåne · Sweden",
     "demoBlurb": "Live floor with Klotsproduktionslinje, Plastning Nonstop, Topfoil Pallet. 30 min from FEFPEB Båstad — book a slot.",
     "company": "Company",
     "companyPlaceholder": "Your company name",
