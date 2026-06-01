@@ -36,6 +36,8 @@
     "eyebrow": "Visualización del proceso",
     "title": "Procesamiento automatizado de material en flujo continuo.",
     "description": "Las virutas de madera se mezclan con adhesivo y se comprimen en vigas estructurales de 2,5 metros mediante un flujo industrial controlado.",
+    "unmuteLabel": "Activar sonido del vídeo",
+    "muteLabel": "Silenciar vídeo",
     "steps": ["Entrada", "Mezcla", "Extrusión", "Salida"]
   },
   "video": {
@@ -76,10 +78,12 @@
   },
   "strips": {
     "line": {
+      "alt": "Render CAD de una línea de procesamiento Jointec en planta",
       "eyebrow": "Ingeniería sueca",
       "headline": "De una línea de procesamiento de 9,7 metros a un solo bloque prensado."
     },
     "gyllsjo": {
+      "alt": "Gyllsjö Träindustri — interfaz de control Jointec",
       "eyebrow": "Instalación de referencia",
       "headline": "Gyllsjö Träindustri · operando equipos Jointec bajo Siemens SIMATIC HMI."
     }
@@ -405,6 +409,7 @@
     "description": "La mayoría de nuestros clientes empieza con una frase en planta — \"queremos internalizar la producción de bloques\", \"la línea de envoltura es el cuello de botella\", \"necesitamos proteger palets en almacenamiento exterior\". Una llamada de 20 minutos suele bastar para que ambas partes sepan si seguir hablando.",
     "commercialLabel": "Comercial",
     "demoLabel": "Planta de demostración",
+    "demoLocation": "Åsljunga · Skåne · Suecia",
     "demoBlurb": "Planta en directo con Klotsproduktionslinje, Plastning Nonstop, Topfoil Pallet. A 30 min de FEFPEB Båstad — reserve una visita.",
     "company": "Empresa",
     "companyPlaceholder": "Nombre de su empresa",

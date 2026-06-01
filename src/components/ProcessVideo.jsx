@@ -53,7 +53,11 @@ function ProcessVideo() {
               <button
                 type="button"
                 onClick={toggleMuted}
-                aria-label={muted ? "Unmute video" : "Mute video"}
+                aria-label={
+                  muted
+                    ? t("processVideo.unmuteLabel")
+                    : t("processVideo.muteLabel")
+                }
                 aria-pressed={!muted}
                 className="absolute bottom-3 right-3 inline-flex h-10 w-10 items-center justify-center rounded-full bg-black/55 text-white shadow-md backdrop-blur-sm transition hover:bg-black/75 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/80 sm:bottom-4 sm:right-4 sm:h-11 sm:w-11"
               >

@@ -68,7 +68,7 @@ function Footer() {
             <div className="pt-3 text-[11px] uppercase tracking-[0.22em] text-brand-dark/45">
               {t("footer.demo_label")}
             </div>
-            <div>Åsljunga · Skåne · Sweden</div>
+            <div>{t("contact.demoLocation")}</div>
           </address>
         </div>
       </div>

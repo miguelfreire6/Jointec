@@ -20,14 +20,14 @@ function App() {
         <About />
         <PhotoStrip
           src="/images/onsite_line_cad.webp"
-          alt="Jointec on-site processing line CAD render"
+          alt={t("strips.line.alt")}
           eyebrow={t("strips.line.eyebrow")}
           headline={t("strips.line.headline")}
         />
         <Machines />
         <PhotoStrip
           src="/images/gyllsjo_hmi.webp"
-          alt="Gyllsjö Träindustri — Jointec control interface"
+          alt={t("strips.gyllsjo.alt")}
           eyebrow={t("strips.gyllsjo.eyebrow")}
           headline={t("strips.gyllsjo.headline")}
           align="right"

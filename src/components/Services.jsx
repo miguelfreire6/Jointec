@@ -110,7 +110,7 @@ function Services() {
                   <span className="block text-[10px] font-semibold uppercase tracking-[0.28em] text-brand-accent">
                     {t("contact.demoLabel")}
                   </span>
-                  <span className="mt-1 block text-white/82">Åsljunga · Skåne · Sweden</span>
+                  <span className="mt-1 block text-white/82">{t("contact.demoLocation")}</span>
                   <span className="block text-xs text-white/55">{t("contact.demoBlurb")}</span>
                 </div>
               </div>

@@ -36,6 +36,8 @@
     "eyebrow": "Processvisualisering",
     "title": "Automatiserad materialbearbetning i kontinuerligt flöde.",
     "description": "Träspån blandas med lim och pressas till högkvalitativa bärreglar på 2,5 meter genom ett kontrollerat industriellt flöde.",
+    "unmuteLabel": "Slå på videoljud",
+    "muteLabel": "Stäng av videoljud",
     "steps": ["Inmatning", "Blandning", "Extrudering", "Utmatning"]
   },
   "video": {
@@ -76,10 +78,12 @@
   },
   "strips": {
     "line": {
+      "alt": "CAD-rendering av Jointecs processlinje på plats",
       "eyebrow": "Konstruerat i Sverige",
       "headline": "Från en 9,7 meters processlinje till en enda pressad kloss."
     },
     "gyllsjo": {
+      "alt": "Gyllsjö Träindustri — Jointec-styrgränssnitt",
       "eyebrow": "Referensinstallation",
       "headline": "Gyllsjö Träindustri · kör Jointec-utrustning under Siemens SIMATIC HMI."
     }
@@ -405,6 +409,7 @@
     "description": "De flesta av våra kunder börjar med en mening på golvet — \"vi vill tillverka klotsar själva\", \"plastlinjen är flaskhalsen\", \"vi måste skydda pallar i utomhuslagring\". Ett 20-minuters samtal räcker oftast för båda parter att veta om vi ska fortsätta prata.",
     "commercialLabel": "Försäljning",
     "demoLabel": "Demoanläggning",
+    "demoLocation": "Åsljunga · Skåne · Sverige",
     "demoBlurb": "Livegolv med Klotsproduktionslinje, Plastning Nonstop, Topfoil Pallet. 30 min från FEFPEB Båstad — boka en tid.",
     "company": "Företag",
     "companyPlaceholder": "Företagsnamn",
