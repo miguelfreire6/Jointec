@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "machines": "Maskiner",
+    "machines": "Utrustning",
     "cape": "CAPE",
     "cases": "Referenser",
     "news": "Nyheter",
@@ -8,28 +8,39 @@
     "services": "Tjänster",
     "sustainability": "Hållbarhet",
     "contact": "Kontakt",
-    "cta": "Begär konsultation",
+    "cta": "Jointec-uppdateringar",
     "homeLabel": "Jointec startsida",
     "toggleNavigation": "Växla navigering",
     "languageLabel": "Språk",
     "languages": {
       "en": "EN",
       "es": "ES",
-      "sv": "SV"
+      "sv": "SV",
+      "de": "DE",
+      "fr": "FR"
     }
   },
   "hero": {
     "eyebrow": "Pallmaskiner · Sedan 1988",
     "title": "Från en enskild kloss till en helt färdig pall.",
-    "description": "Jointec konstruerar och tillverkar pallmaskiner i Sverige — och är exklusiv agent för CAPE i Skandinavien, Schweiz och Österrike. Ingenjörskonst för dem som bygger världens pallar.",
-    "primaryCta": "Våra maskiner",
+    "description": "Jointec utvecklar pallutrustning och värdeskapande lösningar i Sverige — och är exklusiv agent för CAPE i Skandinavien, Schweiz och Österrike. Ingenjörskonst för dem som bygger världens pallar.",
+    "primaryCta": "Vår utrustning",
     "secondaryCta": "Prata med en ingenjör",
     "partnerLabel": "Exklusiv agent",
     "partnerText": "CAPE-maskiner för Skandinavien, Schweiz & Österrike",
     "stats": [
-      { "value": "35%", "label": "Mindre träspill" },
-      { "value": "24/7", "label": "Produktionskontinuitet" },
-      { "value": "100%", "label": "Cirkulär ambition" }
+      {
+        "value": "35%",
+        "label": "Mindre träspill"
+      },
+      {
+        "value": "24/7",
+        "label": "Produktionskontinuitet"
+      },
+      {
+        "value": "100%",
+        "label": "Cirkulär ambition"
+      }
     ]
   },
   "processVideo": {
@@ -38,12 +49,17 @@
     "description": "Träspån blandas med lim och pressas till högkvalitativa bärreglar på 2,5 meter genom ett kontrollerat industriellt flöde.",
     "unmuteLabel": "Slå på videoljud",
     "muteLabel": "Stäng av videoljud",
-    "steps": ["Inmatning", "Blandning", "Extrudering", "Utmatning"]
+    "steps": [
+      "Inmatning",
+      "Blandning",
+      "Extrudering",
+      "Utmatning"
+    ]
   },
   "video": {
     "eyebrow": "Industriell visning",
-    "title": "Se Jointecs system i rörelse.",
-    "description": "En fokuserad bild av produktionsmiljön, maskinernas rytm och den operativa precision som präglar Jointecs industriella erbjudande.",
+    "title": "Vårt arv: från svenskt järnbruk till pallutrustning världen över",
+    "description": "Jointecs historia börjar i södra Sverige 1868.\n\nDet som började med praktisk ingenjörskonst och smidda lyftkrokar utvecklades senare till pallreparation, demontering, produktionsutrustning och kompletta lösningar för pallindustrin.\n\nUnder de senaste 50 åren har Jointec hjälpt pallproducenter att addera värde till pallen - genom smartare utrustning, praktisk automation och lösningar byggda för verklig produktion.\n\nIdag levererar och installerar vi pallutrustning för kunder över hela världen.",
     "playLabel": "Spela upp presentationsvideo",
     "videoLabel": "Jointec presentationsvideo",
     "captionsLabel": "Svenska undertexter"
@@ -56,10 +72,26 @@
     "referenceName": "Gyllsjö Träindustri · Sverige",
     "referenceText": "En av Sveriges ledande träklotsproducenter kör en Jointec-extruderlinje med Siemens SIMATIC HMI-styrning. Beprövad drifttid, på svensk mark.",
     "numbers": [
-      { "value": "1988",    "label": "Grundat",            "sub": "38 år på linjen" },
-      { "value": "SE · CH · AT", "label": "CAPE-territorium", "sub": "Exklusiv agent" },
-      { "value": "3",       "label": "Egna maskiner",      "sub": "Säljs världen över" },
-      { "value": "EN · SV · ES", "label": "Språk",         "sub": "Dokumentation & support" }
+      {
+        "value": "1988",
+        "label": "Grundat",
+        "sub": "38 år på linjen"
+      },
+      {
+        "value": "SE · CH · AT",
+        "label": "CAPE-territorium",
+        "sub": "Exklusiv agent"
+      },
+      {
+        "value": "3",
+        "label": "Egna maskiner",
+        "sub": "Säljs världen över"
+      },
+      {
+        "value": "EN · SV · ES",
+        "label": "Språk",
+        "sub": "Dokumentation & support"
+      }
     ],
     "pillars": [
       {
@@ -144,9 +176,21 @@
     "description": "Jointec är exklusiv agent för CAPE i Skandinavien, Schweiz och Österrike. CAPE är ett ingenjörshus i Barcelona med kontinuerlig FoU och installationer världen över. Vi säljer hela sortimentet nytt, anskaffar och renoverar begagnade enheter och tillhandahåller installation och eftermarknadsservice från Sverige.",
     "partnerLine": "CAPE · Från Barcelona till världen · Sedan 1988",
     "territories": [
-      { "code": "Skandinavien", "name": "SE · NO · DK · FI", "flag": "🇸🇪" },
-      { "code": "Schweiz", "name": "Schweiz", "flag": "🇨🇭" },
-      { "code": "Österrike", "name": "Österreich", "flag": "🇦🇹" }
+      {
+        "code": "Skandinavien",
+        "name": "SE · NO · DK · FI",
+        "flag": "🇸🇪"
+      },
+      {
+        "code": "Schweiz",
+        "name": "Schweiz",
+        "flag": "🇨🇭"
+      },
+      {
+        "code": "Österrike",
+        "name": "Österreich",
+        "flag": "🇦🇹"
+      }
     ],
     "inventoryCta": "Fråga efter nytt och begagnat lager",
     "categories": [
@@ -154,37 +198,80 @@
         "slug": "nailers",
         "title": "Pallspikmaskiner",
         "tagline": "Fristående spikmaskiner och kompletta produktionslinjer för nytillverkade pallar. Från manuell matning till helautomatiska däcks- och bottenmaskiner.",
-        "models": ["CP110-1", "CP110-2", "CPA", "CPE", "CPI", "CPR"]
+        "models": [
+          "CP110-1",
+          "CP110-2",
+          "CPA",
+          "CPE",
+          "CPI",
+          "CPR"
+        ]
       },
       {
         "slug": "cable-drums",
         "title": "Kabeltrummemaskiner",
         "tagline": "Tillverkning av trägavlar för kabeltrummor — kombinerade Bobimatic-maskiner, dedikerade spikmaskiner och L.A.B. kontinuerlig automatiserad linje.",
-        "models": ["Bobimatic 1", "Bobimatic 2", "CB110", "CB210", "CP", "L.A.B."]
+        "models": [
+          "Bobimatic 1",
+          "Bobimatic 2",
+          "CB110",
+          "CB210",
+          "CP",
+          "L.A.B."
+        ]
       },
       {
         "slug": "feeders-stackers",
         "title": "Matare & stackningsmaskiner",
         "tagline": "Automatiska bräd-, klots- och slå-matare. Pall- och däckstackningsmaskiner — inklusive antropomorfa robotmatare och -stackare.",
-        "models": ["AMD", "AMS", "ATG", "CCPA", "PMV", "TM4", "XG", "APP1", "APR", "PRM"]
+        "models": [
+          "AMD",
+          "AMS",
+          "ATG",
+          "CCPA",
+          "PMV",
+          "TM4",
+          "XG",
+          "APP1",
+          "APR",
+          "PRM"
+        ]
       },
       {
         "slug": "cutters-finishing",
         "title": "Klotssågar & finbearbetning",
         "tagline": "Klotssågning, brännmärkning, fasning, hörnsågning, hackning. Karusellsågar och modulära in-line-finbearbetningsenheter.",
-        "models": ["T1C", "T3C", "TC10", "BMM1", "BMQ1", "BMT1", "BMV1", "BMX", "CA70", "CABI", "CHAN", "MME"]
+        "models": [
+          "T1C",
+          "T3C",
+          "TC10",
+          "BMM1",
+          "BMQ1",
+          "BMT1",
+          "BMV1",
+          "BMX",
+          "CA70",
+          "CABI",
+          "CHAN",
+          "MME"
+        ]
       },
       {
         "slug": "lines",
         "title": "Utvalda linjer",
         "tagline": "CAPE:s signatur — kompletta pallproduktionslinjer. Nyckelfärdiga, integrerade, med banbrytande kapacitet. Konstruerade för EUR/EPAL- och specialpall i exportkvalitet.",
-        "models": ["Mach 1", "Tandem 1"]
+        "models": [
+          "Mach 1",
+          "Tandem 1"
+        ]
       },
       {
         "slug": "used",
         "title": "Begagnat & renoverat",
         "tagline": "Kvalitetskontrollerade begagnade CAPE-maskiner, anskaffade och renoverade av Jointec i Sverige. Lägre ingångsinvestering för mindre palltillverkare och återvinnare.",
-        "models": ["På förfrågan"]
+        "models": [
+          "På förfrågan"
+        ]
       }
     ]
   },
@@ -247,17 +334,17 @@
       ],
       "specs": {
         "block_dimensions": "Konfigurerbara · standard EUR / EPAL",
-        "throughput":       "Anpassas efter kundens behov",
-        "footprint":        "Kompakt · ryms i en standardhall",
-        "power":            "3-fas industriell",
-        "controls":         "Siemens SIMATIC HMI",
-        "lead_time":        "På förfrågan",
-        "territory":        "Världen över · säljs direkt av Jointec"
+        "throughput": "Anpassas efter kundens behov",
+        "footprint": "Kompakt · ryms i en standardhall",
+        "power": "3-fas industriell",
+        "controls": "Siemens SIMATIC HMI",
+        "lead_time": "På förfrågan",
+        "territory": "Världen över · säljs direkt av Jointec"
       },
       "gallery": {
-        "blocks":    "Pressade träklotsar · output från extrudern",
-        "detail":    "Konstruerad kloss · närbild av pressad struktur",
-        "fixture":   "Kloss i maskinfixtur · produktionslinje",
+        "blocks": "Pressade träklotsar · output från extrudern",
+        "detail": "Konstruerad kloss · närbild av pressad struktur",
+        "fixture": "Kloss i maskinfixtur · produktionslinje",
         "warehouse": "Klotslager · Gyllsjö Träindustri"
       }
     },
@@ -285,16 +372,16 @@
         "Verksamheter som ersätter manuell eller start-stop-automatisk plastare"
       ],
       "specs": {
-        "wrap_mode":  "Kontinuerlig nonstop",
+        "wrap_mode": "Kontinuerlig nonstop",
         "throughput": "Matchas mot upstream-linjehastighet",
-        "film":       "Standardsträckfilm, konfigurerbar tjocklek",
-        "footprint":  "Kompakt i linje",
-        "controls":   "PLC + HMI · receptbaserat",
-        "lead_time":  "På förfrågan",
-        "territory":  "Världen över · säljs direkt av Jointec"
+        "film": "Standardsträckfilm, konfigurerbar tjocklek",
+        "footprint": "Kompakt i linje",
+        "controls": "PLC + HMI · receptbaserat",
+        "lead_time": "På förfrågan",
+        "territory": "Världen över · säljs direkt av Jointec"
       },
       "gallery": {
-        "line":     "Färdiga pallar · output från en plastad linje",
+        "line": "Färdiga pallar · output från en plastad linje",
         "controls": "Produktionslinjens interna delar · PLC och HMI"
       }
     },
@@ -324,14 +411,14 @@
       "specs": {
         "application": "Automatisk, in-line",
         "foil_source": "Rullmatad",
-        "foil_grade":  "Standard polyeten · konfigurerbar",
-        "throughput":  "Matchad mot upstream-plastlinje",
-        "footprint":   "Kompakt in-line-modul",
-        "lead_time":   "På förfrågan",
-        "territory":   "Världen över · säljs direkt av Jointec"
+        "foil_grade": "Standard polyeten · konfigurerbar",
+        "throughput": "Matchad mot upstream-plastlinje",
+        "footprint": "Kompakt in-line-modul",
+        "lead_time": "På förfrågan",
+        "territory": "Världen över · säljs direkt av Jointec"
       },
       "gallery": {
-        "finished":  "Färdig pall · plastad och topplastad",
+        "finished": "Färdig pall · plastad och topplastad",
         "packaging": "Topplastad last · klar för utomhuslagring"
       }
     }
@@ -410,7 +497,7 @@
     "commercialLabel": "Försäljning",
     "demoLabel": "Demoanläggning",
     "demoLocation": "Åsljunga · Skåne · Sverige",
-    "demoBlurb": "Livegolv med Klotsproduktionslinje, Plastning Nonstop, Topfoil Pallet. 30 min från FEFPEB Båstad — boka en tid.",
+    "demoBlurb": "Livegolv med BLOCK PRODUCTION LINE, MICRODRYER och NONSTOP & TOPFOIL PALLET. 30 min från FEFPEB Båstad — boka en tid.",
     "company": "Företag",
     "companyPlaceholder": "Företagsnamn",
     "email": "Arbets-e-post",
@@ -451,46 +538,144 @@
       "solution": "En Jointec Klotsproduktionslinje-extruder under Siemens SIMATIC HMI-styrning. Integrerad med krossning uppströms samt kapning och packning nedströms, installerad och driftsatt av Jointecs ingenjörer.",
       "result": "Slutet materialkretslopp. Klotstillverkning frikopplad från importmarknader. En referensinstallation som Jointec återvänder till vid varje ingenjörsbeslut.",
       "numbers": [
-        { "label": "Maskin",        "value": "Klotsproduktionslinje" },
-        { "label": "Styrsystem",    "value": "Siemens SIMATIC HMI" },
-        { "label": "Konfiguration", "value": "EUR / EPAL-klotsar" },
-        { "label": "Status",        "value": "I produktion · fältbeprövad" }
+        {
+          "label": "Maskin",
+          "value": "Klotsproduktionslinje"
+        },
+        {
+          "label": "Styrsystem",
+          "value": "Siemens SIMATIC HMI"
+        },
+        {
+          "label": "Konfiguration",
+          "value": "EUR / EPAL-klotsar"
+        },
+        {
+          "label": "Status",
+          "value": "I produktion · fältbeprövad"
+        }
       ],
       "quote": "När vi kopplar in en ny kontrollskärm för en kund frågar vi fortfarande: skulle detta vara begripligt för operatören på Gyllsjö? Det är ribban.",
       "quoteAttribution": "Karl-Johan Berg · Försäljning · Jointec"
     },
     "more": [
-      { "country": "Norge", "year": "Anonymiserad", "industry": "Palltillverkare", "headline": "Eftermonterad kontinuerlig plastning på en finbearbetningslinje med hög kapacitet.", "summary": "En plastningslösning med start och stopp ersattes med en Plastning Nonstop-modul. Plastningsstoppet togs bort som linjens kapacitetsflaskhals.", "machines": ["Plastning Nonstop"] },
-      { "country": "Sverige", "year": "Anonymiserad", "industry": "Pallåtervinnare", "headline": "Klotstillverkning på plats från uttjänta pallar.", "summary": "Klotsproduktionslinje integrerades med en befintlig demonteringslinje för pallar. Uttjänta pallar blir nya konstruerade klotsar på kundens egen gård.", "machines": ["Klotsproduktionslinje"] },
-      { "country": "Finland", "year": "Anonymiserad", "industry": "Livsmedels- och dryckeslogistik", "headline": "Topplast för färdiga pallar som lagras utomhus.", "summary": "En Topfoil Pallet-modul lades till i slutet av linjen för att försegla färdiga pallar före flera dagars utomhuslagring innan leverans.", "machines": ["Topfoil Pallet"] },
-      { "country": "Schweiz", "year": "Anonymiserad", "industry": "Palltillverkare", "headline": "Renoverad CAPE-spiklinje.", "summary": "En åldrande spiklösning ersattes med en CAPE CP110-enhet renoverad av Jointec. Lägre investering än nytt, med full installation och support från Jointec.", "machines": ["CAPE CP110-1", "CAPE CP110-2"] },
-      { "country": "Danmark", "year": "Anonymiserad", "industry": "Palltillverkare", "headline": "Integrerad plastnings- och topplastlinje.", "summary": "Både Plastning Nonstop och Topfoil Pallet installerades i samma finbearbetningsområde. Pallarna kommer ut plastade, topplastade och klara för utomhuslagring i ett kontinuerligt flöde.", "machines": ["Plastning Nonstop", "Topfoil Pallet"] },
-      { "country": "Österrike", "year": "Anonymiserad", "industry": "Kabeltrummetillverkare", "headline": "Tillverkning av trägavlar för kabeltrummor med CAPE Bobimatic.", "summary": "Kombinerad Bobimatic-linje för tillverkning av trägavlar, levererad och supporterad av Jointec under CAPE-agenturen för Österrike.", "machines": ["CAPE Bobimatic 1", "CAPE Bobimatic 2"] }
+      {
+        "country": "Norge",
+        "year": "Anonymiserad",
+        "industry": "Palltillverkare",
+        "headline": "Eftermonterad kontinuerlig plastning på en finbearbetningslinje med hög kapacitet.",
+        "summary": "En plastningslösning med start och stopp ersattes med en Plastning Nonstop-modul. Plastningsstoppet togs bort som linjens kapacitetsflaskhals.",
+        "machines": [
+          "Plastning Nonstop"
+        ]
+      },
+      {
+        "country": "Sverige",
+        "year": "Anonymiserad",
+        "industry": "Pallåtervinnare",
+        "headline": "Klotstillverkning på plats från uttjänta pallar.",
+        "summary": "Klotsproduktionslinje integrerades med en befintlig demonteringslinje för pallar. Uttjänta pallar blir nya konstruerade klotsar på kundens egen gård.",
+        "machines": [
+          "Klotsproduktionslinje"
+        ]
+      },
+      {
+        "country": "Finland",
+        "year": "Anonymiserad",
+        "industry": "Livsmedels- och dryckeslogistik",
+        "headline": "Topplast för färdiga pallar som lagras utomhus.",
+        "summary": "En Topfoil Pallet-modul lades till i slutet av linjen för att försegla färdiga pallar före flera dagars utomhuslagring innan leverans.",
+        "machines": [
+          "Topfoil Pallet"
+        ]
+      },
+      {
+        "country": "Schweiz",
+        "year": "Anonymiserad",
+        "industry": "Palltillverkare",
+        "headline": "Renoverad CAPE-spiklinje.",
+        "summary": "En åldrande spiklösning ersattes med en CAPE CP110-enhet renoverad av Jointec. Lägre investering än nytt, med full installation och support från Jointec.",
+        "machines": [
+          "CAPE CP110-1",
+          "CAPE CP110-2"
+        ]
+      },
+      {
+        "country": "Danmark",
+        "year": "Anonymiserad",
+        "industry": "Palltillverkare",
+        "headline": "Integrerad plastnings- och topplastlinje.",
+        "summary": "Både Plastning Nonstop och Topfoil Pallet installerades i samma finbearbetningsområde. Pallarna kommer ut plastade, topplastade och klara för utomhuslagring i ett kontinuerligt flöde.",
+        "machines": [
+          "Plastning Nonstop",
+          "Topfoil Pallet"
+        ]
+      },
+      {
+        "country": "Österrike",
+        "year": "Anonymiserad",
+        "industry": "Kabeltrummetillverkare",
+        "headline": "Tillverkning av trägavlar för kabeltrummor med CAPE Bobimatic.",
+        "summary": "Kombinerad Bobimatic-linje för tillverkning av trägavlar, levererad och supporterad av Jointec under CAPE-agenturen för Österrike.",
+        "machines": [
+          "CAPE Bobimatic 1",
+          "CAPE Bobimatic 2"
+        ]
+      }
     ]
   },
   "newsPage": {
-    "eyebrow": "Nyheter och insikter",
-    "title": "Det vi lär oss, bygger och levererar.",
-    "description": "Fältnoteringar från ett 38-årigt svenskt ingenjörshus, skrivna av dem som arbetar med linjerna, inte av marknadsavdelningen.",
+    "eyebrow": "Nyheter från Jointec",
+    "title": "Nyheter och insikter",
+    "description": "Viktiga uppdateringar från Jointec: utrustningslanseringar, kundanläggningar, demonstrationer och branschevenemang.",
     "labels": {
       "byline": "Av",
-      "moreLabel": "Mer från golvet",
+      "readMore": "Läs mer",
+      "moreLabel": "Mer från produktionen",
       "ctaEyebrow": "Följ med",
       "ctaTitle": "Det mesta vi publicerar kommer först på LinkedIn.",
-      "ctaBody": "Veckovisa noteringar från fabriken, uppladdningen inför FEFPEB och installationsmilstolpar. Två inlägg i veckan, utan utfyllnad.",
+      "ctaBody": "Praktiska uppdateringar från kundanläggningar, demonstrationer, CAPE-utrustning och Jointec-lösningar för pallindustrin.",
       "ctaButton": "Följ oss på LinkedIn"
     },
     "articles": [
-      { "tag": "Meddelande", "date": "2026-05-12", "headline": "Tre maskiner på FEFPEB 2026 i Båstad och en livedemo 30 minuter bort.", "summary": "Jointec tar med sina tre egenutvecklade maskiner till den 73:e FEFPEB-kongressen i Båstad: Klotsproduktionslinje, Plastning Nonstop och Topfoil Pallet. Livedemogolvet i Åsljunga är öppet för kongressbesökare hela veckan.", "author": "Karl-Johan Berg", "image": "/images/onsite_line_cad.webp" },
-      { "tag": "Partnerskap", "date": "2026-04-30", "headline": "Jointec är CAPE:s exklusiva agent för Skandinavien, Schweiz och Österrike.", "summary": "Efter flera år av installation och support av CAPE:s pallmaskiner i Norden är partnerskapet nu formellt. Hela CAPE-lagret, nytt och begagnat, levereras, installeras och supporteras av Jointecs ingenjörer i Sverige.", "author": "Karl-Johan Berg", "image": "/images/klots_extrusion.webp" },
-      { "tag": "Fältnotering", "date": "2026-04-18", "headline": "Gyllsjö Träindustri: fem år med klotstillverkning på plats.", "summary": "Så ser femårsmarkeringen ut för en Klotsproduktionslinje i drift. Upptid, operatörsöverlämning och moderniseringsbeslut som gav resultat.", "author": "Jointec Engineering", "image": "/images/klots_warehouse.webp" },
-      { "tag": "Branschperspektiv", "date": "2026-03-22", "headline": "PPWR och argumenten för klotstillverkning på plats.", "summary": "EU:s nya förordning om förpackningar och förpackningsavfall styr palltillverkare mot trösklar för återvunnet innehåll och spårbarhet. Klotstillverkning på plats från det egna spillflödet är ett av de enklaste sätten att uppfylla kraven.", "author": "Jointec Engineering", "image": "/images/recycling_input.webp" }
+      {
+        "tag": "Meddelande",
+        "date": "2026-05-12",
+        "headline": "Tre maskiner på FEFPEB 2026 i Båstad och en livedemo 30 minuter bort.",
+        "summary": "Jointec tar med sina tre egenutvecklade maskiner till den 73:e FEFPEB-kongressen i Båstad: Klotsproduktionslinje, Plastning Nonstop och Topfoil Pallet. Livedemogolvet i Åsljunga är öppet för kongressbesökare hela veckan.",
+        "author": "Karl-Johan Berg",
+        "image": "/images/onsite_line_cad.webp"
+      },
+      {
+        "tag": "Partnerskap",
+        "date": "2026-04-30",
+        "headline": "Jointec är CAPE:s exklusiva agent för Skandinavien, Schweiz och Österrike.",
+        "summary": "Efter flera år av installation och support av CAPE:s pallmaskiner i Norden är partnerskapet nu formellt. Hela CAPE-lagret, nytt och begagnat, levereras, installeras och supporteras av Jointecs ingenjörer i Sverige.",
+        "author": "Karl-Johan Berg",
+        "image": "/images/klots_extrusion.webp"
+      },
+      {
+        "tag": "Fältnotering",
+        "date": "2026-04-18",
+        "headline": "Gyllsjö Träindustri: fem år med klotstillverkning på plats.",
+        "summary": "Så ser femårsmarkeringen ut för en Klotsproduktionslinje i drift. Upptid, operatörsöverlämning och moderniseringsbeslut som gav resultat.",
+        "author": "Jointec Engineering",
+        "image": "/images/klots_warehouse.webp"
+      },
+      {
+        "tag": "Branschperspektiv",
+        "date": "2026-03-22",
+        "headline": "PPWR och argumenten för klotstillverkning på plats.",
+        "summary": "EU:s nya förordning om förpackningar och förpackningsavfall styr palltillverkare mot trösklar för återvunnet innehåll och spårbarhet. Klotstillverkning på plats från det egna spillflödet är ett av de enklaste sätten att uppfylla kraven.",
+        "author": "Jointec Engineering",
+        "image": "/images/recycling_input.webp"
+      }
     ]
   },
   "aboutPage": {
     "eyebrow": "Om Jointec",
-    "title": "Sedan 1988 har vi varit en av marknadsledarna inom leverans av utrustning för tillverkning och reparation av träpallar.",
-    "description": "Sex ingenjörer i södra Sverige som konstruerar, bygger, installerar och stöttar pallmaskiner för dem som tillverkar världens pallar.",
+    "title": "SEDAN 1988 - ledande inom palltillverkningsindustrin.",
+    "description": "Sedan 1988 har vi varit en av marknadsledarna inom leverans av utrustning för tillverkning och reparation av träpallar.",
     "labels": {
       "storyLabel": "Vår historia",
       "storyTitle": "Varför vi fortfarande är här efter 38 år.",
@@ -499,38 +684,77 @@
       "teamLabel": "Vem du pratar med",
       "teamTitle": "Människorna bakom linjen.",
       "ctaEyebrow": "Börja prata med oss",
-      "ctaTitle": "Samma kontor. Samma ingenjörer. Samma nummer sedan 1988.",
-      "ctaBody": "Berätta vad du försöker tillverka. Vi säger om vi är rätt ingenjörshus.",
+      "ctaTitle": "Vill du veta mer?",
+      "ctaBody": "Tryck på den orange knappen och skicka ett mejl till oss.",
       "ctaButton": "Kontakta oss"
     },
     "numbers": [
-      { "value": "1988",        "label": "Grundat" },
-      { "value": "SE",          "label": "Konstruerat i" },
-      { "value": "SE · CH · AT","label": "CAPE-territorium" },
-      { "value": "3",           "label": "Egna maskiner världen över" }
+      {
+        "value": "1988",
+        "label": "Grundat"
+      },
+      {
+        "value": "SE",
+        "label": "Konstruerat i"
+      },
+      {
+        "value": "SE · CH · AT",
+        "label": "CAPE-territorium"
+      },
+      {
+        "value": "3",
+        "label": "Egna maskiner världen över"
+      }
     ],
     "story": [
       "Jointec grundades 1988 för att bygga en sak väl: pallmaskiner som går i årtionden på kundens eget golv med kundens egna operatörer. Trettioåtta år senare är uppdraget oförändrat.",
       "De flesta pallmaskinföretag är antingen stora äldre aktörer med långsamma interna cykler eller små verkstäder utan operativ hävstång. Jointec ligger medvetet i mitten. Vi har sex ingenjörer i södra Sverige som specificerar, installerar och stöttar varje linje vi säljer. Vi lägger inte ut delarna som spelar roll.",
       "I början byggde och sålde vi våra egna maskiner. Med tiden blev vi ingenjörshuset som palltillverkare i Skandinavien ringde när de behövde något specifikt. Så startade Klotsproduktionslinje hos Gyllsjö Träindustri, och den installationen har mer än någon annan format hur vi konstruerar varje maskin sedan dess.",
-      "Under 2026 formaliserade vi en gammal relation: Jointec är exklusiv agent för CAPE i Skandinavien, Schweiz och Österrike. Nya enheter, renoverade enheter, full installation och support från Jointec. Och våra tre egenutvecklade maskiner, Klotsproduktionslinje, Plastning Nonstop och Topfoil Pallet, säljs världen över. Två verksamheter, ett ingenjörsteam."
+      "Under 2026 formaliserade vi en gammal relation: Jointec är exklusiv agent för CAPE i Skandinavien, Schweiz och Österrike. Nya enheter, renoverade enheter, full installation och support från Jointec. Och våra tre egenutvecklade lösningar, BLOCK PRODUCTION LINE, MICRODRYER och NONSTOP & TOPFOIL PALLET, säljs världen över. Två verksamheter, ett ingenjörsteam."
     ],
     "principles": [
-      { "title": "Specifikation före försäljning.", "body": "Ingen bindande offert utan platsbesök. Vi behöver se golvet, materialet och kapacitetsmålet först." },
-      { "title": "Ingenjörsarbete, inte underleverantörer.", "body": "Samma sex personer som specificerar linjen installerar och stöttar den också. HMI:n du ser dag ett kopplades av personen som svarar i telefon år fem." },
-      { "title": "Reversibla uppgraderingar.", "body": "Vi låser inte in kunder i återvändskonfigurationer. Moderniseringar bevarar originallinjens värde och möjligheten att backa ändringen." },
-      { "title": "Demogolv, inte broschyr.", "body": "Vår anläggning i Åsljunga kör de tre egna maskinerna live. Om du överväger en linje är den billigaste utvärderingen att komma och se den i drift." }
+      {
+        "title": "Specifikation före försäljning.",
+        "body": "Ingen bindande offert utan platsbesök. Vi behöver se golvet, materialet och kapacitetsmålet först."
+      },
+      {
+        "title": "Ingenjörsarbete, inte underleverantörer.",
+        "body": "Samma sex personer som specificerar linjen installerar och stöttar den också. HMI:n du ser dag ett kopplades av personen som svarar i telefon år fem."
+      },
+      {
+        "title": "Reversibla uppgraderingar.",
+        "body": "Vi låser inte in kunder i återvändskonfigurationer. Moderniseringar bevarar originallinjens värde och möjligheten att backa ändringen."
+      },
+      {
+        "title": "Demogolv, inte broschyr.",
+        "body": "Vår anläggning i Åsljunga kör de tre egna maskinerna live. Om du överväger en linje är den billigaste utvärderingen att komma och se den i drift."
+      }
     ],
     "team": [
-      { "name": "Karl-Johan Berg", "initials": "KB", "role": "Försäljning", "contact": "karl@jointec.se" },
-      { "name": "Louise Berg", "initials": "LB", "role": "Varumärke och marknadsföring", "contact": "louise@jointec.se" },
-      { "name": "Jointec Engineering", "initials": "JE", "role": "Design · Installation · Support", "contact": "" }
+      {
+        "name": "Karl-Johan Berg",
+        "initials": "KB",
+        "role": "Försäljning",
+        "contact": "karl@jointec.se"
+      },
+      {
+        "name": "Louise Berg",
+        "initials": "LB",
+        "role": "Varumärke och marknadsföring",
+        "contact": "louise@jointec.se"
+      },
+      {
+        "name": "Jointec Engineering",
+        "initials": "JE",
+        "role": "Design · Installation · Support",
+        "contact": ""
+      }
     ]
   },
   "footer": {
     "description": "Pallmaskiner konstruerade i Sverige sedan 1988. Exklusiv CAPE-agent för Skandinavien, Schweiz och Österrike.",
     "tagline": "Precist · hållbart · tillverkat på din egen anläggning.",
-    "col_machines": "Maskiner",
+    "col_machines": "Equipment",
     "col_company": "Företaget",
     "col_contact": "Kontakt",
     "cape_link": "CAPE-katalog →",
@@ -540,5 +764,47 @@
     "demo_label": "Demoanläggning",
     "rights": "Alla rättigheter förbehållna.",
     "languages": "Tillgängligt på"
+  },
+  "signup": {
+    "eyebrow": "JOINTEC BRANSCHUPPDATERINGAR",
+    "heading": "Håll dig uppdaterad om värdeskapande pallösningar",
+    "intro": "Få utvalda uppdateringar från Jointec om ny utrustning, demonstrationsmöjligheter, kundanläggningar och lösningar som adderar mer värde till pallen.",
+    "note": "Ingen spam. Endast relevanta uppdateringar för yrkespersoner inom pall, sågverk och träemballage.",
+    "fields": {
+      "name": "Namn",
+      "company": "Företag",
+      "email": "E-post",
+      "phone": "Telefon",
+      "country": "Land",
+      "solutionInterest": "Lösningsintresse",
+      "message": "Meddelande / produktionsbehov"
+    },
+    "placeholders": {
+      "interest": "Välj intresseområde",
+      "message": "Berätta vad du är intresserad av - till exempel utrustningstyp, produktionsutmaning, materialflöde, återvunnet trä, pallskydd eller demonstrationsbesök."
+    },
+    "interests": {
+      "blockProductionLine": "Block Production Line",
+      "microdryer": "MicroDryer",
+      "nonstopTopfoilPallet": "Nonstop & Topfoil Pallet",
+      "capeMachinery": "CAPE-maskiner",
+      "privateDemonstrationVisit": "Privat demonstrationsbesök",
+      "industryEvents": "FEFPEB / branschevenemang",
+      "generalUpdates": "Allmänna uppdateringar om utrustning och lösningar"
+    },
+    "consent": "Jag samtycker till att få uppdateringar från Jointec om värdeskapande utrustning, demonstrationer, kundanläggningar och branschevenemang. Jag förstår att jag kan avsluta prenumerationen när som helst.",
+    "privacy": "Jointec använder dina uppgifter för att skicka relevanta uppdateringar om utrustning, lösningar, demonstrationer och branschevenemang. Du kan avsluta prenumerationen eller be oss ta bort dina uppgifter när som helst.",
+    "button": "Ta emot Jointec-uppdateringar",
+    "validation": {
+      "required": "Fyll i alla obligatoriska fält.",
+      "email": "Ange en giltig e-postadress.",
+      "consent": "Bekräfta att du samtycker till relevanta Jointec-uppdateringar."
+    },
+    "messages": {
+      "successTitle": "Tack. Ditt intresse har registrerats.",
+      "successDetail": "Tack. Ditt intresse har registrerats. Jointec skickar endast relevanta uppdateringar om utrustning, lösningar, demonstrationer, kundanläggningar och branschevenemang.",
+      "errorTitle": "Något gick fel.",
+      "errorDetail": "Något gick fel. Försök igen eller kontakta Jointec direkt på info@jointec.se."
+    }
   }
 }

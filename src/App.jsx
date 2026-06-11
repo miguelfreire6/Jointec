@@ -2,11 +2,11 @@ import About from "./components/About";
 import CapeAgent from "./components/CapeAgent";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+import MachineUpdatesSignup from "./components/MachineUpdatesSignup";
 import Machines from "./components/Machines";
 import Navbar from "./components/Navbar";
 import PhotoStrip from "./components/PhotoStrip";
 import Services from "./components/Services";
-import VideoSection from "./components/VideoSection";
 import { useTranslation } from "react-i18next";
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
           align="right"
         />
         <CapeAgent />
-        <VideoSection />
+        <MachineUpdatesSignup sourcePage="Homepage" />
         <Services />
       </main>
       <Footer />

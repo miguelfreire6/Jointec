@@ -1,16 +1,9 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-
-const MACHINE_IMAGES = {
-  klotsproduktionslinje: "/images/klots_extrusion.webp",
-  "plastning-nonstop":    "/images/finished_pallets.webp",
-  "topfoil-pallet":       "/images/pallet_green_blocks.webp",
-};
+import { MACHINE_SOLUTIONS } from "../data/machineDetails";
 
 function Machines() {
   const { t } = useTranslation();
-  const machines = t("machines.items", { returnObjects: true });
-
   return (
     <section id="machines" className="bg-brand-light py-20 sm:py-28">
       <div className="section-shell">
@@ -27,23 +20,29 @@ function Machines() {
         </div>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
-          {machines.map((machine, idx) => (
+          {MACHINE_SOLUTIONS.map((machine, idx) => (
             <article
-              key={machine.product}
-              id={machine.anchor}
+              key={machine.slug}
+              id={machine.slug}
               className="group flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-brand-dark/8 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:border-brand-accent/25 hover:shadow-panel"
             >
               <Link
-                to={`/machines/${machine.anchor}`}
+                to={`/machines/${machine.slug}`}
                 className="relative aspect-[4/3] w-full overflow-hidden bg-brand-dark"
-                aria-label={machine.product}
+                aria-label={machine.name}
               >
-                <img
-                  src={MACHINE_IMAGES[machine.anchor]}
-                  alt={machine.product}
-                  loading="lazy"
-                  className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.04]"
-                />
+                {machine.image ? (
+                  <img
+                    src={machine.image}
+                    alt=""
+                    loading="lazy"
+                    className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.04]"
+                  />
+                ) : (
+                  <div className="flex h-full items-center justify-center bg-gradient-to-br from-brand-dark to-slate-700 px-6 text-center text-[10px] font-semibold uppercase tracking-[0.24em] text-white/60">
+                    Machine visual coming soon
+                  </div>
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/55 via-transparent to-transparent" />
                 <span className="absolute left-5 top-5 inline-flex h-7 items-center rounded-full bg-white/95 px-3 text-[10px] font-semibold uppercase tracking-[0.22em] text-brand-dark">
                   0{idx + 1} · {t("machines.worldwide")}
@@ -52,13 +51,13 @@ function Machines() {
 
               <div className="flex flex-1 flex-col p-7">
                 <h3 className="text-xl font-semibold tracking-[-0.02em] text-brand-dark">
-                  {machine.product}
+                  {machine.name}
                 </h3>
                 <p className="mt-2 text-sm font-medium text-brand-accent">
-                  {machine.headline}
+                  {machine.bestFor}
                 </p>
                 <p className="mt-4 text-sm leading-7 text-brand-dark/70">
-                  {machine.description}
+                  {machine.summary}
                 </p>
 
                 <div className="mt-6 border-t border-brand-dark/8 pt-5">
@@ -66,7 +65,7 @@ function Machines() {
                     {t("machines.featuresLabel")}
                   </p>
                   <ul className="mt-3 space-y-2 text-sm leading-6 text-brand-dark/72">
-                    {machine.features.slice(0, 3).map((feature) => (
+                    {machine.benefits.slice(0, 3).map((feature) => (
                       <li key={feature} className="flex gap-2">
                         <span className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-brand-accent" />
                         <span>{feature}</span>
@@ -77,7 +76,7 @@ function Machines() {
 
                 <div className="mt-auto pt-6">
                   <Link
-                    to={`/machines/${machine.anchor}`}
+                    to={`/machines/${machine.slug}`}
                     className="inline-flex items-center gap-2 text-sm font-semibold text-brand-accent transition hover:gap-3"
                   >
                     {t("machines.cta")} <span>→</span>
@@ -102,7 +101,7 @@ function Machines() {
               </p>
             </div>
             <a
-              href="#contact"
+              href="#machine-updates"
               className="primary-button inline-flex h-12 items-center justify-center px-6"
             >
               {t("machines.fefpebCta")}

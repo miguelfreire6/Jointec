@@ -21,18 +21,58 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jointec.vercel.app/machines/klotsproduktionslinje</loc>
+    <loc>https://jointec.vercel.app/news/fefpeb-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jointec.vercel.app/machines</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jointec.vercel.app/machines/plastning-nonstop</loc>
+    <loc>https://jointec.vercel.app/machines/block-production-line</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jointec.vercel.app/machines/topfoil-pallet</loc>
+    <loc>https://jointec.vercel.app/machines/microdryer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jointec.vercel.app/machines/nonstop-topfoil-pallet</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jointec.vercel.app/cape</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jointec.vercel.app/cape/pallet-machinery</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jointec.vercel.app/cape/sawmill-machinery</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jointec.vercel.app/cape/cable-drum-machinery</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jointec.vercel.app/cape/stackers-handling</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jointec.vercel.app/cape/used-refurbished</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
