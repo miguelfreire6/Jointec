@@ -1,13 +1,13 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Footer from "../../components/Footer";
+import HistoricalInnovation from "../../components/HistoricalInnovation";
+import MachineUpdatesSignup from "../../components/MachineUpdatesSignup";
 import Navbar from "../../components/Navbar";
-import ProcessVideo from "../../components/ProcessVideo";
+import VideoSection from "../../components/VideoSection";
 
 export default function AboutPage() {
   const { t } = useTranslation();
-  const story = t("aboutPage.story", { returnObjects: true });
   const labels = t("aboutPage.labels", { returnObjects: true });
 
   useEffect(() => {
@@ -17,8 +17,6 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-brand-light text-brand-dark">
       <Navbar />
-      <ProcessVideo />
-
       {/* Hero */}
       <section className="relative overflow-hidden bg-brand-dark text-white">
         <div className="absolute inset-0">
@@ -49,25 +47,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Story */}
-      <section className="bg-white py-20 sm:py-28">
-        <div className="section-shell grid gap-16 lg:grid-cols-[0.4fr_0.6fr]">
-          <div>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.32em] text-brand-accent">
-              {labels.storyLabel}
-            </p>
-            <h2 className="mt-5 text-3xl font-light leading-tight tracking-[-0.02em] text-brand-dark sm:text-4xl">
-              {labels.storyTitle}
-            </h2>
-          </div>
+      <VideoSection />
 
-          <div className="space-y-6 text-base leading-8 text-brand-dark/78">
-            {story.map((p, i) => (
-              <p key={i}>{p}</p>
-            ))}
-          </div>
-        </div>
-      </section>
+      <HistoricalInnovation />
+
+      <MachineUpdatesSignup sourcePage="Homepage" />
 
       {/* CTA */}
       <section className="bg-brand-dark py-16 text-white sm:py-20">
@@ -84,9 +68,9 @@ export default function AboutPage() {
                 {labels.ctaBody}
               </p>
             </div>
-            <Link to="/home#contact" className="primary-button">
+            <a href="mailto:info@jointec.se" className="primary-button">
               {labels.ctaButton}
-            </Link>
+            </a>
           </div>
         </div>
       </section>

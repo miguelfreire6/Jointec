@@ -1,35 +1,46 @@
 {
   "navbar": {
-    "machines": "Machines",
+    "machines": "Equipment",
     "cape": "CAPE",
-    "cases": "Cases",
+    "cases": "References",
     "news": "News",
     "about": "About",
     "services": "Services",
     "sustainability": "Sustainability",
     "contact": "Contact",
-    "cta": "Request Consultation",
+    "cta": "Jointec Updates",
     "homeLabel": "Jointec home",
     "toggleNavigation": "Toggle navigation",
     "languageLabel": "Language",
     "languages": {
       "en": "EN",
       "es": "ES",
-      "sv": "SV"
+      "sv": "SV",
+      "de": "DE",
+      "fr": "FR"
     }
   },
   "hero": {
     "eyebrow": "Pallet machinery · Since 1988",
     "title": "From a single block to a fully finished pallet.",
-    "description": "Jointec designs and manufactures pallet machinery in Sweden — and is the exclusive agent for CAPE in Scandinavia, Switzerland and Austria. Engineering for the people who build the world's pallets.",
-    "primaryCta": "Our machines",
+    "description": "Jointec develops pallet equipment and value-adding solutions in Sweden — and is the exclusive agent for CAPE in Scandinavia, Switzerland and Austria. Engineering for the people who build the world's pallets.",
+    "primaryCta": "Our equipment",
     "secondaryCta": "Talk to an engineer",
     "partnerLabel": "Exclusive agent",
     "partnerText": "CAPE machinery for Scandinavia, Switzerland & Austria",
     "stats": [
-      { "value": "35%", "label": "Less timber waste" },
-      { "value": "24/7", "label": "Production continuity" },
-      { "value": "100%", "label": "Circular ambition" }
+      {
+        "value": "35%",
+        "label": "Less timber waste"
+      },
+      {
+        "value": "24/7",
+        "label": "Production continuity"
+      },
+      {
+        "value": "100%",
+        "label": "Circular ambition"
+      }
     ]
   },
   "processVideo": {
@@ -38,12 +49,17 @@
     "description": "Wood chips are mixed with adhesive and compressed into high-quality 2.5 meter structural beams through a controlled industrial flow.",
     "unmuteLabel": "Unmute video",
     "muteLabel": "Mute video",
-    "steps": ["Infeed", "Mixing", "Extrusion", "Output"]
+    "steps": [
+      "Infeed",
+      "Mixing",
+      "Extrusion",
+      "Output"
+    ]
   },
   "video": {
     "eyebrow": "Industrial Showcase",
-    "title": "See Jointec systems in motion.",
-    "description": "A focused view of the production environment, machinery rhythm, and operational precision behind Jointec's industrial offering.",
+    "title": "Our Heritage: From Swedish Ironworks to Global Pallet Equipment",
+    "description": "Jointec’s history begins in southern Sweden in 1868.\n\nWhat started with practical engineering and forged lifting hooks later evolved into pallet repair, dismantling, production equipment, and complete solutions for the pallet industry.\n\nFor the last 50 years, Jointec has helped pallet producers add value to the pallet - through smarter equipment, practical automation, and solutions built for real production.\n\nToday, we deliver and install pallet equipment for customers worldwide.",
     "playLabel": "Play showcase video",
     "videoLabel": "Jointec showcase video",
     "captionsLabel": "English captions"
@@ -56,10 +72,26 @@
     "referenceName": "Gyllsjö Träindustri · Sweden",
     "referenceText": "One of Sweden's leading wood-block producers runs a Jointec extruder line with Siemens SIMATIC HMI control. Field-proven uptime, on Swedish soil.",
     "numbers": [
-      { "value": "1988",    "label": "Year founded",       "sub": "38 years on the line" },
-      { "value": "SE · CH · AT", "label": "CAPE territory", "sub": "Exclusive agent" },
-      { "value": "3",       "label": "Own machines",       "sub": "Sold worldwide" },
-      { "value": "EN · SV · ES", "label": "Languages",     "sub": "Documentation & support" }
+      {
+        "value": "1988",
+        "label": "Year founded",
+        "sub": "38 years on the line"
+      },
+      {
+        "value": "SE · CH · AT",
+        "label": "CAPE territory",
+        "sub": "Exclusive agent"
+      },
+      {
+        "value": "3",
+        "label": "Own machines",
+        "sub": "Sold worldwide"
+      },
+      {
+        "value": "EN · SV · ES",
+        "label": "Languages",
+        "sub": "Documentation & support"
+      }
     ],
     "pillars": [
       {
@@ -89,15 +121,15 @@
     }
   },
   "machines": {
-    "eyebrow": "FEFPEB 2026 launch",
-    "title": "Three Jointec machines, sold worldwide.",
-    "description": "Engineered in Sweden, installed and supported by Jointec. From a single waste-wood block to a fully wrapped and top-foiled pallet — made on your own site.",
+    "eyebrow": "Value-adding pallet solutions",
+    "title": "Equipment that adds value to the pallet.",
+    "description": "Engineered in Sweden, installed and supported by Jointec. From recycled wood blocks to protected pallet handling, each solution is built to improve production and create more value from every pallet.",
     "worldwide": "Worldwide",
     "featuresLabel": "Key features",
     "cta": "Discuss your line",
     "fefpebEyebrow": "FEFPEB 2026 · Live demo",
-    "fefpebTitle": "See all three running, 30 minutes from the venue.",
-    "fefpebDescription": "30 September – 2 October 2026 · Båstad, Sweden. Live demo floor in Åsljunga, Skåne — book a slot and we will drive you.",
+    "fefpebTitle": "Meet Jointec at FEFPEB 2026 in Båstad.",
+    "fefpebDescription": "30 September - 2 October 2026. During the industrial visit on 1 October, see CAPE lines in operation and Jointec's new Block Production Line demonstrated at the industrial site.",
     "fefpebCta": "Book an Åsljunga slot",
     "items": [
       {
@@ -144,9 +176,21 @@
     "description": "Jointec is the exclusive agent for CAPE in Scandinavia, Switzerland and Austria. CAPE is a Barcelona engineering house with continuous R&D and global installations. We sell the full lineup new, source and refurbish second-hand units, and provide installation and after-sales support from Sweden.",
     "partnerLine": "CAPE · From Barcelona to the world · Since 1988",
     "territories": [
-      { "code": "Scandinavia", "name": "SE · NO · DK · FI", "flag": "🇸🇪" },
-      { "code": "Switzerland", "name": "Schweiz", "flag": "🇨🇭" },
-      { "code": "Austria", "name": "Österreich", "flag": "🇦🇹" }
+      {
+        "code": "Scandinavia",
+        "name": "SE · NO · DK · FI",
+        "flag": "🇸🇪"
+      },
+      {
+        "code": "Switzerland",
+        "name": "Schweiz",
+        "flag": "🇨🇭"
+      },
+      {
+        "code": "Austria",
+        "name": "Österreich",
+        "flag": "🇦🇹"
+      }
     ],
     "inventoryCta": "Ask about new and second-hand inventory",
     "categories": [
@@ -154,37 +198,80 @@
         "slug": "nailers",
         "title": "Pallet nailers",
         "tagline": "Stand-alone nailing machines and complete production lines for new pallet assembly. From manual feed to fully automatic deck and bottom-assembly machines.",
-        "models": ["CP110-1", "CP110-2", "CPA", "CPE", "CPI", "CPR"]
+        "models": [
+          "CP110-1",
+          "CP110-2",
+          "CPA",
+          "CPE",
+          "CPI",
+          "CPR"
+        ]
       },
       {
         "slug": "cable-drums",
         "title": "Cable drum machinery",
         "tagline": "Wooden cable-drum flange production — all-in-one Bobimatic combined machines, dedicated nailers, and the L.A.B. continuous-cycle automated line.",
-        "models": ["Bobimatic 1", "Bobimatic 2", "CB110", "CB210", "CP", "L.A.B."]
+        "models": [
+          "Bobimatic 1",
+          "Bobimatic 2",
+          "CB110",
+          "CB210",
+          "CP",
+          "L.A.B."
+        ]
       },
       {
         "slug": "feeders-stackers",
         "title": "Feeders & stackers",
         "tagline": "Automatic board, block, and runner feeders. Pallet and deck stackers — including robotic anthropomorphic feeders and stackers.",
-        "models": ["AMD", "AMS", "ATG", "CCPA", "PMV", "TM4", "XG", "APP1", "APR", "PRM"]
+        "models": [
+          "AMD",
+          "AMS",
+          "ATG",
+          "CCPA",
+          "PMV",
+          "TM4",
+          "XG",
+          "APP1",
+          "APR",
+          "PRM"
+        ]
       },
       {
         "slug": "cutters-finishing",
         "title": "Block cutters & finishing",
         "tagline": "Block cutting, branding, chamfering, corner cutting, notching. Carrousel cutters and modular in-line finishing components.",
-        "models": ["T1C", "T3C", "TC10", "BMM1", "BMQ1", "BMT1", "BMV1", "BMX", "CA70", "CABI", "CHAN", "MME"]
+        "models": [
+          "T1C",
+          "T3C",
+          "TC10",
+          "BMM1",
+          "BMQ1",
+          "BMT1",
+          "BMV1",
+          "BMX",
+          "CA70",
+          "CABI",
+          "CHAN",
+          "MME"
+        ]
       },
       {
         "slug": "lines",
         "title": "Featured lines",
         "tagline": "CAPE's signature complete pallet production lines — turnkey, integrated, with cutting-edge throughput. Engineered for export-grade EUR/EPAL and custom pallets.",
-        "models": ["Mach 1", "Tandem 1"]
+        "models": [
+          "Mach 1",
+          "Tandem 1"
+        ]
       },
       {
         "slug": "used",
         "title": "Used & refurbished",
         "tagline": "Quality-checked second-hand CAPE machines, sourced and refurbished by Jointec in Sweden. Lower entry CAPEX for smaller pallet producers and recyclers.",
-        "models": ["On request"]
+        "models": [
+          "On request"
+        ]
       }
     ]
   },
@@ -222,7 +309,6 @@
       "foil_source": "Foil source",
       "foil_grade": "Foil grade"
     },
-
     "klotsproduktionslinje": {
       "eyebrow": "Block extruder line",
       "name": "Klotsproduktionslinje",
@@ -248,21 +334,20 @@
       ],
       "specs": {
         "block_dimensions": "Configurable · standard EUR / EPAL sizes",
-        "throughput":       "Sized to customer demand",
-        "footprint":        "Compact · fits a standard industrial bay",
-        "power":            "3-phase industrial",
-        "controls":         "Siemens SIMATIC HMI",
-        "lead_time":        "On request",
-        "territory":        "Worldwide · sold direct by Jointec"
+        "throughput": "Sized to customer demand",
+        "footprint": "Compact · fits a standard industrial bay",
+        "power": "3-phase industrial",
+        "controls": "Siemens SIMATIC HMI",
+        "lead_time": "On request",
+        "territory": "Worldwide · sold direct by Jointec"
       },
       "gallery": {
-        "blocks":    "Pressed-wood blocks · output from the extruder",
-        "detail":    "Engineered block · close-up of pressed structure",
-        "fixture":   "Block on machine fixture · production line",
+        "blocks": "Pressed-wood blocks · output from the extruder",
+        "detail": "Engineered block · close-up of pressed structure",
+        "fixture": "Block on machine fixture · production line",
         "warehouse": "Block warehouse · Gyllsjö Träindustri"
       }
     },
-
     "plastning_nonstop": {
       "eyebrow": "Continuous stretch-wrap",
       "name": "Plastning Nonstop",
@@ -287,20 +372,19 @@
         "Operations replacing manual or stop-start automatic wrappers"
       ],
       "specs": {
-        "wrap_mode":  "Non-stop continuous",
+        "wrap_mode": "Non-stop continuous",
         "throughput": "Matched to upstream line speed",
-        "film":       "Standard stretch film, configurable gauge",
-        "footprint":  "Compact in-line",
-        "controls":   "PLC + HMI · recipe-based",
-        "lead_time":  "On request",
-        "territory":  "Worldwide · sold direct by Jointec"
+        "film": "Standard stretch film, configurable gauge",
+        "footprint": "Compact in-line",
+        "controls": "PLC + HMI · recipe-based",
+        "lead_time": "On request",
+        "territory": "Worldwide · sold direct by Jointec"
       },
       "gallery": {
-        "line":      "Finished pallets · output from a wrapped line",
-        "controls":  "Production-line internals · PLC and HMI"
+        "line": "Finished pallets · output from a wrapped line",
+        "controls": "Production-line internals · PLC and HMI"
       }
     },
-
     "topfoil_pallet": {
       "eyebrow": "Top-foil applicator",
       "name": "Topfoil Pallet",
@@ -327,14 +411,14 @@
       "specs": {
         "application": "Automatic, in-line",
         "foil_source": "Roll-fed",
-        "foil_grade":  "Standard polyethylene · configurable",
-        "throughput":  "Matched to upstream wrap line",
-        "footprint":   "Compact in-line module",
-        "lead_time":   "On request",
-        "territory":   "Worldwide · sold direct by Jointec"
+        "foil_grade": "Standard polyethylene · configurable",
+        "throughput": "Matched to upstream wrap line",
+        "footprint": "Compact in-line module",
+        "lead_time": "On request",
+        "territory": "Worldwide · sold direct by Jointec"
       },
       "gallery": {
-        "finished":  "Finished pallet · wrapped and top-foiled",
+        "finished": "Finished pallet · wrapped and top-foiled",
         "packaging": "Top-foiled load · ready for outdoor storage"
       }
     }
@@ -413,7 +497,7 @@
     "commercialLabel": "Commercial",
     "demoLabel": "Demo facility",
     "demoLocation": "Åsljunga · Skåne · Sweden",
-    "demoBlurb": "Live floor with Klotsproduktionslinje, Plastning Nonstop, Topfoil Pallet. 30 min from FEFPEB Båstad — book a slot.",
+    "demoBlurb": "Live floor with BLOCK PRODUCTION LINE, MICRODRYER and NONSTOP & TOPFOIL PALLET. 30 min from FEFPEB Båstad — book a slot.",
     "company": "Company",
     "companyPlaceholder": "Your company name",
     "email": "Work email",
@@ -454,77 +538,111 @@
       "solution": "A Jointec Klotsproduktionslinje extruder line under Siemens SIMATIC HMI control. Integrated upstream with shredding and downstream with cutting and packing — installed and commissioned by Jointec engineers.",
       "result": "Closed material loop. Block production decoupled from import markets. Reference installation Jointec returns to for every engineering decision.",
       "numbers": [
-        { "label": "Machine",      "value": "Klotsproduktionslinje" },
-        { "label": "Controls",     "value": "Siemens SIMATIC HMI" },
-        { "label": "Configuration","value": "EUR / EPAL blocks" },
-        { "label": "Status",       "value": "In production · field-proven" }
+        {
+          "label": "Machine",
+          "value": "Klotsproduktionslinje"
+        },
+        {
+          "label": "Controls",
+          "value": "Siemens SIMATIC HMI"
+        },
+        {
+          "label": "Configuration",
+          "value": "EUR / EPAL blocks"
+        },
+        {
+          "label": "Status",
+          "value": "In production · field-proven"
+        }
       ],
       "quote": "When we wire up a new control screen for any customer, we still ask: would this make sense to the operator at Gyllsjö? That's the bar.",
       "quoteAttribution": "Karl-Johan Berg · Commercial · Jointec"
     },
     "more": [
       {
-        "country": "Norway", "year": "Anonymised",
+        "country": "Norway",
+        "year": "Anonymised",
         "industry": "Pallet manufacturer",
         "headline": "Continuous wrap retrofit on a high-throughput finishing line.",
         "summary": "Replaced a stop-start wrapping setup with a Plastning Nonstop module. Removed the wrap stop as the line's throughput bottleneck.",
-        "machines": ["Plastning Nonstop"]
+        "machines": [
+          "Plastning Nonstop"
+        ]
       },
       {
-        "country": "Sweden", "year": "Anonymised",
+        "country": "Sweden",
+        "year": "Anonymised",
         "industry": "Pallet recycler",
         "headline": "On-site block production from end-of-life pallets.",
         "summary": "Klotsproduktionslinje integrated with an existing pallet-disassembly line. Turning end-of-life pallets into new engineered blocks on the customer's own yard.",
-        "machines": ["Klotsproduktionslinje"]
+        "machines": [
+          "Klotsproduktionslinje"
+        ]
       },
       {
-        "country": "Finland", "year": "Anonymised",
+        "country": "Finland",
+        "year": "Anonymised",
         "industry": "Food & beverage logistics",
         "headline": "Top-foil finishing for outdoor-stored finished goods pallets.",
         "summary": "Topfoil Pallet module added at end-of-line to seal finished pallets ahead of multi-day outdoor storage before dispatch.",
-        "machines": ["Topfoil Pallet"]
+        "machines": [
+          "Topfoil Pallet"
+        ]
       },
       {
-        "country": "Switzerland", "year": "Anonymised",
+        "country": "Switzerland",
+        "year": "Anonymised",
         "industry": "Pallet manufacturer",
         "headline": "Refurbished CAPE nailing line.",
         "summary": "Replaced an ageing nailing setup with a Jointec-refurbished CAPE CP110 unit. Lower CAPEX than new, with the full Jointec install + support behind it.",
-        "machines": ["CAPE CP110-1", "CAPE CP110-2"]
+        "machines": [
+          "CAPE CP110-1",
+          "CAPE CP110-2"
+        ]
       },
       {
-        "country": "Denmark", "year": "Anonymised",
+        "country": "Denmark",
+        "year": "Anonymised",
         "industry": "Pallet manufacturer",
         "headline": "Integrated wrap + top-foil finishing line.",
         "summary": "Both Plastning Nonstop and Topfoil Pallet installed on the same finishing area. Pallets exit wrapped, top-foiled, and ready for outdoor storage in one continuous flow.",
-        "machines": ["Plastning Nonstop", "Topfoil Pallet"]
+        "machines": [
+          "Plastning Nonstop",
+          "Topfoil Pallet"
+        ]
       },
       {
-        "country": "Austria", "year": "Anonymised",
+        "country": "Austria",
+        "year": "Anonymised",
         "industry": "Cable drum manufacturer",
         "headline": "Wooden cable-drum flange production via CAPE Bobimatic.",
         "summary": "Bobimatic combined line for wooden flange production, supplied and supported by Jointec under the CAPE agency for Austria.",
-        "machines": ["CAPE Bobimatic 1", "CAPE Bobimatic 2"]
+        "machines": [
+          "CAPE Bobimatic 1",
+          "CAPE Bobimatic 2"
+        ]
       }
     ]
   },
   "newsPage": {
-    "eyebrow": "News & insight",
-    "title": "What we're learning, building, and shipping.",
-    "description": "Field notes from a 38-year-old Swedish engineering house — written by the people running the lines, not the marketing department.",
+    "eyebrow": "Jointec updates",
+    "title": "News & Insights",
+    "description": "Important updates from Jointec: equipment launches, customer sites, demonstrations and industry events.",
     "labels": {
       "byline": "By",
+      "readMore": "Read More",
       "moreLabel": "More from the floor",
       "ctaEyebrow": "Follow along",
       "ctaTitle": "Most of what we publish lands on LinkedIn first.",
-      "ctaBody": "Weekly notes from the factory, FEFPEB run-up, and installation milestones. Two posts a week, no fluff.",
+      "ctaBody": "Practical updates from customer sites, demonstrations, CAPE equipment and Jointec solutions for the pallet industry.",
       "ctaButton": "Follow us on LinkedIn"
     },
     "articles": [
       {
         "tag": "Announcement",
         "date": "2026-05-12",
-        "headline": "Three machines at FEFPEB 2026 in Båstad — and a live demo 30 minutes away.",
-        "summary": "Jointec is bringing its three own-developed machines to the 73rd FEFPEB Congress in Båstad: Klotsproduktionslinje, Plastning Nonstop, and Topfoil Pallet. The live demo floor in Åsljunga is open to congress visitors all week.",
+        "headline": "Jointec at FEFPEB 2026 in Båstad - with CAPE lines in operation during the industrial visit.",
+        "summary": "Jointec will be at the 73rd FEFPEB Congress in Båstad. During the industrial visit on 1 October, visitors can see CAPE lines in operation and Jointec's new Block Production Line demonstrated. Microdryer and Nonstop & Topfoil Pallet will also be discussed at the congress.",
         "author": "Karl-Johan Berg",
         "image": "/images/onsite_line_cad.webp"
       },
@@ -556,8 +674,8 @@
   },
   "aboutPage": {
     "eyebrow": "About Jointec",
-    "title": "Since 1988 we’ve been one of the market leaders in supplying equipment for manufacturing and repairing wooden pallets.",
-    "description": "Six engineers in southern Sweden who design, build, install and support pallet machinery for the people who make the world's pallets.",
+    "title": "SINCE 1988 - leaders in the manufacturing pallet industry.",
+    "description": "Since 1988 we’ve been one of the market leaders in supplying equipment for manufacturing and repairing wooden pallets.",
     "labels": {
       "storyLabel": "Our story",
       "storyTitle": "Why we're still here after 38 years.",
@@ -566,21 +684,33 @@
       "teamLabel": "Who you talk to",
       "teamTitle": "The people behind the line.",
       "ctaEyebrow": "Start a conversation",
-      "ctaTitle": "Same office. Same engineers. Same number since 1988.",
-      "ctaBody": "Tell us what you're trying to make. We'll tell you whether we're the right engineering house.",
+      "ctaTitle": "Interested in learning more?",
+      "ctaBody": "Press on the orange button and send us an email.",
       "ctaButton": "Get in touch"
     },
     "numbers": [
-      { "value": "1988",       "label": "Year founded" },
-      { "value": "SE",         "label": "Designed in" },
-      { "value": "SE · CH · AT","label": "CAPE territory" },
-      { "value": "3",          "label": "Own machines worldwide" }
+      {
+        "value": "1988",
+        "label": "Year founded"
+      },
+      {
+        "value": "SE",
+        "label": "Designed in"
+      },
+      {
+        "value": "SE · CH · AT",
+        "label": "CAPE territory"
+      },
+      {
+        "value": "3",
+        "label": "Own machines worldwide"
+      }
     ],
     "story": [
       "Jointec was founded in 1988 to build one thing well — pallet machinery that runs for decades, on the customer's own floor, under the customer's own operators. Thirty-eight years later, the brief is unchanged.",
       "Most pallet machinery companies are either large legacy houses with slow internal cycles, or small shops with no operational leverage. Jointec sits in the middle on purpose. We have six engineers in southern Sweden who specify, install and support every line we sell. We don't subcontract the parts that matter.",
       "In the early days we built and sold our own machines. Over time we became the engineering house that pallet manufacturers across Scandinavia called when they needed something specific. That's how the Klotsproduktionslinje at Gyllsjö Träindustri started — and that installation, more than any other, has shaped how we engineer every machine since.",
-      "In 2026 we formalised an old relationship: Jointec is the exclusive agent for CAPE in Scandinavia, Switzerland and Austria. New units, refurbished units, full Jointec install and support. And our three own-developed machines — Klotsproduktionslinje, Plastning Nonstop, Topfoil Pallet — are sold worldwide. Two businesses, one engineering team."
+      "In 2026 we formalised an old relationship: Jointec is the exclusive agent for CAPE in Scandinavia, Switzerland and Austria. New units, refurbished units, full Jointec install and support. And our three own-developed solutions — BLOCK PRODUCTION LINE, MICRODRYER and NONSTOP & TOPFOIL PALLET — are sold worldwide. Two businesses, one engineering team."
     ],
     "principles": [
       {
@@ -624,7 +754,7 @@
   "footer": {
     "description": "Pallet machinery engineered in Sweden since 1988. Exclusive CAPE agent for Scandinavia, Switzerland and Austria.",
     "tagline": "Precise · sustainability-led · made on your own site.",
-    "col_machines": "Machines",
+    "col_machines": "Equipment",
     "col_company": "Company",
     "col_contact": "Contact",
     "cape_link": "CAPE catalog →",
@@ -634,5 +764,47 @@
     "demo_label": "Demo facility",
     "rights": "All rights reserved.",
     "languages": "Available in"
+  },
+  "signup": {
+    "eyebrow": "JOINTEC INDUSTRY UPDATES",
+    "heading": "Stay Updated on Value-Adding Pallet Solutions",
+    "intro": "Receive selected updates from Jointec about new equipment, demonstration opportunities, customer sites, and solutions designed to add more value to the pallet.",
+    "note": "No spam. Only relevant updates for pallet, sawmill and wood packaging professionals.",
+    "fields": {
+      "name": "Full name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "country": "Country",
+      "solutionInterest": "Solution interest",
+      "message": "Message / production need"
+    },
+    "placeholders": {
+      "interest": "Select area of interest",
+      "message": "Tell us what you are interested in - for example equipment type, production challenge, material flow, recycled wood, pallet protection, or demonstration visit."
+    },
+    "interests": {
+      "blockProductionLine": "Block Production Line",
+      "microdryer": "Microdryer",
+      "nonstopTopfoilPallet": "Nonstop & Topfoil Pallet",
+      "capeMachinery": "CAPE machinery",
+      "privateDemonstrationVisit": "Private demonstration visit",
+      "industryEvents": "FEFPEB / industry events",
+      "generalUpdates": "General equipment and solution updates"
+    },
+    "consent": "I agree to receive updates from Jointec about value-adding equipment, demonstrations, customer sites, and industry events. I understand I can unsubscribe at any time.",
+    "privacy": "Jointec will use your information to send relevant updates about equipment, solutions, demonstrations, and industry events. You can unsubscribe or ask us to remove your information at any time.",
+    "button": "Receive Jointec Updates",
+    "validation": {
+      "required": "Please complete all required fields.",
+      "email": "Please enter a valid email address.",
+      "consent": "Please confirm that you agree to receive relevant Jointec updates."
+    },
+    "messages": {
+      "successTitle": "Thank you. Your interest has been registered.",
+      "successDetail": "Thank you. Your interest has been registered. Jointec will only send relevant updates about equipment, solutions, demonstrations, customer sites and industry events.",
+      "errorTitle": "Something went wrong.",
+      "errorDetail": "Something went wrong. Please try again or contact Jointec directly at info@jointec.se."
+    }
   }
 }

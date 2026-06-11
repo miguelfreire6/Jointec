@@ -21,11 +21,12 @@ function VideoSection() {
 
           <div className="overflow-hidden rounded-[2rem] border border-brand-dark/10 bg-brand-dark shadow-panel opacity-0 animate-fade-up [animation-delay:140ms]">
             <div className="relative aspect-[16/9] w-full">
-              <iframe
-                src="https://player.vimeo.com/video/871387372?badge=0&autopause=0&player_id=0&app_id=58479"
+              <video
+                src="/videos/heritage-web.mp4"
                 className="absolute inset-0 h-full w-full"
-                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                title={t("video.videoLabel")}
+                controls
+                preload="metadata"
+                playsInline
               />
             </div>
           </div>

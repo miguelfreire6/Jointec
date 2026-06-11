@@ -84,7 +84,7 @@ function CapeAgent() {
             ))}
 
             <a
-              href="#contact"
+              href="#machine-updates"
               className="inline-flex w-fit items-center gap-3 rounded-full bg-brand-dark px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-accent"
             >
               {t("cape.inventoryCta")} <span>→</span>

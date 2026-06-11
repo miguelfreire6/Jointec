@@ -6,3 +6,7 @@ src/assets/hero.mp4
 *.mp4
 !public/machine_process.mp4
 !public/videos/process.mp4
+!public/videos/heritage-web.mp4
+!public/videos/microdryer-web.mp4
+!public/videos/block-production-operation-web.mp4
+!public/videos/nonstop-topfoil-web.mp4

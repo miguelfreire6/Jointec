@@ -2,19 +2,58 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Footer from "../../components/Footer";
+import MachineUpdatesSignup from "../../components/MachineUpdatesSignup";
 import Navbar from "../../components/Navbar";
 
+const FEFPEB_FEATURED = {
+  tag: {
+    en: "Featured announcement",
+    es: "Anuncio destacado",
+    sv: "Utvalt meddelande",
+    de: "Ausgewählte Ankündigung",
+    fr: "Annonce à la une",
+  },
+  date: {
+    en: "30 September - 2 October 2026 · Båstad, Sweden",
+    es: "30 de septiembre - 2 de octubre de 2026 · Båstad, Suecia",
+    sv: "30 september - 2 oktober 2026 · Båstad, Sverige",
+    de: "30. September - 2. Oktober 2026 · Båstad, Schweden",
+    fr: "30 septembre - 2 octobre 2026 · Båstad, Suède",
+  },
+  headline: {
+    en: "Jointec at FEFPEB 2026",
+    es: "Jointec en FEFPEB 2026",
+    sv: "Jointec på FEFPEB 2026",
+    de: "Jointec auf der FEFPEB 2026",
+    fr: "Jointec à la FEFPEB 2026",
+  },
+  summary: {
+    en: "Meet Jointec at the FEFPEB Congress in Båstad. During the 1 October industrial visit, see CAPE lines in operation and Jointec's new Block Production Line demonstrated.",
+    es: "Conozca a Jointec en el Congreso FEFPEB en Båstad. Durante la visita industrial del 1 de octubre, vea líneas CAPE en operación y la nueva Block Production Line de Jointec en demostración.",
+    sv: "Träffa Jointec på FEFPEB-kongressen i Båstad. Under industribesöket den 1 oktober kan du se CAPE-linjer i drift och Jointecs nya Block Production Line demonstrerad.",
+    de: "Treffen Sie Jointec auf dem FEFPEB-Kongress in Båstad. Beim Industriebesuch am 1. Oktober sehen Sie CAPE-Linien in Betrieb und Jointecs neue Block Production Line in Vorführung.",
+    fr: "Rencontrez Jointec au congrès FEFPEB à Båstad. Lors de la visite industrielle du 1er octobre, découvrez les lignes CAPE en fonctionnement et la nouvelle Block Production Line de Jointec en démonstration.",
+  },
+  author: "Jointec",
+  image: "/images/fefpeb-congress-2026.jpg",
+};
+
 export default function NewsPage() {
-  const { t } = useTranslation();
-  const articles = t("newsPage.articles", { returnObjects: true });
+  const { t, i18n } = useTranslation();
+  const language = i18n.resolvedLanguage || i18n.language || "en";
   const labels = t("newsPage.labels", { returnObjects: true });
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" });
   }, []);
 
-  const [featured, ...rest] = articles;
-
+  const featured = {
+    ...FEFPEB_FEATURED,
+    tag: FEFPEB_FEATURED.tag[language] || FEFPEB_FEATURED.tag.en,
+    date: FEFPEB_FEATURED.date[language] || FEFPEB_FEATURED.date.en,
+    headline: FEFPEB_FEATURED.headline[language] || FEFPEB_FEATURED.headline.en,
+    summary: FEFPEB_FEATURED.summary[language] || FEFPEB_FEATURED.summary.en,
+  };
   return (
     <div className="min-h-screen bg-brand-light text-brand-dark">
       <Navbar />
@@ -75,51 +114,19 @@ export default function NewsPage() {
                 <p className="mt-8 text-[11px] uppercase tracking-[0.22em] text-brand-dark/55">
                   {labels.byline} {featured.author}
                 </p>
+                <Link
+                  to="/news/fefpeb-2026"
+                  className="primary-button mt-7 inline-flex px-5 py-3 text-xs"
+                >
+                  {labels.readMore}
+                </Link>
               </div>
             </div>
           </article>
         </div>
       </section>
 
-      {/* Article grid */}
-      <section className="bg-brand-light py-20 sm:py-24">
-        <div className="section-shell">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.32em] text-brand-accent">
-            {labels.moreLabel}
-          </p>
-          <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {rest.map((a, i) => (
-              <article
-                key={i}
-                className="group flex h-full flex-col overflow-hidden rounded-2xl border border-brand-dark/8 bg-white"
-              >
-                <div className="aspect-[16/10] overflow-hidden bg-brand-dark">
-                  <img
-                    src={a.image}
-                    alt=""
-                    loading="lazy"
-                    className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.04]"
-                  />
-                </div>
-                <div className="flex flex-1 flex-col p-6">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.28em] text-brand-accent">
-                    {a.tag} · {a.date}
-                  </p>
-                  <h3 className="mt-3 text-lg font-medium tracking-[-0.01em] text-brand-dark">
-                    {a.headline}
-                  </h3>
-                  <p className="mt-3 flex-1 text-sm leading-7 text-brand-dark/70">
-                    {a.summary}
-                  </p>
-                  <p className="mt-5 text-[11px] uppercase tracking-[0.22em] text-brand-dark/55">
-                    {labels.byline} {a.author}
-                  </p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
+      <MachineUpdatesSignup sourcePage="News" />
 
       {/* LinkedIn CTA */}
       <section className="bg-brand-dark py-16 text-white sm:py-20">

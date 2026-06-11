@@ -2,10 +2,12 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import enTranslation from "./locales/en/translation.json";
 import esTranslation from "./locales/es/translation.json";
+import deTranslation from "./locales/de/translation.json";
+import frTranslation from "./locales/fr/translation.json";
 import svTranslation from "./locales/sv/translation.json";
 
 const STORAGE_KEY = "jointec-language";
-const supportedLanguages = ["en", "es", "sv"];
+const supportedLanguages = ["en", "es", "sv", "de", "fr"];
 
 const getInitialLanguage = () => {
   if (typeof window === "undefined") {
@@ -25,7 +27,9 @@ i18n.use(initReactI18next).init({
   resources: {
     en: { translation: enTranslation },
     es: { translation: esTranslation },
-    sv: { translation: svTranslation }
+    sv: { translation: svTranslation },
+    de: { translation: deTranslation },
+    fr: { translation: frTranslation }
   },
   lng: getInitialLanguage(),
   fallbackLng: "en",

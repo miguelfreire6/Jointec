@@ -11,15 +11,12 @@ function Navbar() {
   const location = useLocation();
   const isHome = location.pathname === "/home";
 
-  // Mix of in-page anchors (when on home) and full anchors (when on a sub-page)
-  const machinesHref = isHome ? "#machines" : "/home#machines";
-  const capeHref     = isHome ? "#cape"     : "/home#cape";
-  const servicesHref = isHome ? "#services" : "/home#services";
-  const contactHref  = isHome ? "#contact"  : "/home#contact";
+  // Mix of in-page anchors (when on home) and full anchors (when on a sub-page).
+  const updatesHref = isHome ? "#machine-updates" : "/about#machine-updates";
 
   const navItems = [
-    { label: t("navbar.machines"), href: machinesHref, kind: "anchor" },
-    { label: t("navbar.cape"),     href: capeHref,     kind: "anchor" },
+    { label: t("navbar.machines"), to: "/machines" },
+    { label: t("navbar.cape"),     to: "/cape" },
     { label: t("navbar.cases"),    to: "/cases" },
     { label: t("navbar.news"),     to: "/news" },
     { label: t("navbar.about"),    to: "/about" },
@@ -70,7 +67,7 @@ function Navbar() {
 
         <div className="hidden items-center gap-4 lg:flex">
           <LanguageSwitcher />
-          <a href={contactHref} className="primary-button px-5 py-2.5 text-xs">
+          <a href={updatesHref} className="primary-button px-5 py-2.5 text-xs">
             {t("navbar.cta")}
           </a>
         </div>
@@ -112,7 +109,7 @@ function Navbar() {
               ),
             )}
             <a
-              href={contactHref}
+              href={updatesHref}
               className="primary-button w-full"
               onClick={() => setOpen(false)}
             >

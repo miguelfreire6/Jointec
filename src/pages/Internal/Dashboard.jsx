@@ -110,8 +110,8 @@ export default function Dashboard({ onLogout }) {
         </div>
       </Section>
 
-      {/* Machine interest */}
-      <Section title="Machine interest">
+      {/* Solution interest */}
+      <Section title="Solution interest">
         <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
           {[
             ["klotsproduktionslinje", "Klotsproduktionslinje"],

@@ -1,32 +1,8 @@
-import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 function Services() {
   const { t } = useTranslation();
   const items = t("services.items", { returnObjects: true });
-  const [formData, setFormData] = useState({
-    company: "",
-    email: "",
-    projectDetails: "",
-  });
-
-  const handleChange = (event) => {
-    const { name, value } = event.target;
-    setFormData((current) => ({ ...current, [name]: value }));
-  };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const body = [
-      `${t("contact.emailBody.company")}: ${formData.company}`,
-      `${t("contact.emailBody.email")}: ${formData.email}`,
-      `${t("contact.emailBody.projectDetails")}: ${formData.projectDetails}`,
-    ].join("\n");
-    const mailtoUrl = `mailto:karl@jointec.se?subject=${encodeURIComponent(
-      t("contact.emailSubject"),
-    )}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailtoUrl;
-  };
 
   return (
     <section id="services" className="bg-white py-20 sm:py-28">
@@ -74,101 +50,6 @@ function Services() {
               ) : null}
             </article>
           ))}
-        </div>
-
-        {/* Contact block */}
-        <div
-          id="contact"
-          className="mt-20 overflow-hidden rounded-[2rem] bg-brand-dark text-white"
-        >
-          <div className="grid gap-px sm:grid-cols-[1.1fr_1fr]">
-            {/* Left — narrative */}
-            <div className="bg-brand-dark p-8 sm:p-12">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.32em] text-brand-accent">
-                {t("contact.eyebrow")}
-              </p>
-              <h3 className="mt-4 text-3xl font-light leading-[1.05] tracking-[-0.02em] sm:text-4xl">
-                {t("contact.title")}
-              </h3>
-              <p className="mt-5 max-w-xl text-sm leading-7 text-white/72">
-                {t("contact.description")}
-              </p>
-
-              <div className="mt-8 space-y-3 border-t border-white/10 pt-6 text-sm text-white/80">
-                <div>
-                  <span className="block text-[10px] font-semibold uppercase tracking-[0.28em] text-brand-accent">
-                    {t("contact.commercialLabel")}
-                  </span>
-                  <span className="mt-1 block font-medium">Karl-Johan Berg</span>
-                  <span className="block text-white/72">
-                    <a href="mailto:karl@jointec.se" className="hover:text-brand-accent">karl@jointec.se</a>
-                    <span className="mx-2 text-white/30">·</span>
-                    <a href="tel:+46706339717" className="hover:text-brand-accent">+46 706 339 717</a>
-                  </span>
-                </div>
-                <div className="pt-3">
-                  <span className="block text-[10px] font-semibold uppercase tracking-[0.28em] text-brand-accent">
-                    {t("contact.demoLabel")}
-                  </span>
-                  <span className="mt-1 block text-white/82">{t("contact.demoLocation")}</span>
-                  <span className="block text-xs text-white/55">{t("contact.demoBlurb")}</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Right — form */}
-            <form
-              onSubmit={handleSubmit}
-              className="grid gap-4 bg-white/[0.04] p-8 sm:p-10"
-            >
-              <label className="grid gap-2">
-                <span className="text-[10px] font-semibold uppercase tracking-[0.28em] text-white/55">
-                  {t("contact.company")}
-                </span>
-                <input
-                  name="company"
-                  type="text"
-                  placeholder={t("contact.companyPlaceholder")}
-                  value={formData.company}
-                  onChange={handleChange}
-                  className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white outline-none transition placeholder:text-white/35 focus:border-brand-accent"
-                />
-              </label>
-              <label className="grid gap-2">
-                <span className="text-[10px] font-semibold uppercase tracking-[0.28em] text-white/55">
-                  {t("contact.email")}
-                </span>
-                <input
-                  name="email"
-                  type="email"
-                  required
-                  placeholder={t("contact.emailPlaceholder")}
-                  value={formData.email}
-                  onChange={handleChange}
-                  className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white outline-none transition placeholder:text-white/35 focus:border-brand-accent"
-                />
-              </label>
-              <label className="grid gap-2">
-                <span className="text-[10px] font-semibold uppercase tracking-[0.28em] text-white/55">
-                  {t("contact.projectDetails")}
-                </span>
-                <textarea
-                  name="projectDetails"
-                  rows="5"
-                  placeholder={t("contact.projectDetailsPlaceholder")}
-                  value={formData.projectDetails}
-                  onChange={handleChange}
-                  className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white outline-none transition placeholder:text-white/35 focus:border-brand-accent"
-                />
-              </label>
-              <button type="submit" className="primary-button w-full">
-                {t("contact.submit")}
-              </button>
-              <p className="text-center text-[10px] uppercase tracking-[0.22em] text-white/40">
-                {t("contact.privacy")}
-              </p>
-            </form>
-          </div>
         </div>
       </div>
     </section>

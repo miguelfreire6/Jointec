@@ -45,7 +45,7 @@ function Hero() {
               <a href="#machines" className="primary-button">
                 {t("hero.primaryCta")}
               </a>
-              <a href="#contact" className="secondary-button">
+              <a href="#machine-updates" className="secondary-button">
                 {t("hero.secondaryCta")}
               </a>
             </div>
