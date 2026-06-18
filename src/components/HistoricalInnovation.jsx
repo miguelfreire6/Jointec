@@ -12,6 +12,7 @@ const ROBOTICS_CARDS = [
     title: "Robotic Pallet Repair",
     text: "Robot-assisted repair solutions designed to make pallet repair faster, safer and more standardized.",
     video: "/videos/robotic-pallet-repair.mp4",
+    poster: "/images/robotic-pallet-repair-poster.png",
   },
   {
     tag: "ROBOTIC HANDLING",
@@ -40,9 +41,9 @@ const COPY = {
     intro:
       "Already in the early 2000s, Jointec was among the first to bring robotics into pallet production and repair. From robotic pallet nailing to automated repair and handling systems, these installations helped producers increase speed, consistency and safety long before robotics became common in the industry.",
     topfoilLabel: "Adding value since 1993",
-    topfoilHeading: "Foiling pallets for paper mills before it became common practice.",
+    topfoilHeading: "Foiling Nonstop pallets for demanding industrial customers.",
     topfoilText:
-      "In 1993, together with customers, Jointec understood the importance of adding value directly to the pallet. Instead of paper mills adding protective foil themselves, Jointec helped move that step into pallet production.",
+      "In 1993, together with customers, Jointec understood the importance of adding value directly to the pallet. The famous Nonstop pallets were used by paper mills and other industrial customers, helping move protective foil application into pallet production instead of leaving it as a separate manual step.",
     closing: "Decades of automation experience - still built into every Jointec solution today.",
     cta: "Explore our machines",
     roboticsCards: ROBOTICS_CARDS,
@@ -55,9 +56,9 @@ const COPY = {
     intro:
       "Ya a principios de los años 2000, Jointec fue una de las primeras empresas en introducir robótica en la producción y reparación de palets. Desde el clavado robótico hasta sistemas automatizados de reparación y manipulación, estas instalaciones ayudaron a aumentar velocidad, consistencia y seguridad mucho antes de que la robótica fuera común en la industria.",
     topfoilLabel: "Añadiendo valor desde 1993",
-    topfoilHeading: "Aplicación de foil a palets para papeleras antes de que fuera práctica habitual.",
+    topfoilHeading: "Aplicación de foil a palets Nonstop para clientes industriales exigentes.",
     topfoilText:
-      "En 1993, junto con sus clientes, Jointec entendió la importancia de añadir valor directamente al palet. En lugar de que las papeleras añadieran la protección por sí mismas, Jointec ayudó a integrar ese paso en la producción del palet.",
+      "En 1993, junto con sus clientes, Jointec entendió la importancia de añadir valor directamente al palet. Los conocidos palets Nonstop se utilizaban en papeleras y otros clientes industriales, integrando la aplicación de protección en la producción del palet.",
     closing: "Décadas de experiencia en automatización, todavía presentes en cada solución Jointec.",
     cta: "Explorar equipos",
     roboticsCards: [
@@ -66,7 +67,7 @@ const COPY = {
       { ...ROBOTICS_CARDS[2], tag: "MANIPULACIÓN ROBÓTICA", title: "Manipulación automatizada de palets", text: "Sistemas robóticos para mover, posicionar y procesar palets de forma eficiente dentro de líneas de producción." },
     ],
     topfoilHistory: [
-      { ...TOPFOIL_HISTORY[0], title: "Foil para palets de papeleras" },
+      { ...TOPFOIL_HISTORY[0], title: "Foil para palets Nonstop" },
       { ...TOPFOIL_HISTORY[1], title: "Topfoil añade valor al palet" },
     ],
   },
@@ -77,9 +78,9 @@ const COPY = {
     intro:
       "Redan i början av 2000-talet var Jointec bland de första att introducera robotik i pallproduktion och pallreparation. Från robotiserad pallspikning till automatiserad reparation och hantering hjälpte installationerna producenter att öka hastighet, jämnhet och säkerhet långt innan robotik blev vanligt i branschen.",
     topfoilLabel: "Värde adderat sedan 1993",
-    topfoilHeading: "Foliering av pallar för pappersbruk innan det blev vanligt.",
+    topfoilHeading: "Foliering av Nonstop-pallar för krävande industrikunder.",
     topfoilText:
-      "År 1993 förstod Jointec tillsammans med kunder vikten av att addera värde direkt till pallen. I stället för att pappersbruken själva lade på skyddsfolie hjälpte Jointec till att flytta steget in i pallproduktionen.",
+      "År 1993 förstod Jointec tillsammans med kunder vikten av att addera värde direkt till pallen. De välkända Nonstop-pallarna användes av pappersbruk och andra industrikunder, vilket flyttade skyddsfolieringen in i pallproduktionen.",
     closing: "Decennier av automationserfarenhet - fortfarande inbyggd i varje Jointec-lösning.",
     cta: "Utforska utrustning",
     roboticsCards: [
@@ -88,7 +89,7 @@ const COPY = {
       { ...ROBOTICS_CARDS[2], tag: "ROBOTISK HANTERING", title: "Automatiserad pallhantering", text: "Robotsystem för att flytta, positionera och bearbeta pallar effektivt i produktionslinjer." },
     ],
     topfoilHistory: [
-      { ...TOPFOIL_HISTORY[0], title: "Pallfoliering för pappersbruk" },
+      { ...TOPFOIL_HISTORY[0], title: "Foliering av Nonstop-pallar" },
       { ...TOPFOIL_HISTORY[1], title: "Topfoil adderar värde till pallen" },
     ],
   },
@@ -102,9 +103,9 @@ COPY.de = {
   intro:
     "Bereits Anfang der 2000er Jahre gehörte Jointec zu den ersten Unternehmen, die Robotik in die Palettenproduktion und -reparatur brachten. Diese Anlagen erhöhten Geschwindigkeit, Konsistenz und Sicherheit lange bevor Robotik in der Branche üblich wurde.",
   topfoilLabel: "Wertschöpfung seit 1993",
-  topfoilHeading: "Folierung von Paletten für Papierwerke, bevor sie üblich wurde.",
+  topfoilHeading: "Folierung von Nonstop-Paletten für anspruchsvolle Industriekunden.",
   topfoilText:
-    "1993 erkannte Jointec gemeinsam mit Kunden, wie wichtig es ist, der Palette direkt Wert hinzuzufügen. Statt Schutzfolie erst im Papierwerk aufzubringen, half Jointec, diesen Schritt in die Palettenproduktion zu verlagern.",
+    "1993 erkannte Jointec gemeinsam mit Kunden, wie wichtig es ist, der Palette direkt Wert hinzuzufügen. Die bekannten Nonstop-Paletten wurden von Papierwerken und anderen Industriekunden eingesetzt und brachten die Schutzfolierung direkt in die Palettenproduktion.",
   closing: "Jahrzehnte Automationserfahrung - bis heute in jeder Jointec-Lösung.",
   cta: "Ausrüstung entdecken",
 };
@@ -117,9 +118,9 @@ COPY.fr = {
   intro:
     "Dès le début des années 2000, Jointec faisait partie des premières entreprises à introduire la robotique dans la production et la réparation de palettes. Ces installations ont aidé les producteurs à améliorer vitesse, régularité et sécurité bien avant que la robotique devienne courante.",
   topfoilLabel: "Ajouter de la valeur depuis 1993",
-  topfoilHeading: "Filmage des palettes pour papeteries avant que cela devienne courant.",
+  topfoilHeading: "Filmage des palettes Nonstop pour clients industriels exigeants.",
   topfoilText:
-    "En 1993, avec ses clients, Jointec a compris l’importance d’ajouter de la valeur directement à la palette. Au lieu que les papeteries ajoutent elles-mêmes la protection, Jointec a aidé à intégrer cette étape dans la production de palettes.",
+    "En 1993, avec ses clients, Jointec a compris l’importance d’ajouter de la valeur directement à la palette. Les palettes Nonstop étaient utilisées par des papeteries et d’autres clients industriels, intégrant la protection directement dans la production.",
   closing: "Des décennies d’expérience en automatisation, toujours intégrées dans chaque solution Jointec.",
   cta: "Explorer l’équipement",
 };
@@ -157,6 +158,7 @@ export default function HistoricalInnovation() {
               <div className="aspect-[16/10] overflow-hidden border-b border-brand-dark/8 bg-brand-dark">
                 <video
                   src={card.video}
+                  poster={card.poster}
                   className="h-full w-full object-cover"
                   controls
                   muted

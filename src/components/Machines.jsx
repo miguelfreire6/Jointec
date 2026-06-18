@@ -1,9 +1,36 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { MACHINE_SOLUTIONS } from "../data/machineDetails";
+import { MACHINE_DETAIL_TRANSLATIONS, MACHINE_SOLUTIONS } from "../data/machineDetails";
+
+const PLACEHOLDER_LABELS = {
+  en: "Machine visual coming soon",
+  es: "Imagen de la máquina próximamente",
+  sv: "Maskinbild kommer snart",
+  de: "Maschinenbild folgt in Kürze",
+  fr: "Visuel machine à venir",
+};
+
+function getMachineCardCopy(machine, language) {
+  const translated = MACHINE_DETAIL_TRANSLATIONS[language]?.[machine.slug] || {};
+  const intro = translated.intro || machine.summary;
+  const summary = intro.split("\n\n")[0];
+  const bestFor = translated.designedFor?.slice(0, 2).join(" · ") || machine.bestFor;
+  const benefits = translated.advantages?.map(([title]) => title) || machine.benefits;
+
+  return {
+    ...machine,
+    ...translated,
+    summary,
+    bestFor,
+    benefits,
+  };
+}
 
 function Machines() {
-  const { t } = useTranslation();
+  const { i18n, t } = useTranslation();
+  const language = (i18n.resolvedLanguage || i18n.language || "en").split("-")[0];
+  const placeholderLabel = PLACEHOLDER_LABELS[language] || PLACEHOLDER_LABELS.en;
+
   return (
     <section id="machines" className="bg-brand-light py-20 sm:py-28">
       <div className="section-shell">
@@ -20,7 +47,10 @@ function Machines() {
         </div>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
-          {MACHINE_SOLUTIONS.map((machine, idx) => (
+          {MACHINE_SOLUTIONS.map((machine, idx) => {
+            const copy = getMachineCardCopy(machine, language);
+
+            return (
             <article
               key={machine.slug}
               id={machine.slug}
@@ -29,7 +59,7 @@ function Machines() {
               <Link
                 to={`/machines/${machine.slug}`}
                 className="relative aspect-[4/3] w-full overflow-hidden bg-brand-dark"
-                aria-label={machine.name}
+                aria-label={copy.name}
               >
                 {machine.image ? (
                   <img
@@ -40,7 +70,7 @@ function Machines() {
                   />
                 ) : (
                   <div className="flex h-full items-center justify-center bg-gradient-to-br from-brand-dark to-slate-700 px-6 text-center text-[10px] font-semibold uppercase tracking-[0.24em] text-white/60">
-                    Machine visual coming soon
+                    {placeholderLabel}
                   </div>
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/55 via-transparent to-transparent" />
@@ -51,13 +81,13 @@ function Machines() {
 
               <div className="flex flex-1 flex-col p-7">
                 <h3 className="text-xl font-semibold tracking-[-0.02em] text-brand-dark">
-                  {machine.name}
+                  {copy.name}
                 </h3>
                 <p className="mt-2 text-sm font-medium text-brand-accent">
-                  {machine.bestFor}
+                  {copy.bestFor}
                 </p>
                 <p className="mt-4 text-sm leading-7 text-brand-dark/70">
-                  {machine.summary}
+                  {copy.summary}
                 </p>
 
                 <div className="mt-6 border-t border-brand-dark/8 pt-5">
@@ -65,7 +95,7 @@ function Machines() {
                     {t("machines.featuresLabel")}
                   </p>
                   <ul className="mt-3 space-y-2 text-sm leading-6 text-brand-dark/72">
-                    {machine.benefits.slice(0, 3).map((feature) => (
+                    {copy.benefits.slice(0, 3).map((feature) => (
                       <li key={feature} className="flex gap-2">
                         <span className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-brand-accent" />
                         <span>{feature}</span>
@@ -84,7 +114,8 @@ function Machines() {
                 </div>
               </div>
             </article>
-          ))}
+            );
+          })}
         </div>
 
         <div className="mt-12 rounded-[2rem] border border-brand-accent/25 bg-brand-dark p-7 text-white sm:p-9">

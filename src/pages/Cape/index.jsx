@@ -1,8 +1,6 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import CapeContactCta from "../../components/CapeContactCta";
-import CapePlaceholder from "../../components/CapePlaceholder";
 import Footer from "../../components/Footer";
 import MachineUpdatesSignup from "../../components/MachineUpdatesSignup";
 import Navbar from "../../components/Navbar";
@@ -35,8 +33,8 @@ const COPY = {
     categoriesEyebrow: "Production areas",
     categoriesTitle: "CAPE Machine Categories",
     categoriesText:
-      "Explore CAPE machinery by production area. Each category includes machines and systems designed for professional wood packaging and industrial production environments.",
-    viewMachines: "View Machines",
+      "CAPE machinery covers several production areas. Use these categories as a practical overview, then visit CAPE’s own website for the full machine range, technical details and current configurations.",
+    capeWebsite: "Learn more at cape.es",
   },
   es: {
     title: "CAPE Woodworking Machinery | Agente exclusivo en Escandinavia, Suiza y Austria | Jointec",
@@ -62,7 +60,7 @@ const COPY = {
     categoriesTitle: "Categorías de equipos CAPE",
     categoriesText:
       "Explore la maquinaria CAPE por área de producción. Cada categoría incluye máquinas y sistemas diseñados para embalaje de madera profesional y producción industrial.",
-    viewMachines: "Ver equipos",
+    capeWebsite: "Más información en cape.es",
   },
   sv: {
     title: "CAPE Woodworking Machinery | Exklusiv agent i Skandinavien, Schweiz och Österrike | Jointec",
@@ -88,7 +86,7 @@ const COPY = {
     categoriesTitle: "CAPE utrustningskategorier",
     categoriesText:
       "Utforska CAPE-utrustning efter produktionsområde. Varje kategori omfattar maskiner och system för professionellt träemballage och industriell produktion.",
-    viewMachines: "Visa utrustning",
+    capeWebsite: "Läs mer på cape.es",
   },
   de: {
     title: "CAPE Woodworking Machinery | Exklusiver Agent in Skandinavien, Schweiz und Österreich | Jointec",
@@ -114,7 +112,7 @@ const COPY = {
     categoriesTitle: "CAPE Ausrüstungskategorien",
     categoriesText:
       "Entdecken Sie CAPE-Maschinen nach Produktionsbereich. Jede Kategorie umfasst Maschinen und Systeme für professionelle Holzverpackung und industrielle Produktion.",
-    viewMachines: "Ausrüstung ansehen",
+    capeWebsite: "Mehr auf cape.es",
   },
   fr: {
     title: "CAPE Woodworking Machinery | Agent exclusif en Scandinavie, Suisse et Autriche | Jointec",
@@ -140,9 +138,30 @@ const COPY = {
     categoriesTitle: "Catégories d’équipements CAPE",
     categoriesText:
       "Explorez les machines CAPE par domaine de production. Chaque catégorie comprend des machines et systèmes conçus pour l’emballage bois professionnel et la production industrielle.",
-    viewMachines: "Voir l’équipement",
+    capeWebsite: "En savoir plus sur cape.es",
   },
 };
+
+const CAPE_INTRO_IMAGES = [
+  {
+    src: "/images/cape-factory-sunset.jpg",
+    alt: "CAPE factory at sunset",
+    className: "md:col-span-2",
+  },
+  {
+    src: "/images/cape-machine-line-front.jpg",
+    alt: "CAPE pallet machinery line",
+  },
+  {
+    src: "/images/cape-robot-production-floor.jpg",
+    alt: "CAPE robotic production floor",
+    className: "md:col-span-2",
+  },
+  {
+    src: "/images/cape-engineering-cad.jpg",
+    alt: "CAPE engineering and CAD design",
+  },
+];
 
 export default function CapePage() {
   const { i18n } = useTranslation();
@@ -190,14 +209,37 @@ export default function CapePage() {
       </section>
 
       <section className="bg-white py-20 sm:py-24">
-        <div className="section-shell grid gap-12 lg:grid-cols-2">
+        <div className="section-shell grid gap-12 lg:grid-cols-[0.42fr_0.58fr] lg:items-center">
           <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.32em] text-brand-accent">{copy.aboutEyebrow}</p>
             <h2 className="mt-4 text-4xl font-light tracking-[-0.03em]">{copy.aboutTitle}</h2>
+            <div className="mt-6 space-y-5 text-base leading-8 text-brand-dark/72">
+              <p>{copy.aboutText1}</p>
+              <p>{copy.aboutText2}</p>
+            </div>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <a href="https://cape.es/" target="_blank" rel="noreferrer" className="secondary-button">
+                {copy.capeWebsite}
+              </a>
+              <a href={CAPE_AGENT_MAILTO} className="primary-button">
+                {copy.discuss}
+              </a>
+            </div>
           </div>
-          <div className="space-y-5 text-base leading-8 text-brand-dark/72">
-            <p>{copy.aboutText1}</p>
-            <p>{copy.aboutText2}</p>
+          <div className="grid auto-rows-[minmax(180px,1fr)] gap-4 md:grid-cols-3">
+            {CAPE_INTRO_IMAGES.map((image) => (
+              <figure
+                key={image.src}
+                className={`overflow-hidden rounded-3xl border border-brand-dark/8 bg-brand-light shadow-sm ${image.className || ""}`}
+              >
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="h-full min-h-[180px] w-full object-cover"
+                  loading="lazy"
+                />
+              </figure>
+            ))}
           </div>
         </div>
       </section>
@@ -232,13 +274,25 @@ export default function CapePage() {
           <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
             {categories.map((category) => (
               <article key={category.slug} className="group overflow-hidden rounded-3xl border border-brand-dark/8 bg-brand-light transition hover:-translate-y-1 hover:border-brand-accent/35 hover:shadow-panel">
-                <CapePlaceholder label={category.title} />
                 <div className="p-6">
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-brand-accent">
+                    CAPE
+                  </p>
                   <h3 className="text-xl font-semibold tracking-[-0.02em]">{category.title}</h3>
                   <p className="mt-3 min-h-[5.25rem] text-sm leading-7 text-brand-dark/68">{category.description}</p>
-                  <Link to={`/cape/${category.slug}`} className="secondary-button mt-5 px-5 py-2.5 text-xs">
-                    {copy.viewMachines}
-                  </Link>
+                  <div className="mt-5 flex flex-col gap-3 sm:flex-row">
+                    <a
+                      href="https://cape.es/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="secondary-button px-5 py-2.5 text-xs"
+                    >
+                      {copy.capeWebsite}
+                    </a>
+                    <a href={CAPE_INQUIRY_MAILTO} className="primary-button px-5 py-2.5 text-xs">
+                      {copy.contact}
+                    </a>
+                  </div>
                 </div>
               </article>
             ))}

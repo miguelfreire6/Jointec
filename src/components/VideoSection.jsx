@@ -19,11 +19,11 @@ function VideoSection() {
             </p>
           </div>
 
-          <div className="overflow-hidden rounded-[2rem] border border-brand-dark/10 bg-brand-dark shadow-panel opacity-0 animate-fade-up [animation-delay:140ms]">
-            <div className="relative aspect-[16/9] w-full">
+          <div className="overflow-hidden rounded-[2rem] bg-white shadow-panel opacity-0 animate-fade-up [animation-delay:140ms]">
+            <div className="relative aspect-[16/9] w-full overflow-hidden bg-white">
               <video
                 src="/videos/heritage-web.mp4"
-                className="absolute inset-0 h-full w-full"
+                className="absolute inset-0 h-full w-full scale-[1.012] object-cover"
                 controls
                 preload="metadata"
                 playsInline

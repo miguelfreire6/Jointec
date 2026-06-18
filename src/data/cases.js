@@ -38,29 +38,29 @@ export const CUSTOMER_CASES = [
     location: "Åsljunga, Sweden",
     label: "Featured Site · Sweden",
     featured: true,
-    title: "Block Production Line and CAPE Tandem Line in Operation",
-    machines: ["BLOCK PRODUCTION LINE", "CAPE Tandem Line"],
+    title: "Åsljunga Reference Site for the FEFPEB Industrial Visit",
+    machines: ["Jointec equipment", "CAPE pallet production lines"],
     summary:
-      "An operating site in Åsljunga where the Block Production Line is installed together with CAPE’s Tandem Line, showing a broader pallet production setup in action.",
+      "Åsljunga is one of the reference sites included in the FEFPEB industrial visit, where visitors can see several examples of equipment and production solutions delivered by Jointec over the years.",
     text:
-      "This site in Åsljunga, Sweden is an important reference example where Jointec’s Block Production Line operates together with CAPE’s Tandem Line.",
+      "Åsljunga is one of the reference sites included in the FEFPEB industrial visit, where visitors can see several examples of equipment and production solutions delivered by Jointec over the years.\n\nThe site gives a practical view of Jointec’s role in the pallet industry — from individual equipment and line integrations to complete production solutions. Visitors will also see pallet production lines from CAPE, represented by Jointec in Scandinavia, Austria and Switzerland.",
     additional:
-      "The setup shows how block production can be connected with advanced pallet production equipment, giving customers a stronger view of a broader production flow.",
+      "Together, the installation highlights how Jointec combines long industry experience, technical know-how and strong supplier partnerships to support modern pallet producers.",
     why: [
-      "Demonstrates Block Production Line in operation",
-      "Shows integration with CAPE Tandem Line",
-      "Relevant for customers interested in combining block production with advanced pallet production",
-      "Good example of a broader pallet production setup",
-      "Strong reference site for customers considering both Jointec and CAPE equipment",
+      "Included in the FEFPEB industrial visit",
+      "Shows examples of Jointec equipment and production solutions delivered over the years",
+      "Gives visitors a practical view of Jointec’s role in the pallet industry",
+      "Includes CAPE pallet production lines represented by Jointec",
+      "Highlights Jointec’s experience, technical know-how and supplier partnerships",
     ],
-    overviewImage: "/images/reference-asljunga.jpg",
+    overviewImage: "/images/reference-asljunga-fefpeb.jpg",
     media: [
       { type: "video", src: "/videos/reference-asljunga-8392.mp4", alt: "Åsljunga Block Production Line and CAPE Tandem Line in operation" },
     ],
     gallery: ["Main site image", "Block Production Line image", "CAPE Tandem Line image", "Production flow image", "Finished pallet/block image"],
     visitLabel: "Request Visit to Åsljunga Site",
     mailto:
-      "mailto:info@jointec.se?subject=Visit%20Request%20-%20%C3%85sljunga%20Block%20Production%20Line%20and%20CAPE%20Tandem%20Line&body=Hello%20Jointec%2C%0A%0AI%20am%20interested%20in%20arranging%20a%20private%20visit%20to%20the%20%C3%85sljunga%2C%20Sweden%20site%20to%20see%20the%20Block%20Production%20Line%20and%20CAPE%20Tandem%20Line%20in%20operation.%0A%0ACompany%3A%0AName%3A%0ACountry%3A%0APhone%3A%0AProduction%20interest%3A%0A%0ABest%20regards%2C",
+      "mailto:info@jointec.se?subject=Visit%20Request%20-%20%C3%85sljunga%20FEFPEB%20Reference%20Site&body=Hello%20Jointec%2C%0A%0AI%20am%20interested%20in%20learning%20more%20about%20the%20%C3%85sljunga%2C%20Sweden%20reference%20site%20included%20in%20the%20FEFPEB%20industrial%20visit.%0A%0ACompany%3A%0AName%3A%0ACountry%3A%0APhone%3A%0AProduction%20interest%3A%0A%0ABest%20regards%2C",
   },
   {
     id: "bodo-norway",
@@ -108,7 +108,7 @@ export const CUSTOMER_CASES = [
       "Shows how recycled wood material can be turned into usable pallet blocks",
       "Suitable for visitors who want to see the process in action",
     ],
-    overviewImage: "/images/reference-klippan.jpg",
+    overviewImage: "/images/reference-klippan-updated.jpg",
     media: [
       { type: "video", src: "/videos/reference-klippan-01.mp4", alt: "Klippan Block Production Line in operation" },
       { type: "video", src: "/videos/reference-klippan-02.mp4", alt: "Klippan pallet block production process" },

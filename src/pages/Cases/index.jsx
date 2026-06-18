@@ -22,7 +22,7 @@ const MAP_PINS = [
     id: "asljunga-sweden",
     site: "Åsljunga",
     country: "Sweden",
-    equipment: ["Block Production Line", "CAPE Tandem Line"],
+    equipment: ["Jointec equipment", "CAPE pallet production lines"],
     cta: "View Åsljunga Site",
     lat: 56.315,
     lon: 13.374,
@@ -64,12 +64,12 @@ const PAGE_COPY = {
     mapEyebrow: "Operating sites",
     mapTitle: "Jointec Solutions in Operation Across the Nordic Region",
     mapIntro:
-      "Explore selected operating sites where Jointec equipment, value-adding pallet solutions, and CAPE lines are installed and running in real production environments.",
+      "Explore selected operating and reference sites for Jointec equipment, value-adding pallet solutions, and CAPE lines.",
     mapHelp: "Click a site on the map to learn more about the installed solution.",
     heroEyebrow: "Selected Customer Sites",
     heroTitle: "See Jointec Equipment in Real Production",
     heroText:
-      "Selected examples of Jointec and CAPE equipment currently operating at customer sites across the Nordic region. These cases show how our solutions perform in real industrial environments — from pallet production to closed-loop block manufacturing.",
+      "Selected examples of Jointec and CAPE equipment at customer sites across the Nordic region, including operating installations and FEFPEB reference locations.",
     privateVisit: "Arrange a Private Visit",
     viewExamples: "View Example Sites",
     examplesEyebrow: "Operating references",
@@ -93,12 +93,12 @@ const PAGE_COPY = {
     mapEyebrow: "Sitios en operación",
     mapTitle: "Soluciones Jointec en operación en la región nórdica",
     mapIntro:
-      "Explore sitios seleccionados donde equipos Jointec, soluciones de palets que añaden valor y líneas CAPE están instalados y funcionando en entornos reales de producción.",
+      "Explore sitios operativos y de referencia seleccionados para equipos Jointec, soluciones de valor añadido y líneas CAPE.",
     mapHelp: "Haga clic en un sitio del mapa para conocer la solución instalada.",
     heroEyebrow: "Sitios de clientes seleccionados",
     heroTitle: "Vea equipos Jointec en producción real",
     heroText:
-      "Ejemplos seleccionados de equipos Jointec y CAPE actualmente en operación en sitios de clientes en la región nórdica. Estos casos muestran cómo funcionan nuestras soluciones en entornos industriales reales: desde producción de palets hasta fabricación circular de bloques.",
+      "Ejemplos seleccionados de equipos Jointec y CAPE en sitios de clientes de la región nórdica, incluyendo instalaciones en operación y referencias FEFPEB.",
     privateVisit: "Organizar una visita privada",
     viewExamples: "Ver sitios de ejemplo",
     examplesEyebrow: "Referencias en operación",
@@ -122,12 +122,12 @@ const PAGE_COPY = {
     mapEyebrow: "Anläggningar i drift",
     mapTitle: "Jointec-lösningar i drift i Norden",
     mapIntro:
-      "Utforska utvalda anläggningar där Jointec-utrustning, värdeskapande pallösningar och CAPE-linjer är installerade och körs i verkliga produktionsmiljöer.",
+      "Utforska utvalda drift- och referensanläggningar för Jointec-utrustning, värdeskapande pallösningar och CAPE-linjer.",
     mapHelp: "Klicka på en plats på kartan för att läsa mer om den installerade lösningen.",
     heroEyebrow: "Utvalda kundanläggningar",
     heroTitle: "Se Jointec-utrustning i verklig produktion",
     heroText:
-      "Utvalda exempel på Jointec- och CAPE-utrustning som är i drift hos kunder i Norden. Dessa referenser visar hur våra lösningar fungerar i verkliga industrimiljöer — från pallproduktion till cirkulär blocktillverkning.",
+      "Utvalda exempel på Jointec- och CAPE-utrustning hos kunder i Norden, inklusive driftinstallationer och FEFPEB-referenser.",
     privateVisit: "Boka ett privat besök",
     viewExamples: "Visa exempelanläggningar",
     examplesEyebrow: "Referenser i drift",
@@ -151,12 +151,12 @@ const PAGE_COPY = {
     mapEyebrow: "Standorte in Betrieb",
     mapTitle: "Jointec-Lösungen in der nordischen Region in Betrieb",
     mapIntro:
-      "Entdecken Sie ausgewählte Standorte, an denen Jointec-Ausrüstung, wertsteigernde Palettenlösungen und CAPE-Linien installiert sind und in realer Produktion laufen.",
+      "Entdecken Sie ausgewählte Betriebs- und Referenzstandorte für Jointec-Ausrüstung, wertsteigernde Palettenlösungen und CAPE-Linien.",
     mapHelp: "Klicken Sie auf einen Standort auf der Karte, um mehr über die installierte Lösung zu erfahren.",
     heroEyebrow: "Ausgewählte Kundenstandorte",
     heroTitle: "Jointec-Ausrüstung in realer Produktion",
     heroText:
-      "Ausgewählte Beispiele von Jointec- und CAPE-Ausrüstung, die an Kundenstandorten in der nordischen Region in Betrieb ist. Diese Fälle zeigen, wie unsere Lösungen in industriellen Umgebungen funktionieren — von der Palettenproduktion bis zur geschlossenen Blockfertigung.",
+      "Ausgewählte Beispiele von Jointec- und CAPE-Ausrüstung an Kundenstandorten in der nordischen Region, einschließlich laufender Installationen und FEFPEB-Referenzen.",
     privateVisit: "Privaten Besuch vereinbaren",
     viewExamples: "Beispielstandorte ansehen",
     examplesEyebrow: "Referenzen in Betrieb",
@@ -180,12 +180,12 @@ const PAGE_COPY = {
     mapEyebrow: "Sites en fonctionnement",
     mapTitle: "Solutions Jointec en fonctionnement dans la région nordique",
     mapIntro:
-      "Explorez des sites sélectionnés où les équipements Jointec, les solutions palettes à valeur ajoutée et les lignes CAPE sont installés et fonctionnent en production réelle.",
+      "Explorez des sites en fonctionnement et des sites de référence pour les équipements Jointec, les solutions palettes à valeur ajoutée et les lignes CAPE.",
     mapHelp: "Cliquez sur un site sur la carte pour en savoir plus sur la solution installée.",
     heroEyebrow: "Sites clients sélectionnés",
     heroTitle: "Voir l’équipement Jointec en production réelle",
     heroText:
-      "Exemples sélectionnés d’équipements Jointec et CAPE actuellement en fonctionnement chez des clients dans la région nordique. Ces cas montrent comment nos solutions fonctionnent dans des environnements industriels réels — de la production de palettes à la fabrication de blocs en boucle fermée.",
+      "Exemples sélectionnés d’équipements Jointec et CAPE chez des clients dans la région nordique, incluant des installations en fonctionnement et des références FEFPEB.",
     privateVisit: "Organiser une visite privée",
     viewExamples: "Voir les sites d’exemple",
     examplesEyebrow: "Références en fonctionnement",
@@ -228,19 +228,19 @@ const CASE_TRANSLATIONS = {
     "asljunga-sweden": {
       location: "Åsljunga, Suecia",
       label: "Sitio destacado · Suecia",
-      title: "Block Production Line y CAPE Tandem Line en operación",
+      title: "Sitio de referencia de Åsljunga para la visita industrial FEFPEB",
       summary:
-        "Un sitio operativo en Åsljunga donde la Block Production Line está instalada junto con la Tandem Line de CAPE, mostrando una configuración más amplia de producción de palets.",
+        "Åsljunga es uno de los sitios de referencia incluidos en la visita industrial FEFPEB, donde los visitantes pueden ver varios ejemplos de equipos y soluciones de producción entregados por Jointec a lo largo de los años.",
       text:
-        "Este sitio en Åsljunga, Suecia, es una referencia importante donde la Block Production Line de Jointec opera junto con la Tandem Line de CAPE.",
+        "Åsljunga es uno de los sitios de referencia incluidos en la visita industrial FEFPEB, donde los visitantes pueden ver varios ejemplos de equipos y soluciones de producción entregados por Jointec a lo largo de los años.\n\nEl sitio ofrece una visión práctica del papel de Jointec en la industria del palet: desde equipos individuales e integraciones de líneas hasta soluciones completas de producción. Los visitantes también verán líneas de producción de palets de CAPE, representada por Jointec en Escandinavia, Austria y Suiza.",
       additional:
-        "La configuración muestra cómo la producción de bloques puede conectarse con equipos avanzados de producción de palets.",
+        "En conjunto, la instalación muestra cómo Jointec combina una larga experiencia en la industria, conocimiento técnico y sólidas alianzas con proveedores para apoyar a los productores modernos de palets.",
       why: [
-        "Demuestra la Block Production Line en operación",
-        "Muestra integración con CAPE Tandem Line",
-        "Relevante para clientes interesados en combinar producción de bloques con producción avanzada de palets",
-        "Buen ejemplo de una configuración amplia de producción de palets",
-        "Referencia sólida para clientes que consideran equipos Jointec y CAPE",
+        "Incluido en la visita industrial FEFPEB",
+        "Muestra ejemplos de equipos y soluciones de producción entregados por Jointec a lo largo de los años",
+        "Ofrece una visión práctica del papel de Jointec en la industria del palet",
+        "Incluye líneas de producción de palets CAPE representadas por Jointec",
+        "Destaca la experiencia, el conocimiento técnico y las alianzas de Jointec",
       ],
       visitLabel: "Solicitar visita al sitio de Åsljunga",
     },
@@ -308,11 +308,11 @@ const CASE_TRANSLATIONS = {
     "asljunga-sweden": {
       location: "Åsljunga, Sverige",
       label: "Utvald anläggning · Sverige",
-      title: "Block Production Line och CAPE Tandem Line i drift",
-      summary: "En anläggning i Åsljunga där Block Production Line är installerad tillsammans med CAPE Tandem Line.",
-      text: "Denna anläggning i Åsljunga är en viktig referens där Jointecs Block Production Line körs tillsammans med CAPE Tandem Line.",
-      additional: "Upplägget visar hur blockproduktion kan kopplas till avancerad pallproduktionsutrustning.",
-      why: ["Visar Block Production Line i drift", "Visar integration med CAPE Tandem Line", "Relevant för kunder som vill kombinera blockproduktion med avancerad pallproduktion", "Bra exempel på ett bredare pallproduktionsupplägg", "Stark referens för kunder som överväger Jointec och CAPE"],
+      title: "Åsljunga referensanläggning för FEFPEB:s industribesök",
+      summary: "Åsljunga är en av referensanläggningarna som ingår i FEFPEB:s industribesök, där besökare kan se flera exempel på utrustning och produktionslösningar som Jointec har levererat genom åren.",
+      text: "Åsljunga är en av referensanläggningarna som ingår i FEFPEB:s industribesök, där besökare kan se flera exempel på utrustning och produktionslösningar som Jointec har levererat genom åren.\n\nAnläggningen ger en praktisk bild av Jointecs roll i pallindustrin - från enskild utrustning och linjeintegrationer till kompletta produktionslösningar. Besökare får också se pallproduktionslinjer från CAPE, som representeras av Jointec i Skandinavien, Österrike och Schweiz.",
+      additional: "Tillsammans visar installationen hur Jointec kombinerar lång branscherfarenhet, tekniskt kunnande och starka leverantörspartnerskap för att stötta moderna pallproducenter.",
+      why: ["Ingår i FEFPEB:s industribesök", "Visar exempel på utrustning och produktionslösningar som Jointec har levererat genom åren", "Ger besökare en praktisk bild av Jointecs roll i pallindustrin", "Inkluderar CAPE pallproduktionslinjer representerade av Jointec", "Lyfter fram Jointecs erfarenhet, tekniska kunnande och leverantörspartnerskap"],
       visitLabel: "Begär besök till Åsljunga-anläggningen",
     },
     "bodo-norway": {
@@ -367,19 +367,19 @@ CASE_TRANSLATIONS.de = {
   "asljunga-sweden": {
     location: "Åsljunga, Schweden",
     label: "Ausgewählter Standort · Schweden",
-    title: "Block Production Line und CAPE Tandem Line in Betrieb",
+    title: "Åsljunga Referenzstandort für den FEFPEB-Industriebesuch",
     summary:
-      "Ein Betriebsstandort in Åsljunga, an dem die Block Production Line gemeinsam mit CAPEs Tandem Line installiert ist.",
+      "Åsljunga ist einer der Referenzstandorte des FEFPEB-Industriebesuchs, an dem Besucher mehrere Beispiele für Anlagen und Produktionslösungen sehen können, die Jointec über die Jahre geliefert hat.",
     text:
-      "Dieser Standort in Åsljunga ist eine wichtige Referenz, an der Jointecs Block Production Line zusammen mit CAPEs Tandem Line läuft.",
+      "Åsljunga ist einer der Referenzstandorte des FEFPEB-Industriebesuchs, an dem Besucher mehrere Beispiele für Anlagen und Produktionslösungen sehen können, die Jointec über die Jahre geliefert hat.\n\nDer Standort vermittelt einen praktischen Eindruck von Jointecs Rolle in der Palettenindustrie - von einzelnen Maschinen und Linienintegrationen bis hin zu kompletten Produktionslösungen. Besucher sehen außerdem Palettenproduktionslinien von CAPE, vertreten durch Jointec in Skandinavien, Österreich und der Schweiz.",
     additional:
-      "Die Installation zeigt, wie Blockproduktion mit fortschrittlicher Palettenproduktionsausrüstung verbunden werden kann.",
+      "Zusammen zeigt die Installation, wie Jointec langjährige Branchenerfahrung, technisches Know-how und starke Lieferantenpartnerschaften kombiniert, um moderne Palettenproduzenten zu unterstützen.",
     why: [
-      "Zeigt die Block Production Line in Betrieb",
-      "Zeigt die Integration mit CAPE Tandem Line",
-      "Relevant für Kunden, die Blockproduktion mit moderner Palettenproduktion kombinieren möchten",
-      "Gutes Beispiel für einen breiteren Produktionsaufbau",
-      "Starke Referenz für Kunden, die Jointec- und CAPE-Ausrüstung prüfen",
+      "Teil des FEFPEB-Industriebesuchs",
+      "Zeigt Beispiele für Anlagen und Produktionslösungen, die Jointec über die Jahre geliefert hat",
+      "Vermittelt Besuchern einen praktischen Eindruck von Jointecs Rolle in der Palettenindustrie",
+      "Umfasst CAPE Palettenproduktionslinien, vertreten durch Jointec",
+      "Hebt Jointecs Erfahrung, technisches Know-how und Lieferantenpartnerschaften hervor",
     ],
     visitLabel: "Besuch am Standort Åsljunga anfragen",
   },
@@ -456,19 +456,19 @@ CASE_TRANSLATIONS.fr = {
   "asljunga-sweden": {
     location: "Åsljunga, Suède",
     label: "Site présenté · Suède",
-    title: "Block Production Line et CAPE Tandem Line en fonctionnement",
+    title: "Site de référence d’Åsljunga pour la visite industrielle FEFPEB",
     summary:
-      "Un site en fonctionnement à Åsljunga où la Block Production Line est installée avec la Tandem Line de CAPE.",
+      "Åsljunga est l’un des sites de référence inclus dans la visite industrielle FEFPEB, où les visiteurs peuvent voir plusieurs exemples d’équipements et de solutions de production livrés par Jointec au fil des années.",
     text:
-      "Ce site à Åsljunga est une référence importante où la Block Production Line de Jointec fonctionne avec la Tandem Line de CAPE.",
+      "Åsljunga est l’un des sites de référence inclus dans la visite industrielle FEFPEB, où les visiteurs peuvent voir plusieurs exemples d’équipements et de solutions de production livrés par Jointec au fil des années.\n\nLe site donne une vision pratique du rôle de Jointec dans l’industrie de la palette - des équipements individuels et intégrations de lignes aux solutions de production complètes. Les visiteurs verront également des lignes de production de palettes CAPE, représentées par Jointec en Scandinavie, Autriche et Suisse.",
     additional:
-      "La configuration montre comment la production de blocs peut être connectée à un équipement avancé de production de palettes.",
+      "Dans son ensemble, l’installation montre comment Jointec combine une longue expérience industrielle, un savoir-faire technique et de solides partenariats fournisseurs pour accompagner les producteurs modernes de palettes.",
     why: [
-      "Montre la Block Production Line en fonctionnement",
-      "Montre l’intégration avec CAPE Tandem Line",
-      "Pertinent pour les clients qui veulent combiner production de blocs et production avancée de palettes",
-      "Bon exemple d’une configuration de production plus large",
-      "Référence solide pour les clients qui évaluent Jointec et CAPE",
+      "Inclus dans la visite industrielle FEFPEB",
+      "Montre des exemples d’équipements et de solutions de production livrés par Jointec au fil des années",
+      "Donne aux visiteurs une vision pratique du rôle de Jointec dans l’industrie de la palette",
+      "Inclut des lignes de production de palettes CAPE représentées par Jointec",
+      "Met en avant l’expérience, le savoir-faire technique et les partenariats fournisseurs de Jointec",
     ],
     visitLabel: "Demander une visite du site d’Åsljunga",
   },
@@ -715,11 +715,11 @@ function SiteMediaGrid({ media }) {
   if (!media?.length) return null;
 
   return (
-    <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="mt-8 grid items-start gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {media.map((item, index) => (
         <figure
           key={item.src}
-          className={`overflow-hidden rounded-3xl border border-brand-dark/8 bg-white shadow-sm ${
+          className={`self-start overflow-hidden rounded-3xl border border-brand-dark/8 bg-white shadow-sm ${
             index === 0 && media.length > 2 ? "sm:col-span-2" : ""
           }`}
         >
