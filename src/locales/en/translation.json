@@ -616,7 +616,7 @@
         "year": "Anonymised",
         "industry": "Cable drum manufacturer",
         "headline": "Wooden cable-drum flange production via CAPE Bobimatic.",
-        "summary": "Bobimatic combined line for wooden flange production, supplied and supported by Jointec under the CAPE agency for Austria.",
+        "summary": "Bobimatic combined line for wooden flange production, represented and supported by Jointec under the CAPE agency for Austria.",
         "machines": [
           "CAPE Bobimatic 1",
           "CAPE Bobimatic 2"
@@ -650,7 +650,7 @@
         "tag": "Partnership",
         "date": "2026-04-30",
         "headline": "Jointec is CAPE's exclusive agent for Scandinavia, Switzerland and Austria.",
-        "summary": "After years of installing and supporting CAPE pallet machinery across the Nordics, the partnership is now formal. Full new-and-second-hand CAPE inventory — supplied, installed and supported by Jointec engineers in Sweden.",
+        "summary": "After years of installing and supporting CAPE pallet machinery across the Nordics, the partnership is now formal. Full new-and-second-hand CAPE inventory — represented, installed and supported by Jointec engineers in Sweden.",
         "author": "Karl-Johan Berg",
         "image": "/images/klots_extrusion.webp"
       },
@@ -674,7 +674,7 @@
   },
   "aboutPage": {
     "eyebrow": "About Jointec",
-    "title": "SINCE 1988 - leaders in the manufacturing pallet industry.",
+    "title": "Since 1988 - market leaders in wooden pallet equipment.",
     "description": "Since 1988 we’ve been one of the market leaders in supplying equipment for manufacturing and repairing wooden pallets.",
     "labels": {
       "storyLabel": "Our story",

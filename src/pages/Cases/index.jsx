@@ -86,7 +86,7 @@ const PAGE_COPY = {
       "Private visits can be arranged for serious buyers who want to see selected Jointec and CAPE equipment operating in real production environments. Contact Jointec to discuss which site is most relevant for your production needs.",
     ctaSubtext:
       "Visits are coordinated individually depending on equipment type, customer location, site availability and production schedule.",
-    callKarl: "Call CEO Karl: +46 70 633 97 17",
+    emailJointec: "Email info@jointec.se",
   },
   es: {
     seoTitle: "Referencias de clientes | Equipos Jointec en operación",
@@ -115,7 +115,7 @@ const PAGE_COPY = {
       "Se pueden organizar visitas privadas para compradores serios que quieran ver equipos Jointec y CAPE operando en entornos reales de producción. Contacte con Jointec para analizar qué sitio es más relevante para sus necesidades.",
     ctaSubtext:
       "Las visitas se coordinan individualmente según el tipo de equipo, la ubicación del cliente, la disponibilidad del sitio y el programa de producción.",
-    callKarl: "Llamar al CEO Karl: +46 70 633 97 17",
+    emailJointec: "Enviar email a info@jointec.se",
   },
   sv: {
     seoTitle: "Kundreferenser | Jointec-utrustning i drift",
@@ -144,7 +144,7 @@ const PAGE_COPY = {
       "Privata besök kan ordnas för seriösa köpare som vill se utvald Jointec- och CAPE-utrustning i verkliga produktionsmiljöer. Kontakta Jointec för att diskutera vilken anläggning som passar dina produktionsbehov.",
     ctaSubtext:
       "Besök koordineras individuellt beroende på utrustningstyp, kundens plats, anläggningens tillgänglighet och produktionsschema.",
-    callKarl: "Ring VD Karl: +46 70 633 97 17",
+    emailJointec: "Mejla info@jointec.se",
   },
   de: {
     seoTitle: "Kundenreferenzen | Jointec-Ausrüstung in Betrieb",
@@ -173,7 +173,7 @@ const PAGE_COPY = {
       "Private Besuche können für ernsthafte Käufer organisiert werden, die ausgewählte Jointec- und CAPE-Ausrüstung in realer Produktion sehen möchten. Kontaktieren Sie Jointec, um den passenden Standort zu besprechen.",
     ctaSubtext:
       "Besuche werden individuell nach Ausrüstungstyp, Kundenstandort, Verfügbarkeit und Produktionsplan koordiniert.",
-    callKarl: "CEO Karl anrufen: +46 70 633 97 17",
+    emailJointec: "E-Mail an info@jointec.se",
   },
   fr: {
     seoTitle: "Références clients | Équipement Jointec en fonctionnement",
@@ -202,7 +202,7 @@ const PAGE_COPY = {
       "Des visites privées peuvent être organisées pour les acheteurs sérieux qui souhaitent voir des équipements Jointec et CAPE fonctionner en production réelle. Contactez Jointec pour déterminer le site le plus pertinent.",
     ctaSubtext:
       "Les visites sont coordonnées individuellement selon le type d’équipement, la localisation du client, la disponibilité du site et le programme de production.",
-    callKarl: "Appeler le CEO Karl : +46 70 633 97 17",
+    emailJointec: "Envoyer un email à info@jointec.se",
   },
 };
 
@@ -213,13 +213,13 @@ const CASE_TRANSLATIONS = {
       label: "Sitio destacado · Finlandia",
       title: "Nonstop & Topfoil Pallet en operación",
       summary:
-        "Un sitio de producción en Kotka, Finlandia, que opera una clavadora de palets CAPE — una línea compacta, flexible y de cambio rápido — junto con la solución Nonstop & Topfoil Pallet de Jointec.",
+        "Un sitio de producción en Kotka, Finlandia, que opera una clavadora de palets CAPE — la línea más compacta y flexible del mercado — junto con la solución Nonstop & Topfoil Pallet de Jointec.",
       additional:
-        "El sitio opera una clavadora de palets CAPE — una de las líneas de producción de palets más compactas, flexibles y rápidas del mercado. También opera la solución Nonstop & Topfoil Pallet de Jointec.",
+        "El sitio opera una clavadora de palets CAPE — la línea más compacta y flexible del mercado — junto con la solución Nonstop & Topfoil Pallet de Jointec.",
       why: [
         "Demuestra Nonstop & Topfoil Pallet en producción diaria",
         "Muestra manipulación eficiente de palets y aplicación de topfoil",
-        "Incluye una línea de clavado CAPE compacta y flexible",
+        "Incluye la línea CAPE más compacta y flexible del mercado",
         "Relevante para productores que buscan mejorar el flujo de producción y la flexibilidad de cambio",
         "Sitio de referencia sólido para producción moderna de palets",
       ],
@@ -232,14 +232,13 @@ const CASE_TRANSLATIONS = {
       summary:
         "Åsljunga es uno de los sitios de referencia incluidos en la visita industrial FEFPEB, donde los visitantes pueden ver varios ejemplos de equipos y soluciones de producción entregados por Jointec a lo largo de los años.",
       text:
-        "Åsljunga es uno de los sitios de referencia incluidos en la visita industrial FEFPEB, donde los visitantes pueden ver varios ejemplos de equipos y soluciones de producción entregados por Jointec a lo largo de los años.\n\nEl sitio ofrece una visión práctica del papel de Jointec en la industria del palet: desde equipos individuales e integraciones de líneas hasta soluciones completas de producción. Los visitantes también verán líneas de producción de palets de CAPE, representada por Jointec en Escandinavia, Austria y Suiza.",
+        "Åsljunga es uno de los sitios de referencia incluidos en la visita industrial FEFPEB, donde los visitantes pueden ver varios ejemplos de equipos y soluciones de producción entregados por Jointec a lo largo de los años.\n\nEl sitio ofrece una visión práctica del papel de Jointec en la industria del palet: desde equipos individuales e integraciones de líneas hasta soluciones completas de producción. Los visitantes también verán líneas de producción de palets de CAPE.",
       additional:
         "En conjunto, la instalación muestra cómo Jointec combina una larga experiencia en la industria, conocimiento técnico y sólidas alianzas con proveedores para apoyar a los productores modernos de palets.",
       why: [
         "Incluido en la visita industrial FEFPEB",
         "Muestra ejemplos de equipos y soluciones de producción entregados por Jointec a lo largo de los años",
         "Ofrece una visión práctica del papel de Jointec en la industria del palet",
-        "Incluye líneas de producción de palets CAPE representadas por Jointec",
         "Destaca la experiencia, el conocimiento técnico y las alianzas de Jointec",
       ],
       visitLabel: "Solicitar visita al sitio de Åsljunga",
@@ -288,7 +287,7 @@ const CASE_TRANSLATIONS = {
       text: "Este sitio en Norrköping, Suecia, es un ejemplo de MicroDryer de Jointec en un entorno real de producción.",
       why: [
         "Demuestra el rendimiento de MicroDryer en uso industrial",
-        "Relevante para productores que trabajan con material sensible a la humedad",
+        "Relevante para productores que quieren secar IN LINE",
         "Apoya una mejor consistencia del material",
         "Ayuda a estabilizar el proceso antes del procesamiento posterior",
       ],
@@ -301,8 +300,8 @@ const CASE_TRANSLATIONS = {
       label: "Utvald anläggning · Finland",
       title: "Nonstop & Topfoil Pallet i drift",
       summary: "En produktionsanläggning i Kotka, Finland, med en CAPE pallspikningsmaskin och Jointecs Nonstop & Topfoil Pallet-lösning.",
-      additional: "Anläggningen kör en CAPE pallspikningsmaskin — en kompakt, flexibel linje med snabb omställning — samt Jointecs Nonstop & Topfoil Pallet-lösning.",
-      why: ["Visar Nonstop & Topfoil Pallet i daglig produktion", "Visar effektiv pallhantering och topfoil-applicering", "Inkluderar en kompakt och flexibel CAPE pallspikningslinje", "Relevant för producenter som vill förbättra produktionsflöde och omställningsflexibilitet", "Stark referensanläggning för modern pallproduktion"],
+      additional: "Anläggningen kör en CAPE pallspikningsmaskin — MARKNADENS MEST KOMPAKTA och FLEXIBLA LINJEN — samt Jointecs Nonstop & Topfoil Pallet-lösning.",
+      why: ["Visar Nonstop & Topfoil Pallet i daglig produktion", "Visar effektiv pallhantering och topfoil-applicering", "Inkluderar marknadens mest kompakta och flexibla CAPE-linje", "Relevant för producenter som vill förbättra produktionsflöde och omställningsflexibilitet", "Stark referensanläggning för modern pallproduktion"],
       visitLabel: "Begär besök till Kotka-anläggningen",
     },
     "asljunga-sweden": {
@@ -310,19 +309,19 @@ const CASE_TRANSLATIONS = {
       label: "Utvald anläggning · Sverige",
       title: "Åsljunga referensanläggning för FEFPEB:s industribesök",
       summary: "Åsljunga är en av referensanläggningarna som ingår i FEFPEB:s industribesök, där besökare kan se flera exempel på utrustning och produktionslösningar som Jointec har levererat genom åren.",
-      text: "Åsljunga är en av referensanläggningarna som ingår i FEFPEB:s industribesök, där besökare kan se flera exempel på utrustning och produktionslösningar som Jointec har levererat genom åren.\n\nAnläggningen ger en praktisk bild av Jointecs roll i pallindustrin - från enskild utrustning och linjeintegrationer till kompletta produktionslösningar. Besökare får också se pallproduktionslinjer från CAPE, som representeras av Jointec i Skandinavien, Österrike och Schweiz.",
+      text: "Åsljunga är en av referensanläggningarna som ingår i FEFPEB:s industribesök, där besökare kan se flera exempel på utrustning och produktionslösningar som Jointec har levererat genom åren.\n\nAnläggningen ger en praktisk bild av Jointecs roll i pallindustrin - från enskild utrustning och linjeintegrationer till kompletta produktionslösningar. Besökare får också se pallproduktionslinjer från CAPE.",
       additional: "Tillsammans visar installationen hur Jointec kombinerar lång branscherfarenhet, tekniskt kunnande och starka leverantörspartnerskap för att stötta moderna pallproducenter.",
-      why: ["Ingår i FEFPEB:s industribesök", "Visar exempel på utrustning och produktionslösningar som Jointec har levererat genom åren", "Ger besökare en praktisk bild av Jointecs roll i pallindustrin", "Inkluderar CAPE pallproduktionslinjer representerade av Jointec", "Lyfter fram Jointecs erfarenhet, tekniska kunnande och leverantörspartnerskap"],
+      why: ["Ingår i FEFPEB:s industribesök", "Visar exempel på utrustning och produktionslösningar som Jointec har levererat genom åren", "Ger besökare en praktisk bild av Jointecs roll i pallindustrin", "Lyfter fram Jointecs erfarenhet, tekniska kunnande och leverantörspartnerskap"],
       visitLabel: "Begär besök till Åsljunga-anläggningen",
     },
     "bodo-norway": {
       location: "Bodø, Nordnorge",
       label: "Norge",
       title: "Cirkulär blockproduktion på avlägsen plats",
-      summary: "Ett nordnorskt exempel där pallblock produceras direkt på plats, vilket minskar transportberoendet.",
-      text: "Denna anläggning i Bodø visar varför lokal blockproduktion är viktig. På en avlägsen plats gör Block Production Line det möjligt att producera pallblock direkt på den egna anläggningen.",
+      summary: "Ett nordnorskt exempel där pallklotsar produceras direkt på plats, vilket minskar transportberoendet.",
+      text: "Denna anläggning i Bodø visar varför lokal klotsproduktion är viktig. På en avlägsen plats gör Block Production Line det möjligt att producera pallklotsar direkt på den egna anläggningen.",
       additional: "I stället för att transportera block långa sträckor kan anläggningen skapa block lokalt av återvunnet trä.",
-      why: ["Visar Block Production Line i drift på en nordlig plats", "Demonstrerar lokal pallblocksproduktion", "Stödjer cirkulär användning av återvunnet trä", "Minskar beroendet av extern blocktransport", "Starkt exempel för kunder långt från leverantörer", "Relevant för producenter som vill ha bättre kontroll över blockförsörjningen"],
+      why: ["Visar Block Production Line i drift på en nordlig plats", "Demonstrerar lokal pallklotsproduktion", "Stödjer cirkulär användning av återvunnet trä", "Minskar beroendet av extern klotstransport", "Starkt exempel för kunder långt från leverantörer", "Relevant för producenter som vill ha bättre kontroll över klotsförsörjningen"],
       visitLabel: "Begär besök till Bodø-anläggningen",
     },
     "klippan-sweden": {
@@ -331,7 +330,7 @@ const CASE_TRANSLATIONS = {
       title: "Block Production Line i drift",
       summary: "En svensk anläggning där Block Production Line kan ses i verklig produktion.",
       text: "Denna anläggning i Klippan är ett exempel på Jointecs Block Production Line i verklig produktion.",
-      why: ["Visar Block Production Line i svensk produktionsmiljö", "Relevant för kunder intresserade av pallblockstillverkning", "Visar hur återvunnet trä kan bli användbara pallblock", "Passar besökare som vill se processen i drift"],
+      why: ["Visar Block Production Line i svensk produktionsmiljö", "Relevant för kunder intresserade av pallklotstillverkning", "Visar hur återvunnet trä kan bli användbara pallklotsar", "Passar besökare som vill se processen i drift"],
       visitLabel: "Begär besök till Klippan-anläggningen",
     },
     "norrkoping-sweden": {
@@ -340,7 +339,7 @@ const CASE_TRANSLATIONS = {
       title: "MicroDryer i drift",
       summary: "En svensk anläggning där MicroDryer används för materialberedning, fuktkontroll och produktionsstabilitet.",
       text: "Denna anläggning i Norrköping är ett exempel på Jointecs MicroDryer i verklig produktion.",
-      why: ["Visar MicroDryer i industriell användning", "Relevant för producenter med fuktkänsligt material", "Stödjer bättre materialkonsistens", "Hjälper till att stabilisera processen före vidare bearbetning"],
+      why: ["Visar MicroDryer i industriell användning", "Relevant för producenter som vill torka IN LINE", "Stödjer bättre materialkonsistens", "Hjälper till att stabilisera processen före vidare bearbetning"],
       visitLabel: "Begär besök till Norrköping-anläggningen",
     },
   },
@@ -354,11 +353,11 @@ CASE_TRANSLATIONS.de = {
     summary:
       "Ein Produktionsstandort in Kotka, Finnland, mit einer CAPE Palettennagelmaschine und Jointecs Nonstop & Topfoil Pallet-Lösung.",
     additional:
-      "Der Standort betreibt eine CAPE Palettennagelmaschine — eine kompakte, flexible Linie mit schnellem Formatwechsel — sowie Jointecs Nonstop & Topfoil Pallet-Lösung.",
+      "Der Standort betreibt eine CAPE Palettennagelmaschine — die kompakteste und flexibelste Linie am Markt — sowie Jointecs Nonstop & Topfoil Pallet-Lösung.",
     why: [
       "Zeigt Nonstop & Topfoil Pallet in täglicher Produktion",
       "Zeigt effizientes Palettenhandling und Topfoil-Applikation",
-      "Umfasst eine kompakte und flexible CAPE Palettennagellinie",
+      "Umfasst die kompakteste und flexibelste CAPE-Linie am Markt",
       "Relevant für Produzenten, die Produktionsfluss und Umrüstflexibilität verbessern möchten",
       "Starker Referenzstandort für moderne Palettenproduktion",
     ],
@@ -371,14 +370,13 @@ CASE_TRANSLATIONS.de = {
     summary:
       "Åsljunga ist einer der Referenzstandorte des FEFPEB-Industriebesuchs, an dem Besucher mehrere Beispiele für Anlagen und Produktionslösungen sehen können, die Jointec über die Jahre geliefert hat.",
     text:
-      "Åsljunga ist einer der Referenzstandorte des FEFPEB-Industriebesuchs, an dem Besucher mehrere Beispiele für Anlagen und Produktionslösungen sehen können, die Jointec über die Jahre geliefert hat.\n\nDer Standort vermittelt einen praktischen Eindruck von Jointecs Rolle in der Palettenindustrie - von einzelnen Maschinen und Linienintegrationen bis hin zu kompletten Produktionslösungen. Besucher sehen außerdem Palettenproduktionslinien von CAPE, vertreten durch Jointec in Skandinavien, Österreich und der Schweiz.",
+      "Åsljunga ist einer der Referenzstandorte des FEFPEB-Industriebesuchs, an dem Besucher mehrere Beispiele für Anlagen und Produktionslösungen sehen können, die Jointec über die Jahre geliefert hat.\n\nDer Standort vermittelt einen praktischen Eindruck von Jointecs Rolle in der Palettenindustrie - von einzelnen Maschinen und Linienintegrationen bis hin zu kompletten Produktionslösungen. Besucher sehen außerdem Palettenproduktionslinien von CAPE.",
     additional:
       "Zusammen zeigt die Installation, wie Jointec langjährige Branchenerfahrung, technisches Know-how und starke Lieferantenpartnerschaften kombiniert, um moderne Palettenproduzenten zu unterstützen.",
     why: [
       "Teil des FEFPEB-Industriebesuchs",
       "Zeigt Beispiele für Anlagen und Produktionslösungen, die Jointec über die Jahre geliefert hat",
       "Vermittelt Besuchern einen praktischen Eindruck von Jointecs Rolle in der Palettenindustrie",
-      "Umfasst CAPE Palettenproduktionslinien, vertreten durch Jointec",
       "Hebt Jointecs Erfahrung, technisches Know-how und Lieferantenpartnerschaften hervor",
     ],
     visitLabel: "Besuch am Standort Åsljunga anfragen",
@@ -427,7 +425,7 @@ CASE_TRANSLATIONS.de = {
     text: "Dieser Standort in Norrköping zeigt Jointecs MicroDryer in realer Produktion.",
     why: [
       "Zeigt MicroDryer-Leistung im industriellen Einsatz",
-      "Relevant für Produzenten mit feuchtigkeitsempfindlichem Material",
+      "Relevant für Produzenten, die IN LINE trocknen möchten",
       "Unterstützt bessere Materialkonsistenz",
       "Hilft, den Prozess vor der Weiterverarbeitung zu stabilisieren",
     ],
@@ -443,11 +441,11 @@ CASE_TRANSLATIONS.fr = {
     summary:
       "Un site de production à Kotka, en Finlande, avec une machine de clouage de palettes CAPE et la solution Nonstop & Topfoil Pallet de Jointec.",
     additional:
-      "Le site exploite une machine de clouage de palettes CAPE — une ligne compacte, flexible et à changement rapide — ainsi que la solution Nonstop & Topfoil Pallet de Jointec.",
+      "Le site exploite une machine de clouage de palettes CAPE — la ligne la plus compacte et flexible du marché — ainsi que la solution Nonstop & Topfoil Pallet de Jointec.",
     why: [
       "Montre Nonstop & Topfoil Pallet en production quotidienne",
       "Montre une manutention efficace des palettes et l’application du topfoil",
-      "Inclut une ligne de clouage CAPE compacte et flexible",
+      "Inclut la ligne CAPE la plus compacte et flexible du marché",
       "Pertinent pour les producteurs qui veulent améliorer le flux et la flexibilité",
       "Site de référence solide pour la production moderne de palettes",
     ],
@@ -460,14 +458,13 @@ CASE_TRANSLATIONS.fr = {
     summary:
       "Åsljunga est l’un des sites de référence inclus dans la visite industrielle FEFPEB, où les visiteurs peuvent voir plusieurs exemples d’équipements et de solutions de production livrés par Jointec au fil des années.",
     text:
-      "Åsljunga est l’un des sites de référence inclus dans la visite industrielle FEFPEB, où les visiteurs peuvent voir plusieurs exemples d’équipements et de solutions de production livrés par Jointec au fil des années.\n\nLe site donne une vision pratique du rôle de Jointec dans l’industrie de la palette - des équipements individuels et intégrations de lignes aux solutions de production complètes. Les visiteurs verront également des lignes de production de palettes CAPE, représentées par Jointec en Scandinavie, Autriche et Suisse.",
+      "Åsljunga est l’un des sites de référence inclus dans la visite industrielle FEFPEB, où les visiteurs peuvent voir plusieurs exemples d’équipements et de solutions de production livrés par Jointec au fil des années.\n\nLe site donne une vision pratique du rôle de Jointec dans l’industrie de la palette - des équipements individuels et intégrations de lignes aux solutions de production complètes. Les visiteurs verront également des lignes de production de palettes CAPE.",
     additional:
       "Dans son ensemble, l’installation montre comment Jointec combine une longue expérience industrielle, un savoir-faire technique et de solides partenariats fournisseurs pour accompagner les producteurs modernes de palettes.",
     why: [
       "Inclus dans la visite industrielle FEFPEB",
       "Montre des exemples d’équipements et de solutions de production livrés par Jointec au fil des années",
       "Donne aux visiteurs une vision pratique du rôle de Jointec dans l’industrie de la palette",
-      "Inclut des lignes de production de palettes CAPE représentées par Jointec",
       "Met en avant l’expérience, le savoir-faire technique et les partenariats fournisseurs de Jointec",
     ],
     visitLabel: "Demander une visite du site d’Åsljunga",
@@ -516,7 +513,7 @@ CASE_TRANSLATIONS.fr = {
     text: "Ce site à Norrköping est un exemple de MicroDryer Jointec en production réelle.",
     why: [
       "Montre les performances de MicroDryer en usage industriel",
-      "Pertinent pour les producteurs travaillant avec des matériaux sensibles à l’humidité",
+      "Pertinent pour les producteurs qui veulent sécher IN LINE",
       "Soutient une meilleure régularité matière",
       "Aide à stabiliser le processus avant l’étape suivante",
     ],
@@ -839,7 +836,6 @@ export default function CasesPage() {
                   <a href={site.mailto} className="primary-button mt-7">{site.visitLabel}</a>
                 </div>
                 <div className="rounded-3xl border border-brand-dark/8 bg-brand-light p-6">
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-brand-accent">{copy.why}</p>
                   <ul className="mt-5 space-y-3">
                     {site.why.map((point) => <li key={point} className="flex gap-3 text-sm leading-7 text-brand-dark/72"><span className="mt-3 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-accent" />{point}</li>)}
                   </ul>
@@ -891,7 +887,7 @@ export default function CasesPage() {
           </div>
           <div className="flex flex-col gap-3">
             <a href={PRIVATE_VISIT_MAILTO} className="primary-button">{copy.privateVisit}</a>
-            <a href="tel:+46706339717" className="inline-flex items-center justify-center rounded-full border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:border-brand-accent hover:text-brand-accent">{copy.callKarl}</a>
+            <a href="mailto:info@jointec.se" className="inline-flex items-center justify-center rounded-full border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:border-brand-accent hover:text-brand-accent">{copy.emailJointec}</a>
           </div>
         </div>
       </section>

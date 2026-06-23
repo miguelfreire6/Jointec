@@ -82,20 +82,15 @@ export default function FefpebPopup() {
                 <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-brand-accent">
                   Demo
                 </p>
-                <p className="mt-2 text-sm font-semibold leading-6">New Block Production Line</p>
+                <p className="mt-2 text-sm font-semibold leading-6">New Pallet Block Production Line</p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-white/[0.06] p-4">
                 <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-brand-accent">
                   Discuss
                 </p>
-                <p className="mt-2 text-sm font-semibold leading-6">MicroDryer + Nonstop &amp; Topfoil</p>
+                <p className="mt-2 text-sm font-semibold leading-6">Nonstop &amp; Topfoil + MicroDryer</p>
               </div>
             </div>
-
-            <p className="mt-5 text-xs leading-6 text-white/58">
-              MicroDryer and Nonstop &amp; Topfoil are presented at the congress, not running at
-              the industrial site.
-            </p>
 
             <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <a href={FEFPEB_DEMO_MAILTO} className="primary-button">

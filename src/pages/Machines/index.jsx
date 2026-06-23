@@ -133,24 +133,29 @@ const SOLUTION_VALUE = {
   en: {
     "block-production-line": {
       label: "Recycling and block value",
-      text: "Turns recycled wood into pallet blocks, helping producers create a closed-loop system, reduce outside supply dependency and build new margin from returned material.",
+      text: [
+        "Make your own pallet blocks from recycled wood.",
+        "Create a closed loop.",
+        "Own pallet blocks help producers create a closed material flow, reduce dependence on external suppliers and create new margin from returned material.",
+      ],
       bestFor:
         "Pallet manufacturers and wood packaging producers working with returned pallets, crates and wood waste.",
       benefits: [
         "Converts recycled wood into pallet blocks",
         "Supports closed-loop production",
         "Reduces dependence on external suppliers",
+        "Improves profitability from existing wood flows",
         "Designed for continuous industrial output",
       ],
       cta: "Explore Block Production Line",
     },
     microdryer: {
       label: "Material quality and control",
-      text: "Improves material consistency, moisture control and production reliability so recycled or variable wood material becomes easier to use in industrial production.",
+      text: "Drying the pallet IN LINE minimizes internal handling.",
       bestFor: "Producers who need more consistent material quality and improved production stability.",
       benefits: [
-        "Improves material consistency",
-        "Reduces moisture-related production issues",
+        "Minimizes internal handling",
+        "Supports IN LINE pallet drying",
         "Compact and efficient drying process",
       ],
       cta: "Explore Microdryer",
@@ -172,24 +177,29 @@ const SOLUTION_VALUE = {
   es: {
     "block-production-line": {
       label: "Reciclaje y valor del bloque",
-      text: "Convierte madera reciclada en tacos para palets, ayudando a crear un sistema de circuito cerrado, reducir la dependencia de proveedores externos y generar nuevo margen a partir de material retornado.",
+      text: [
+        "Fabrique sus propios tacos de palet con madera reciclada.",
+        "Cree un circuito cerrado.",
+        "Los tacos propios ayudan a los productores a crear un flujo cerrado, reducir la dependencia de proveedores externos y generar nuevo margen a partir de material retornado.",
+      ],
       bestFor:
         "Productores de palets y embalaje de madera que trabajan con palets retornados, cajas y residuos de madera.",
       benefits: [
         "Convierte madera reciclada en tacos para palets",
         "Apoya la producción en circuito cerrado",
         "Reduce la dependencia de proveedores externos",
+        "Mejora la rentabilidad de los flujos de madera existentes",
         "Diseñada para producción industrial continua",
       ],
       cta: "Ver Block Production Line",
     },
     microdryer: {
       label: "Calidad y control del material",
-      text: "Mejora la consistencia del material, el control de humedad y la fiabilidad de producción para que la madera reciclada o variable sea más fácil de usar en producción industrial.",
+      text: "El secado del palet IN LINE minimiza la manipulación interna.",
       bestFor: "Productores que necesitan una calidad de material más constante y mayor estabilidad de producción.",
       benefits: [
-        "Mejora la consistencia del material",
-        "Reduce problemas de producción relacionados con la humedad",
+        "Minimiza la manipulación interna",
+        "Apoya el secado del palet IN LINE",
         "Proceso de secado compacto y eficiente",
       ],
       cta: "Ver Microdryer",
@@ -211,23 +221,28 @@ const SOLUTION_VALUE = {
   sv: {
     "block-production-line": {
       label: "Återvinning och blockvärde",
-      text: "Gör återvunnet trä till pallklossar och hjälper producenter att skapa ett slutet flöde, minska beroendet av externa leverantörer och skapa ny marginal från returmaterial.",
+      text: [
+        "Gör din egen klots av återvunnet trä.",
+        "Skapa en closed loop.",
+        "Egna pallklossar hjälper producenter att skapa ett slutet flöde, minska beroendet av externa leverantörer och skapa ny marginal från returmaterial.",
+      ],
       bestFor: "Pallproducenter och träemballageföretag som arbetar med returpallar, lådor och träspill.",
       benefits: [
         "Omvandlar återvunnet trä till pallklossar",
         "Stödjer cirkulär produktion",
         "Minskar beroendet av externa leverantörer",
+        "Ökar lönsamheten från befintliga träflöden",
         "Utvecklad för kontinuerlig industriell produktion",
       ],
       cta: "Utforska Block Production Line",
     },
     microdryer: {
       label: "Materialkvalitet och kontroll",
-      text: "Förbättrar materialets jämnhet, fuktkontroll och produktionssäkerhet så att återvunnet eller varierande trämaterial blir enklare att använda industriellt.",
+      text: "Torkning av pallen IN LINE minimerar internhanteringen.",
       bestFor: "Producenter som behöver jämnare materialkvalitet och stabilare produktion.",
       benefits: [
-        "Förbättrar materialets jämnhet",
-        "Minskar fuktrelaterade produktionsproblem",
+        "Minimerar internhantering",
+        "Stödjer torkning av pallen IN LINE",
         "Kompakt och effektiv torkprocess",
       ],
       cta: "Utforska Microdryer",
@@ -248,24 +263,29 @@ const SOLUTION_VALUE = {
   de: {
     "block-production-line": {
       label: "Recycling und Blockwert",
-      text: "Verwandelt recyceltes Holz in Palettenklötze und hilft Produzenten, einen geschlossenen Kreislauf zu schaffen, externe Abhängigkeiten zu reduzieren und neue Marge aus Rücklaufmaterial zu gewinnen.",
+      text: [
+        "Produzieren Sie eigene Palettenklötze aus Recyclingholz.",
+        "Schaffen Sie einen geschlossenen Kreislauf.",
+        "Eigene Palettenklötze helfen Produzenten, einen geschlossenen Materialfluss zu schaffen, die Abhängigkeit von externen Lieferanten zu reduzieren und neue Marge aus Rücklaufmaterial zu gewinnen.",
+      ],
       bestFor:
         "Palettenhersteller und Holzverpackungsproduzenten, die mit Rücklaufpaletten, Kisten und Holzabfällen arbeiten.",
       benefits: [
         "Verwandelt Recyclingholz in Palettenklötze",
         "Unterstützt Kreislaufproduktion",
         "Reduziert die Abhängigkeit von externen Lieferanten",
+        "Verbessert die Rentabilität bestehender Holzflüsse",
         "Für kontinuierliche industrielle Leistung ausgelegt",
       ],
       cta: "Block Production Line ansehen",
     },
     microdryer: {
       label: "Materialqualität und Kontrolle",
-      text: "Verbessert Materialkonstanz, Feuchtekontrolle und Produktionszuverlässigkeit, damit recyceltes oder wechselndes Holzmaterial einfacher industriell genutzt werden kann.",
+      text: "Das Trocknen der Palette IN LINE minimiert internes Handling.",
       bestFor: "Produzenten, die konstantere Materialqualität und stabilere Produktion benötigen.",
       benefits: [
-        "Verbessert die Materialkonstanz",
-        "Reduziert feuchtebedingte Produktionsprobleme",
+        "Minimiert internes Handling",
+        "Unterstützt IN LINE-Palettentrocknung",
         "Kompakter und effizienter Trocknungsprozess",
       ],
       cta: "Microdryer ansehen",
@@ -287,24 +307,29 @@ const SOLUTION_VALUE = {
   fr: {
     "block-production-line": {
       label: "Recyclage et valeur du bloc",
-      text: "Transforme le bois recyclé en blocs pour palettes, aidant les producteurs à créer un système en boucle fermée, réduire leur dépendance aux fournisseurs externes et générer une nouvelle marge à partir de matériaux retournés.",
+      text: [
+        "Fabriquez vos propres blocs de palettes à partir de bois recyclé.",
+        "Créez une boucle fermée.",
+        "Des blocs de palettes produits en interne aident les producteurs à créer un flux fermé, réduire la dépendance aux fournisseurs externes et générer une nouvelle marge à partir des matériaux retournés.",
+      ],
       bestFor:
         "Producteurs de palettes et d’emballages bois travaillant avec des palettes retournées, caisses et déchets de bois.",
       benefits: [
         "Transforme le bois recyclé en blocs pour palettes",
         "Soutient la production en boucle fermée",
         "Réduit la dépendance aux fournisseurs externes",
+        "Améliore la rentabilité des flux de bois existants",
         "Conçue pour une production industrielle continue",
       ],
       cta: "Explorer Block Production Line",
     },
     microdryer: {
       label: "Qualité matière et contrôle",
-      text: "Améliore la régularité de la matière, le contrôle de l’humidité et la fiabilité de production afin que le bois recyclé ou variable soit plus facile à utiliser industriellement.",
+      text: "Le séchage de la palette IN LINE minimise la manutention interne.",
       bestFor: "Producteurs recherchant une qualité matière plus constante et une production plus stable.",
       benefits: [
-        "Améliore la régularité de la matière",
-        "Réduit les problèmes de production liés à l’humidité",
+        "Minimise la manutention interne",
+        "Soutient le séchage de la palette IN LINE",
         "Processus de séchage compact et efficace",
       ],
       cta: "Explorer Microdryer",
@@ -416,9 +441,20 @@ export default function MachinesPage() {
                   <h3 className="text-xl font-semibold tracking-[-0.02em]">
                     {machine.name}
                   </h3>
-                  <p className="mt-4 text-sm leading-7 text-brand-dark/72">
-                    {solutionCopy[machine.slug].text}
-                  </p>
+                  {Array.isArray(solutionCopy[machine.slug].text) ? (
+                    <ul className="mt-4 space-y-3 text-sm font-medium leading-7 text-brand-dark/78">
+                      {solutionCopy[machine.slug].text.map((item) => (
+                        <li key={item} className="flex gap-3">
+                          <span className="mt-2.5 h-2 w-2 shrink-0 rounded-full bg-brand-accent" />
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="mt-4 text-sm leading-7 text-brand-dark/72">
+                      {solutionCopy[machine.slug].text}
+                    </p>
+                  )}
                   <div className="mt-6 border-t border-brand-dark/8 pt-5">
                     <p className="text-[10px] font-semibold uppercase tracking-[0.28em] text-brand-accent">
                       {solutionCopy[machine.slug].label}

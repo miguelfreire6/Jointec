@@ -363,6 +363,7 @@ export default function MachinePage() {
   const nextSlug = MACHINE_ORDER[(idx + 1) % MACHINE_ORDER.length];
   const nextMachine = MACHINE_DETAILS[nextSlug];
   const nextMachineCopy = getMachineCopy(nextMachine, language);
+  const hideTechnicalSection = ["microdryer", "nonstop-topfoil-pallet"].includes(detail.slug);
 
   return (
     <div className="min-h-screen bg-brand-light text-brand-dark">
@@ -514,6 +515,7 @@ export default function MachinePage() {
             </div>
           </section>
 
+          {detail.slug !== "microdryer" ? (
           <section className="bg-brand-light py-20 sm:py-24">
             <div className="section-shell">
               <p className="text-[11px] font-semibold uppercase tracking-[0.32em] text-brand-accent">
@@ -529,9 +531,11 @@ export default function MachinePage() {
               </div>
             </div>
           </section>
+          ) : null}
         </>
       )}
 
+      {!hideTechnicalSection ? (
       <section className="bg-white py-20 sm:py-24">
         <div className="section-shell grid gap-12 lg:grid-cols-[0.85fr_1.15fr]">
           <div>
@@ -565,6 +569,7 @@ export default function MachinePage() {
           </div>
         </div>
       </section>
+      ) : null}
 
       <MachineUpdatesSignup sourcePage={copy.name} />
 

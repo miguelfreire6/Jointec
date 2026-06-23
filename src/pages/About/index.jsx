@@ -32,11 +32,11 @@ export default function AboutPage() {
 
         <div className="section-shell relative">
           <div className="grid min-h-[65vh] grid-cols-1 items-end py-20 lg:py-28">
-            <div className="max-w-3xl">
+            <div className="max-w-4xl">
               <p className="text-[11px] font-semibold uppercase tracking-[0.32em] text-brand-accent">
                 {t("aboutPage.eyebrow")}
               </p>
-              <h1 className="mt-6 text-5xl font-light leading-[1.02] tracking-[-0.035em] sm:text-6xl lg:text-7xl">
+              <h1 className="mt-6 text-4xl font-light leading-[1.08] tracking-[-0.02em] sm:text-5xl lg:text-6xl">
                 {t("aboutPage.title")}
               </h1>
               <p className="mt-6 max-w-2xl text-base leading-8 text-white/80 sm:text-lg">

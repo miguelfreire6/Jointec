@@ -616,7 +616,7 @@
         "year": "Anonimizado",
         "industry": "Fabricante de bobinas de cable",
         "headline": "Producción de alas de madera para bobinas de cable mediante CAPE Bobimatic.",
-        "summary": "Línea combinada Bobimatic para producción de alas de madera, suministrada y respaldada por Jointec bajo la representación CAPE para Austria.",
+        "summary": "Línea combinada Bobimatic para producción de alas de madera, representada y respaldada por Jointec bajo la representación CAPE para Austria.",
         "machines": [
           "CAPE Bobimatic 1",
           "CAPE Bobimatic 2"
@@ -674,7 +674,7 @@
   },
   "aboutPage": {
     "eyebrow": "Sobre Jointec",
-    "title": "DESDE 1988 - líderes en la industria de fabricación de palets.",
+    "title": "Desde 1988, desarrollando soluciones para la producción y reparación de palets de madera.",
     "description": "Desde 1988 somos uno de los líderes del mercado en el suministro de equipos para fabricar y reparar palets de madera.",
     "labels": {
       "storyLabel": "Nuestra historia",

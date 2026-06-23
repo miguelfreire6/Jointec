@@ -13,7 +13,7 @@ export const CUSTOMER_CASES = [
       "A production site in Kotka, Finland, operating a CAPE pallet nailing machine — the most compact, flexible, and fast-changeover pallet production line available on the market — as well as Jointec’s Nonstop & Topfoil Pallet solution.",
     text: "",
     additional:
-      "The site operates a CAPE pallet nailing machine — the most compact, flexible, and fast-changeover pallet production line available on the market. As well as Jointec’s Nonstop & Topfoil Pallet solution.",
+      "The site operates a CAPE pallet nailing machine — the market's most compact and flexible line — as well as Jointec’s Nonstop & Topfoil Pallet solution.",
     why: [
       "Demonstrates Nonstop & Topfoil Pallet in daily production",
       "Shows efficient pallet handling and topfoil application",
@@ -21,12 +21,13 @@ export const CUSTOMER_CASES = [
       "Relevant for producers looking to improve production flow and changeover flexibility",
       "Strong reference site for modern pallet production",
     ],
-    overviewImage: "/images/nonstop-topfoil.jpg",
+    overviewImage: "/images/reference-kotka-cape-line.jpg",
     video: "/videos/kotka-cape-pallet-line.mp4",
     videoPoster: "/images/kotka-video-poster.png",
     media: [
       { type: "image", src: "/images/reference-kotka-cape-line.jpg", alt: "CAPE pallet nailing line at the Kotka operating site" },
       { type: "image", src: "/images/reference-kotka-cape-machine.jpg", alt: "CAPE pallet machinery operating at Kotka" },
+      { type: "image", src: "/images/reference-kotka-small-big-pallet.jpg", alt: "Small and large pallets at the Kotka reference site" },
     ],
     gallery: ["Main site image", "Nonstop & Topfoil Pallet solution image", "CAPE pallet nailing line image", "Pallet production detail image"],
     visitLabel: "Request Visit to Kotka Site",
@@ -43,19 +44,18 @@ export const CUSTOMER_CASES = [
     summary:
       "Åsljunga is one of the reference sites included in the FEFPEB industrial visit, where visitors can see several examples of equipment and production solutions delivered by Jointec over the years.",
     text:
-      "Åsljunga is one of the reference sites included in the FEFPEB industrial visit, where visitors can see several examples of equipment and production solutions delivered by Jointec over the years.\n\nThe site gives a practical view of Jointec’s role in the pallet industry — from individual equipment and line integrations to complete production solutions. Visitors will also see pallet production lines from CAPE, represented by Jointec in Scandinavia, Austria and Switzerland.",
+      "Åsljunga is one of the reference sites included in the FEFPEB industrial visit, where visitors can see several examples of equipment and production solutions delivered by Jointec over the years.\n\nThe site gives a practical view of Jointec’s role in the pallet industry — from individual equipment and line integrations to complete production solutions. Visitors will also see pallet production lines from CAPE.",
     additional:
       "Together, the installation highlights how Jointec combines long industry experience, technical know-how and strong supplier partnerships to support modern pallet producers.",
     why: [
       "Included in the FEFPEB industrial visit",
       "Shows examples of Jointec equipment and production solutions delivered over the years",
       "Gives visitors a practical view of Jointec’s role in the pallet industry",
-      "Includes CAPE pallet production lines represented by Jointec",
       "Highlights Jointec’s experience, technical know-how and supplier partnerships",
     ],
-    overviewImage: "/images/reference-asljunga-fefpeb.jpg",
+    overviewImage: "/images/reference-asljunga.jpg",
     media: [
-      { type: "video", src: "/videos/reference-asljunga-8392.mp4", alt: "Åsljunga Block Production Line and CAPE Tandem Line in operation" },
+      { type: "video", src: "/videos/reference-block-line-110.mp4", alt: "Åsljunga Block Production Line in operation" },
     ],
     gallery: ["Main site image", "Block Production Line image", "CAPE Tandem Line image", "Production flow image", "Finished pallet/block image"],
     visitLabel: "Request Visit to Åsljunga Site",
@@ -85,6 +85,7 @@ export const CUSTOMER_CASES = [
     overviewImage: "/images/reference-bodo.jpg",
     media: [
       { type: "image", src: "/images/reference-bodo-03.jpg", alt: "Recycled wood material at Bodø site" },
+      { type: "video", src: "/videos/reference-bodo-7307.mp4", alt: "Bodø Block Production Line in operation" },
       { type: "image", src: "/images/reference-bodo-04.jpg", alt: "Bodø site production detail" },
       { type: "image", src: "/images/reference-bodo-05.jpg", alt: "Finished pallet block material at Bodø site" },
     ],
@@ -108,10 +109,10 @@ export const CUSTOMER_CASES = [
       "Shows how recycled wood material can be turned into usable pallet blocks",
       "Suitable for visitors who want to see the process in action",
     ],
-    overviewImage: "/images/reference-klippan-updated.jpg",
+    overviewImage: "/images/reference-klippan-site.jpg",
     media: [
-      { type: "video", src: "/videos/reference-klippan-01.mp4", alt: "Klippan Block Production Line in operation" },
-      { type: "video", src: "/videos/reference-klippan-02.mp4", alt: "Klippan pallet block production process" },
+      { type: "image", src: "/images/reference-klippan-site.jpg", alt: "Klippan Block Production Line reference site" },
+      { type: "video", src: "/videos/reference-klippan-site.mp4", alt: "Klippan Block Production Line in operation" },
     ],
     visitLabel: "Request Visit to Klippan Site",
     mailto:
@@ -129,7 +130,7 @@ export const CUSTOMER_CASES = [
       "This site in Norrköping, Sweden is an example of Jointec’s Microdryer operating in a real production environment.",
     why: [
       "Demonstrates Microdryer performance in industrial use",
-      "Relevant for producers working with moisture-sensitive material",
+      "Relevant for producers who want to dry IN LINE",
       "Supports improved material consistency",
       "Helps stabilize the production process before further processing",
     ],

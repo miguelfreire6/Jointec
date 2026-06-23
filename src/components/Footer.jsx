@@ -45,7 +45,7 @@ function Footer() {
             <li><a href="/about#machine-updates" className="hover:text-brand-accent">{t("footer.contact_link")}</a></li>
             <li>
               <a
-                href="https://www.linkedin.com/company/108651152/"
+                href="https://www.linkedin.com/company/jointec-ab/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-brand-accent"
@@ -63,6 +63,7 @@ function Footer() {
           </p>
           <address className="mt-5 space-y-2 text-sm not-italic text-brand-dark/72">
             <div>Karl-Johan Berg</div>
+            <div><a href="mailto:info@jointec.se" className="hover:text-brand-accent">info@jointec.se</a></div>
             <div><a href="mailto:karl@jointec.se" className="hover:text-brand-accent">karl@jointec.se</a></div>
             <div><a href="tel:+46706339717" className="hover:text-brand-accent">+46 706 339 717</a></div>
             <div className="pt-3 text-[11px] uppercase tracking-[0.22em] text-brand-dark/45">

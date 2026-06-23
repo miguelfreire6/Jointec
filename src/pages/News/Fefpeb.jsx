@@ -65,7 +65,7 @@ const COPY = {
     body:
       "Under industribesöket den 1 oktober kan kunder se flera CAPE-linjer i drift och Jointecs nya BLOCK PRODUCTION LINE demonstrerad på industrianläggningen. På kongressen i Båstad kommer Jointec också att prata om MICRODRYER och NONSTOP & TOPFOIL PALLET som nya lösningar för producenter som vill addera mer värde till pallen. Dessa två lösningar presenteras på kongressen, men körs inte på industrianläggningen.",
     machineTexts: [
-      "Gör återvunnet trä till lönsamma pallblock direkt på plats. En komplett produktionslösning för företag som vill återanvända trämaterial, minska beroendet av externa blockleverantörer och skapa värde av returpallar och träemballage.",
+      "Gör återvunnet trä till lönsamma pallklotsar direkt på plats. En komplett produktionslösning för företag som vill återanvända trämaterial, minska beroendet av externa klotsleverantörer och skapa värde av returpallar och träemballage.",
       "En kompakt torklösning för bättre fuktkontroll, materialkonsistens och produktionsstabilitet.",
       "En produktionslösning utvecklad för bättre pallhantering, färre avbrott och effektiv topfoil-applicering i industriell pallproduktion.",
     ],

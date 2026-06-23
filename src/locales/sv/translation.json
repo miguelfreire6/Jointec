@@ -58,7 +58,7 @@
   },
   "video": {
     "eyebrow": "Industriell visning",
-    "title": "Vårt arv: från svenskt järnbruk till pallutrustning världen över",
+    "title": "Vårt arv: från svensk smidesindustri till pallutrustning världen över",
     "description": "Jointecs historia börjar i södra Sverige 1868.\n\nDet som började med praktisk ingenjörskonst och smidda lyftkrokar utvecklades senare till pallreparation, demontering, produktionsutrustning och kompletta lösningar för pallindustrin.\n\nUnder de senaste 50 åren har Jointec hjälpt pallproducenter att addera värde till pallen - genom smartare utrustning, praktisk automation och lösningar byggda för verklig produktion.\n\nIdag levererar och installerar vi pallutrustning för kunder över hela världen.",
     "playLabel": "Spela upp presentationsvideo",
     "videoLabel": "Jointec presentationsvideo",
@@ -616,7 +616,7 @@
         "year": "Anonymiserad",
         "industry": "Kabeltrummetillverkare",
         "headline": "Tillverkning av trägavlar för kabeltrummor med CAPE Bobimatic.",
-        "summary": "Kombinerad Bobimatic-linje för tillverkning av trägavlar, levererad och supporterad av Jointec under CAPE-agenturen för Österrike.",
+        "summary": "Kombinerad Bobimatic-linje för tillverkning av trägavlar, representerad och supporterad av Jointec under CAPE-agenturen för Österrike.",
         "machines": [
           "CAPE Bobimatic 1",
           "CAPE Bobimatic 2"
@@ -674,7 +674,7 @@
   },
   "aboutPage": {
     "eyebrow": "Om Jointec",
-    "title": "SEDAN 1988 - ledande inom palltillverkningsindustrin.",
+    "title": "I framkant inom utrustning för pallindustrin sedan 1988.",
     "description": "Sedan 1988 har vi varit en av marknadsledarna inom leverans av utrustning för tillverkning och reparation av träpallar.",
     "labels": {
       "storyLabel": "Vår historia",

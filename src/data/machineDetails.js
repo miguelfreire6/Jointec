@@ -4,14 +4,14 @@ export const MACHINE_SOLUTIONS = [
     name: "BLOCK PRODUCTION LINE",
     image: "/images/klots_extrusion.webp",
     summary:
-      "A complete production solution for manufacturing pallet blocks from recycled wood material, helping packaging producers reduce waste and create value from returned pallets and wood packaging.",
+      "By reusing returned wood as pallet blocks, the line helps producers create a closed loop, reduce dependence on external suppliers, improve profitability and create new margin from returned material.",
     bestFor:
       "Pallet manufacturers and wood packaging producers working with returned pallets, crates and wood waste.",
     benefits: [
       "Converts recycled wood into pallet blocks",
       "Supports closed-loop production",
       "Reduces dependence on external suppliers",
-      "Designed for continuous industrial output",
+      "Improves profitability from returned material",
     ],
     cta: "Explore Block Production Line",
   },
@@ -20,12 +20,12 @@ export const MACHINE_SOLUTIONS = [
     name: "MICRODRYER",
     image: "/images/microdryer.jpg",
     summary:
-      "A compact drying solution designed to reduce moisture in wood material and improve the consistency, quality and efficiency of pallet block production.",
+      "Dries the pallet directly as it is produced, in the pallet line, with no intermediate handling and exact moisture control.",
     bestFor:
       "Producers who need more consistent material quality and improved production stability.",
     benefits: [
-      "Improves material consistency",
-      "Reduces moisture-related production issues",
+      "No intermediate handling",
+      "Exact moisture control",
       "Compact and efficient drying process",
     ],
     cta: "Explore Microdryer",
@@ -42,6 +42,7 @@ export const MACHINE_SOLUTIONS = [
       "Supports Continuous processing",
       "Reduces manual handling",
       "Improves production flow",
+      "Protects goods from dirt and moisture",
       "Suitable for industrial pallet operations",
     ],
     cta: "Explore Nonstop & Topfoil Pallet",
@@ -91,7 +92,7 @@ export const MACHINE_DETAILS = {
           "Are you preparing your pallet operation for stronger circularity expectations?",
         ],
         closing:
-          "Jointec helps pallet producers move from waste handling to value recovery.",
+          "The future is circular, not linear. Jointec helps pallet producers move from waste handling to value recovery.",
         explore: "Explore the Block Production Line",
         talk: "Talk to Jointec about your material flow",
         note:
@@ -120,7 +121,7 @@ export const MACHINE_DETAILS = {
           "¿Está preparando su operación de palets para expectativas circulares más fuertes?",
         ],
         closing:
-          "Jointec ayuda a los productores de palets a pasar de la gestión de residuos a la recuperación de valor.",
+          "El futuro es circular, no lineal. Jointec ayuda a los productores de palets a pasar de la gestión de residuos a la recuperación de valor.",
         explore: "Explorar Block Production Line",
         talk: "Hablar con Jointec sobre su flujo de material",
         note:
@@ -149,7 +150,7 @@ export const MACHINE_DETAILS = {
           "Förbereder ni er pallproduktion för starkare krav på cirkularitet?",
         ],
         closing:
-          "Jointec hjälper pallproducenter att gå från avfallshantering till värdeåtervinning.",
+          "Framtiden är cirkulär, inte linjär. Jointec hjälper pallproducenter att gå från avfallshantering till värdeåtervinning.",
         explore: "Utforska Block Production Line",
         talk: "Prata med Jointec om ert materialflöde",
         note:
@@ -178,7 +179,7 @@ export const MACHINE_DETAILS = {
           "Bereiten Sie Ihre Palettenproduktion auf höhere Kreislaufanforderungen vor?",
         ],
         closing:
-          "Jointec hilft Palettenproduzenten, von Abfallbehandlung zu Wertrückgewinnung zu wechseln.",
+          "Die Zukunft ist zirkulär, nicht linear. Jointec hilft Palettenproduzenten, von Abfallbehandlung zu Wertrückgewinnung zu wechseln.",
         explore: "Block Production Line entdecken",
         talk: "Mit Jointec über Ihren Materialfluss sprechen",
         note:
@@ -207,7 +208,7 @@ export const MACHINE_DETAILS = {
           "Préparez-vous votre production de palettes à des attentes plus fortes en matière de circularité ?",
         ],
         closing:
-          "Jointec aide les producteurs de palettes à passer de la gestion des déchets à la récupération de valeur.",
+          "L’avenir est circulaire, pas linéaire. Jointec aide les producteurs de palettes à passer de la gestion des déchets à la récupération de valeur.",
         explore: "Explorer la Block Production Line",
         talk: "Parler à Jointec de votre flux matière",
         note:
@@ -217,7 +218,7 @@ export const MACHINE_DETAILS = {
     advantages: [
       ["Lower Waste", "Turn returned wood packaging into useful production material."],
       ["Local Production", "Reduce supplier dependency and shorten material chains."],
-      ["Consistent Output", "Designed for stable, repeatable block production."],
+      ["Increased Profitability", "Create more margin from returned material and internal wood flows."],
       ["Sustainable Process", "Supports circular production and better use of wood resources."],
     ],
     technical:
@@ -235,21 +236,21 @@ export const MACHINE_DETAILS = {
     video: "/videos/microdryer-web.mp4",
     pageTitle: "Microdryer for Wood Material Drying | Jointec",
     intro:
-      "A compact drying solution for improving wood material consistency before further processing.",
+      "A compact drying solution for drying the pallet directly as it is produced, with no intermediate handling, inside the pallet line.",
     purpose:
-      "The Jointec Microdryer is designed to reduce moisture in wood material and support a more stable production process. It is especially useful for producers working with recycled or variable wood material where moisture control is important for production quality.",
+      "The Jointec Microdryer dries the pallet directly in the pallet line as it is produced, with no intermediate handling. It gives exact moisture control and supports a more stable production process.",
     designedFor: [
       "Pallet block producers",
       "Wood packaging producers",
       "Companies processing recycled wood material",
-      "Producers needing improved material consistency",
+      "Producers who want to dry in-line without intermediate handling",
       "Facilities with limited space for drying equipment",
     ],
     process:
-      "The Microdryer helps reduce moisture in prepared wood material before it enters the next stage of production. This supports a more predictable process, improved material behavior and fewer moisture-related production issues.",
+      "The Microdryer reduces moisture directly in the pallet line before production moves to the next step. This removes intermediate handling, gives exact control and reduces moisture-related production issues.",
     advantages: [
-      ["Moisture Control", "Helps reduce excess moisture in wood material."],
-      ["Better Consistency", "Supports more stable material quality."],
+      ["No Intermediate Handling", "Dries the pallet directly in the production line."],
+      ["Exact Control", "Helps control moisture before the next production step."],
       ["Compact Design", "Designed for efficient use of production space."],
       ["Production Stability", "Helps reduce moisture-related interruptions and quality issues."],
     ],
@@ -293,9 +294,11 @@ export const MACHINE_DETAILS = {
       "Offer customers a ready-to-use protective solution",
       "Add new functionality to new or existing pallet production lines",
       "Turn pallet production into a more complete customer solution",
+      "Create a long-standing collaboration with customers",
     ],
     userBenefits: [
       "Goods are better protected from the start",
+      "Protects goods from dirt and moisture",
       "Less manual preparation before loading",
       "Easier and cleaner pallet handling",
       "More consistent protection between pallets",
@@ -316,10 +319,10 @@ export const MACHINE_ORDER = MACHINE_SOLUTIONS.map(({ slug }) => slug);
 export const MACHINE_DETAIL_TRANSLATIONS = {
   es: {
     "block-production-line": {
-      name: "LÍNEA DE PRODUCCIÓN DE BLOQUES",
+      name: "EQUIPO DE PRODUCCIÓN DE BLOQUES",
       pageTitle: "Línea de Producción de Bloques para bloques de palet reciclados | Jointec",
       intro:
-        "Convierta madera reciclada en bloques de palet rentables — directamente en su planta.\n\nUna línea completa de producción circular que ayuda a productores de palets y embalajes de madera a transformar embalajes de madera retornados en bloques de palet de alta calidad, reducir residuos y crear más valor desde su propio flujo de material.",
+        "Al reutilizar madera retornada como bloques de palet, ayuda a los productores a crear un flujo cerrado, reducir la dependencia de proveedores externos y generar nuevo margen desde el material retornado.\n\nUna línea completa de producción circular que mejora la rentabilidad y crea más valor desde su propio flujo de material.",
       purpose:
         "La Línea de Producción de Bloques de Jointec está diseñada para fabricantes de palets y empresas de embalaje de madera que quieren producir bloques de palet directamente a partir de material de madera reciclado. Palets retornados, cajas, embalajes de madera y recortes se procesan y se utilizan para crear nuevos bloques para producción industrial de palets.",
       designedFor: [
@@ -334,7 +337,7 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
       advantages: [
         ["Menos residuos", "Transforme embalajes de madera retornados en material útil de producción."],
         ["Producción local", "Reduzca la dependencia de proveedores y acorte las cadenas de material."],
-        ["Salida constante", "Diseñada para una producción de bloques estable y repetible."],
+        ["Mayor rentabilidad", "Cree más margen a partir de material retornado y flujos internos de madera."],
         ["Proceso circular", "Apoya la producción circular y un mejor uso de los recursos de madera."],
       ],
       technical:
@@ -344,21 +347,21 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
       name: "MICRODRYER",
       pageTitle: "Microdryer para secado de material de madera | Jointec",
       intro:
-        "Una solución compacta de secado para mejorar la consistencia del material de madera antes del siguiente proceso.",
+        "Una solución compacta para secar el palet directamente cuando se produce, sin manipulación intermedia, dentro de la línea de palets.",
       purpose:
-        "El Microdryer de Jointec está diseñado para reducir la humedad del material de madera y apoyar un proceso de producción más estable. Es especialmente útil para productores que trabajan con madera reciclada o variable, donde el control de humedad es importante para la calidad.",
+        "El Microdryer de Jointec seca el palet directamente en la línea cuando se produce, sin manipulación intermedia. Permite un control exacto de la humedad y apoya un proceso de producción más estable.",
       designedFor: [
         "Productores de bloques de palet",
         "Productores de embalajes de madera",
         "Empresas que procesan madera reciclada",
-        "Productores que necesitan mayor consistencia del material",
+        "Productores que quieren secar in-line sin manipulación intermedia",
         "Instalaciones con espacio limitado para equipos de secado",
       ],
       process:
-        "El Microdryer ayuda a reducir la humedad del material de madera preparado antes de entrar en la siguiente etapa de producción. Esto apoya un proceso más previsible, mejor comportamiento del material y menos problemas relacionados con la humedad.",
+        "El Microdryer reduce la humedad directamente en la línea de palets, antes de que la producción avance al siguiente paso. Esto elimina manipulación intermedia, da control exacto y reduce problemas relacionados con la humedad.",
       advantages: [
-        ["Control de humedad", "Ayuda a reducir el exceso de humedad en el material de madera."],
-        ["Mejor consistencia", "Apoya una calidad de material más estable."],
+        ["Sin manipulación intermedia", "Seca el palet directamente en la línea de producción."],
+        ["Control exacto", "Ayuda a controlar la humedad antes del siguiente paso."],
         ["Diseño compacto", "Diseñado para un uso eficiente del espacio de producción."],
         ["Estabilidad de producción", "Ayuda a reducir interrupciones y problemas de calidad ligados a la humedad."],
       ],
@@ -397,9 +400,11 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
         "Ofrecer una solución protectora lista para usar",
         "Añadir funcionalidad a líneas nuevas o existentes",
         "Convertir la producción de palets en una solución más completa para el cliente",
+        "Crear una colaboración más duradera con los clientes",
       ],
       userBenefits: [
         "La mercancía queda protegida desde el inicio",
+        "Protege la mercancía contra suciedad y humedad",
         "Menos preparación manual antes de cargar",
         "Manejo de palets más fácil y limpio",
         "Protección más consistente entre palets",
@@ -416,10 +421,10 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
   },
   sv: {
     "block-production-line": {
-      name: "KLOTSPRODUKTIONSLINJE",
+      name: "KLOTSPRODUKTIONSUTRUSTNING",
       pageTitle: "Klotsproduktionslinje för återvunna pallklotsar | Jointec",
       intro:
-        "Gör återvunnet trä till lönsamma pallklotsar — direkt på plats.\n\nEn komplett cirkulär produktionslinje som hjälper pall- och träemballageproducenter att omvandla returnerat träemballage till pallklotsar av hög kvalitet, minska avfall och skapa mer värde från sitt eget materialflöde.",
+        "Genom att återanvända returträ till pallklotsar så hjälper du producenter att skapa ett slutet flöde, minska beroendet av externa leverantörer och skapa ny marginal från returmaterial.\n\nEn komplett cirkulär produktionslinje som ökar lönsamheten och skapar mer värde från det egna materialflödet.",
       purpose:
         "Jointecs klotsproduktionslinje är framtagen för palltillverkare och träemballageföretag som vill producera pallklotsar direkt från återvunnet trämaterial. Returnerade pallar, lådor, träemballage och träspill processas och används för att skapa nya pallklotsar för industriell pallproduktion.",
       designedFor: [
@@ -434,7 +439,7 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
       advantages: [
         ["Mindre avfall", "Gör returnerat träemballage till användbart produktionsmaterial."],
         ["Lokal produktion", "Minska leverantörsberoende och korta materialkedjor."],
-        ["Jämn produktion", "Utformad för stabil och repeterbar klotstillverkning."],
+        ["Ökad lönsamhet", "Skapa mer marginal från returmaterial och interna träflöden."],
         ["Cirkulär process", "Stödjer cirkulär produktion och bättre användning av träresurser."],
       ],
       technical:
@@ -444,21 +449,21 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
       name: "MICRODRYER",
       pageTitle: "Microdryer för torkning av trämaterial | Jointec",
       intro:
-        "En kompakt torklösning för att förbättra trämaterialets jämnhet före vidare bearbetning.",
+        "En kompakt torklösning för att torka pallen direkt när den produceras, utan mellanhantering, i palllinjen.",
       purpose:
-        "Jointecs Microdryer är utformad för att minska fukt i trämaterial och stödja en mer stabil produktionsprocess. Den är särskilt användbar för producenter som arbetar med återvunnet eller varierande trämaterial där fuktkontroll är viktig för kvaliteten.",
+        "Jointecs Microdryer torkar pallen direkt i palllinjen när den produceras, utan mellanhantering. Den ger exakt fuktkontroll och stödjer en mer stabil produktionsprocess.",
       designedFor: [
         "Producenter av pallklotsar",
         "Producenter av träemballage",
         "Företag som processar återvunnet trämaterial",
-        "Producenter som behöver jämnare materialkvalitet",
+        "Producenter som vill torka in-line utan mellanhantering",
         "Anläggningar med begränsat utrymme för torkutrustning",
       ],
       process:
-        "Microdryer hjälper till att minska fukten i förberett trämaterial innan det går vidare till nästa produktionssteg. Det ger en mer förutsägbar process, bättre materialbeteende och färre fuktrelaterade produktionsproblem.",
+        "Microdryer minskar fukten direkt i palllinjen innan produktionen går vidare till nästa steg. Det tar bort mellanhantering, ger exakt kontroll och färre fuktrelaterade produktionsproblem.",
       advantages: [
-        ["Fuktkontroll", "Hjälper till att minska överskottsfukt i trämaterial."],
-        ["Bättre jämnhet", "Stödjer stabilare materialkvalitet."],
+        ["Ingen mellanhantering", "Torkar pallen direkt i produktionslinjen."],
+        ["Exakt kontroll", "Hjälper till att styra fukten innan nästa steg."],
         ["Kompakt design", "Utformad för effektiv användning av produktionsyta."],
         ["Stabilare produktion", "Hjälper till att minska fuktrelaterade stopp och kvalitetsproblem."],
       ],
@@ -497,9 +502,11 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
         "Erbjud kunder en färdig skyddslösning",
         "Lägg till funktion i nya eller befintliga pallinjer",
         "Gör pallproduktionen till en mer komplett kundlösning",
+        "Skapa ett långsiktigt samarbete med kunderna",
       ],
       userBenefits: [
         "Godset skyddas bättre från början",
+        "Skyddar godset mot smuts och fukt",
         "Mindre manuell förberedelse före lastning",
         "Enklare och renare pallhantering",
         "Mer konsekvent skydd mellan pallar",
@@ -516,10 +523,10 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
   },
   de: {
     "block-production-line": {
-      name: "BLOCKPRODUKTIONSLINIE",
+      name: "BLOCKPRODUKTIONSAUSRÜSTUNG",
       pageTitle: "Blockproduktionslinie für recycelte Palettenklötze | Jointec",
       intro:
-        "Verwandeln Sie recyceltes Holz direkt vor Ort in profitable Palettenklötze.\n\nEine komplette Kreislauf-Produktionslinie, die Paletten- und Holzverpackungsproduzenten hilft, zurückgeführte Holzverpackungen in hochwertige Palettenklötze umzuwandeln, Abfall zu reduzieren und mehr Wert aus dem eigenen Materialfluss zu schaffen.",
+        "Durch die Wiederverwendung von Rücklaufholz als Palettenklötze hilft die Linie Produzenten, einen geschlossenen Fluss zu schaffen, die Abhängigkeit von externen Lieferanten zu reduzieren und neue Marge aus Rücklaufmaterial zu gewinnen.\n\nEine komplette Kreislauf-Produktionslinie, die Rentabilität und Wertschöpfung aus dem eigenen Materialfluss erhöht.",
       purpose:
         "Die Jointec Block Production Line ist für Palettenhersteller und Holzverpackungsunternehmen konzipiert, die Palettenklötze direkt aus recyceltem Holzmaterial produzieren möchten. Zurückgeführte Paletten, Kisten, Holzverpackungen und Holzabschnitte werden verarbeitet und zur Herstellung neuer Palettenklötze genutzt.",
       designedFor: [
@@ -534,7 +541,7 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
       advantages: [
         ["Weniger Abfall", "Verwandeln Sie zurückgeführte Holzverpackungen in nutzbares Produktionsmaterial."],
         ["Lokale Produktion", "Reduzieren Sie Lieferantenabhängigkeit und verkürzen Sie Materialketten."],
-        ["Konstanter Output", "Für stabile, wiederholbare Blockproduktion ausgelegt."],
+        ["Höhere Rentabilität", "Schaffen Sie mehr Marge aus Rücklaufmaterial und internen Holzflüssen."],
         ["Zirkulärer Prozess", "Unterstützt zirkuläre Produktion und bessere Nutzung von Holzressourcen."],
       ],
       technical:
@@ -544,21 +551,21 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
       name: "MICRODRYER",
       pageTitle: "Microdryer für Holztrocknung | Jointec",
       intro:
-        "Eine kompakte Trocknungslösung zur Verbesserung der Materialkonstanz vor der Weiterverarbeitung.",
+        "Eine kompakte Trocknungslösung, um die Palette direkt während der Produktion in der Palettenlinie zu trocknen, ohne Zwischenhandling.",
       purpose:
-        "Der Jointec Microdryer reduziert Feuchtigkeit im Holzmaterial und unterstützt einen stabileren Produktionsprozess. Er ist besonders nützlich für Produzenten, die mit recyceltem oder schwankendem Holzmaterial arbeiten.",
+        "Der Jointec Microdryer trocknet die Palette direkt in der Palettenlinie während der Produktion, ohne Zwischenhandling. Er ermöglicht exakte Feuchtigkeitskontrolle und unterstützt einen stabileren Produktionsprozess.",
       designedFor: [
         "Produzenten von Palettenklötzen",
         "Holzverpackungsproduzenten",
         "Unternehmen, die recyceltes Holzmaterial verarbeiten",
-        "Produzenten mit Bedarf an konstanterem Material",
+        "Produzenten, die inline ohne Zwischenhandling trocknen möchten",
         "Anlagen mit begrenztem Platz für Trocknungstechnik",
       ],
       process:
-        "Der Microdryer reduziert Feuchtigkeit im vorbereiteten Holzmaterial, bevor es in die nächste Produktionsstufe gelangt. Das unterstützt einen vorhersehbareren Prozess und weniger feuchtigkeitsbedingte Probleme.",
+        "Der Microdryer reduziert Feuchtigkeit direkt in der Palettenlinie, bevor die Produktion in den nächsten Schritt geht. Das eliminiert Zwischenhandling, gibt exakte Kontrolle und reduziert feuchtigkeitsbedingte Probleme.",
       advantages: [
-        ["Feuchtigkeitskontrolle", "Hilft, überschüssige Feuchtigkeit im Holzmaterial zu reduzieren."],
-        ["Bessere Konstanz", "Unterstützt stabilere Materialqualität."],
+        ["Kein Zwischenhandling", "Trocknet die Palette direkt in der Produktionslinie."],
+        ["Exakte Kontrolle", "Hilft, die Feuchtigkeit vor dem nächsten Produktionsschritt zu steuern."],
         ["Kompaktes Design", "Für effiziente Nutzung der Produktionsfläche ausgelegt."],
         ["Produktionsstabilität", "Hilft, feuchtigkeitsbedingte Unterbrechungen und Qualitätsprobleme zu reduzieren."],
       ],
@@ -597,9 +604,11 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
         "Kunden eine einsatzbereite Schutzlösung anbieten",
         "Neue oder bestehende Linien um Funktionalität erweitern",
         "Palettenproduktion zu einer umfassenderen Kundenlösung machen",
+        "Eine langfristige Zusammenarbeit mit Kunden schaffen",
       ],
       userBenefits: [
         "Ware ist von Anfang an besser geschützt",
+        "Schützt Waren vor Schmutz und Feuchtigkeit",
         "Weniger manuelle Vorbereitung vor dem Beladen",
         "Einfacheres und saubereres Palettenhandling",
         "Konstanterer Schutz zwischen Paletten",
@@ -616,10 +625,10 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
   },
   fr: {
     "block-production-line": {
-      name: "LIGNE DE PRODUCTION DE BLOCS",
+      name: "ÉQUIPEMENT DE PRODUCTION DE BLOCS",
       pageTitle: "Ligne de production de blocs pour palettes en bois recyclé | Jointec",
       intro:
-        "Transformez le bois recyclé en blocs de palettes rentables — directement sur site.\n\nUne ligne complète de production en boucle fermée qui aide les producteurs de palettes et d’emballages bois à convertir les emballages bois retournés en blocs de palettes de haute qualité, à réduire les déchets et à créer plus de valeur à partir de leur propre flux matière.",
+        "En réutilisant le bois retourné pour produire des blocs de palettes, la ligne aide les producteurs à créer un flux fermé, réduire la dépendance aux fournisseurs externes et créer une nouvelle marge à partir de la matière retournée.\n\nUne ligne complète de production circulaire qui améliore la rentabilité et crée plus de valeur à partir du flux matière interne.",
       purpose:
         "La Ligne de Production de Blocs Jointec est conçue pour les fabricants de palettes et les entreprises d’emballage bois qui veulent produire des blocs de palettes directement à partir de bois recyclé. Les palettes retournées, caisses, emballages bois et chutes sont transformés et utilisés pour créer de nouveaux blocs pour la production industrielle de palettes.",
       designedFor: [
@@ -634,7 +643,7 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
       advantages: [
         ["Moins de déchets", "Transformez les emballages bois retournés en matière utile pour la production."],
         ["Production locale", "Réduisez la dépendance aux fournisseurs et raccourcissez les chaînes matière."],
-        ["Production régulière", "Conçue pour une production de blocs stable et répétable."],
+        ["Rentabilité accrue", "Créez plus de marge à partir des matières retournées et des flux bois internes."],
         ["Processus circulaire", "Soutient la production circulaire et une meilleure utilisation des ressources bois."],
       ],
       technical:
@@ -644,21 +653,21 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
       name: "MICRODRYER",
       pageTitle: "Microdryer pour le séchage du bois | Jointec",
       intro:
-        "Une solution de séchage compacte pour améliorer la régularité du bois avant transformation.",
+        "Une solution compacte pour sécher la palette directement lorsqu’elle est produite, sans manutention intermédiaire, dans la ligne palettes.",
       purpose:
-        "Le Microdryer Jointec est conçu pour réduire l’humidité du bois et soutenir un processus de production plus stable. Il est particulièrement utile pour les producteurs travaillant avec du bois recyclé ou variable, où le contrôle de l’humidité est important pour la qualité.",
+        "Le Microdryer Jointec sèche la palette directement dans la ligne lorsqu’elle est produite, sans manutention intermédiaire. Il apporte un contrôle exact de l’humidité et soutient un processus de production plus stable.",
       designedFor: [
         "Producteurs de blocs de palettes",
         "Producteurs d’emballages bois",
         "Entreprises transformant du bois recyclé",
-        "Producteurs recherchant une meilleure régularité matière",
+        "Producteurs souhaitant sécher en ligne sans manutention intermédiaire",
         "Sites avec un espace limité pour le séchage",
       ],
       process:
-        "Le Microdryer aide à réduire l’humidité du bois préparé avant l’étape suivante de production. Cela soutient un processus plus prévisible, un meilleur comportement matière et moins de problèmes liés à l’humidité.",
+        "Le Microdryer réduit l’humidité directement dans la ligne palettes avant l’étape suivante. Cela supprime la manutention intermédiaire, donne un contrôle exact et réduit les problèmes liés à l’humidité.",
       advantages: [
-        ["Contrôle de l’humidité", "Aide à réduire l’excès d’humidité dans le bois."],
-        ["Meilleure régularité", "Soutient une qualité matière plus stable."],
+        ["Sans manutention intermédiaire", "Sèche la palette directement dans la ligne de production."],
+        ["Contrôle exact", "Aide à piloter l’humidité avant l’étape suivante."],
         ["Design compact", "Conçu pour une utilisation efficace de l’espace de production."],
         ["Stabilité de production", "Aide à réduire les interruptions et problèmes qualité liés à l’humidité."],
       ],
@@ -697,9 +706,11 @@ export const MACHINE_DETAIL_TRANSLATIONS = {
         "Offrir une solution protectrice prête à l’emploi",
         "Ajouter une fonctionnalité aux lignes nouvelles ou existantes",
         "Transformer la production de palettes en solution client plus complète",
+        "Créer une collaboration durable avec les clients",
       ],
       userBenefits: [
         "Les marchandises sont mieux protégées dès le départ",
+        "Protège les marchandises contre la saleté et l’humidité",
         "Moins de préparation manuelle avant chargement",
         "Manutention des palettes plus simple et plus propre",
         "Protection plus régulière entre les palettes",

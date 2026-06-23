@@ -24,7 +24,7 @@ export const CAPE_CATEGORIES = [
     seoTitle: "CAPE Pallet Machinery | Jointec",
     description: "Stand-alone machines and complete production lines for pallet manufacturing.",
     intro:
-      "CAPE pallet machinery includes stand-alone machines and complete production lines for efficient pallet production, from semi-automatic systems to advanced automated lines.",
+      "CAPE pallet machinery includes stand-alone machines and complete production lines for efficient pallet production, from semi-automatic systems to modern automated lines.",
     machines: [
       makeMachine("CP110 No.1 Pallet Nailing Machine", "Industrial pallet nailing equipment for reliable production output."),
       makeMachine("CP110 No.2 Pallet Nailing Machine", "A pallet nailing solution for automated production workflows."),
@@ -112,7 +112,7 @@ const CATEGORY_TRANSLATIONS = {
       pageTitle: "Equipos CAPE para palets",
       description: "Máquinas independientes y líneas completas para la fabricación de palets.",
       intro:
-        "Los equipos CAPE para palets incluyen máquinas independientes y líneas completas para una producción eficiente, desde sistemas semiautomáticos hasta líneas automatizadas avanzadas.",
+        "Los equipos CAPE para palets incluyen máquinas independientes y líneas completas para una producción eficiente, desde sistemas semiautomáticos hasta líneas automatizadas modernas.",
     },
     "sawmill-machinery": {
       title: "Equipos para aserraderos",
@@ -149,7 +149,7 @@ const CATEGORY_TRANSLATIONS = {
       pageTitle: "CAPE pallutrustning",
       description: "Fristående maskiner och kompletta linjer för palltillverkning.",
       intro:
-        "CAPE pallutrustning omfattar fristående maskiner och kompletta produktionslinjer för effektiv pallproduktion, från halvautomatiska system till avancerade automatiserade linjer.",
+        "CAPE pallutrustning omfattar fristående maskiner och kompletta produktionslinjer för effektiv pallproduktion, från halvautomatiska system till moderna automatiserade linjer.",
     },
     "sawmill-machinery": {
       title: "Sågverksutrustning",
@@ -186,7 +186,7 @@ const CATEGORY_TRANSLATIONS = {
       pageTitle: "CAPE Palettenausrüstung",
       description: "Einzelmaschinen und komplette Linien für die Palettenfertigung.",
       intro:
-        "CAPE Palettenausrüstung umfasst Einzelmaschinen und komplette Produktionslinien für effiziente Palettenproduktion, von halbautomatischen Systemen bis zu fortschrittlichen automatisierten Linien.",
+        "CAPE Palettenausrüstung umfasst Einzelmaschinen und komplette Produktionslinien für effiziente Palettenproduktion, von halbautomatischen Systemen bis zu modernen automatisierten Linien.",
     },
     "sawmill-machinery": {
       title: "Sägewerksausrüstung",
@@ -223,7 +223,7 @@ const CATEGORY_TRANSLATIONS = {
       pageTitle: "Équipement CAPE pour palettes",
       description: "Machines autonomes et lignes complètes pour la fabrication de palettes.",
       intro:
-        "L’équipement CAPE pour palettes comprend des machines autonomes et des lignes complètes pour une production efficace, des systèmes semi-automatiques aux lignes automatisées avancées.",
+        "L’équipement CAPE pour palettes comprend des machines autonomes et des lignes complètes pour une production efficace, des systèmes semi-automatiques aux lignes automatisées modernes.",
     },
     "sawmill-machinery": {
       title: "Équipement de scierie",

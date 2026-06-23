@@ -172,7 +172,7 @@
   },
   "cape": {
     "eyebrow": "Agent exclusif CAPE",
-    "title": "Machines CAPE, fournies et supportées par Jointec.",
+    "title": "Machines CAPE, représentées et supportées par Jointec.",
     "description": "Jointec est l’agent exclusif de CAPE en Scandinavie, Suisse et Autriche. CAPE est une entreprise d’ingénierie de Barcelone avec des installations mondiales et un développement continu.",
     "partnerLine": "CAPE · De Barcelone au monde · Depuis 1988",
     "territories": [
@@ -616,7 +616,7 @@
         "year": "Anonymised",
         "industry": "Cable drum manufacturer",
         "headline": "Wooden cable-drum flange production via CAPE Bobimatic.",
-        "summary": "Bobimatic combined line for wooden flange production, supplied and supported by Jointec under the CAPE agency for Austria.",
+        "summary": "Bobimatic combined line for wooden flange production, represented and supported by Jointec under the CAPE agency for Austria.",
         "machines": [
           "CAPE Bobimatic 1",
           "CAPE Bobimatic 2"
@@ -650,7 +650,7 @@
   },
   "aboutPage": {
     "eyebrow": "À propos de Jointec",
-    "title": "Depuis 1988 - un acteur de référence dans l’industrie de la palette.",
+    "title": "Depuis 1988 - leaders du marché des équipements pour palettes en bois.",
     "description": "Depuis 1988, nous faisons partie des fournisseurs reconnus d’équipements pour la fabrication et la réparation de palettes en bois.",
     "labels": {
       "storyLabel": "Notre histoire",

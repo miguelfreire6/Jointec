@@ -13,17 +13,15 @@ const COPY = {
   en: {
     title: "CAPE Woodworking Machinery | Exclusive Agent in Scandinavia, Switzerland & Austria | Jointec",
     eyebrow: "Exclusive Agent of CAPE",
-    heroTitle: "CAPE Woodworking Machinery, Supplied by Jointec",
+    heroTitle: "CAPE Woodworking Machinery, Represented by Jointec",
     heroText:
-      "Jointec is the exclusive agent for CAPE in Scandinavia, Switzerland and Austria, offering advanced machinery solutions for pallet production, sawmill operations, cable drums and automated wood packaging production.",
+      "Jointec is the exclusive agent for CAPE in Scandinavia, Switzerland and Austria, offering modern machinery solutions for pallet production, sawmill operations, cable drums and automated wood packaging production.",
     explore: "Explore CAPE Machines",
     contact: "Contact Jointec",
     aboutEyebrow: "CAPE woodworking machinery",
     aboutTitle: "About CAPE",
     aboutText1:
-      "CAPE is one of the leading manufacturers of woodworking machinery for pallet, sawmill and cable drum production. Their technology is designed for industrial producers who need reliable, automated and scalable production solutions.",
-    aboutText2:
-      "Through Jointec, customers in Scandinavia, Switzerland and Austria can access CAPE machinery together with local technical knowledge, project support and long-term service coordination.",
+      "CAPE is a leading manufacturer of woodworking machinery for pallet, sawmill and cable drum production. Their technology is designed for industrial producers who need reliable, automated and scalable production solutions.",
     agentEyebrow: "Exclusive representation",
     agentTitle: "Jointec - Exclusive Agent of CAPE",
     agentText:
@@ -39,17 +37,15 @@ const COPY = {
   es: {
     title: "CAPE Woodworking Machinery | Agente exclusivo en Escandinavia, Suiza y Austria | Jointec",
     eyebrow: "Agente exclusivo de CAPE",
-    heroTitle: "CAPE Woodworking Machinery, suministrada por Jointec",
+    heroTitle: "CAPE Woodworking Machinery, representada por Jointec",
     heroText:
-      "Jointec es el agente exclusivo de CAPE en Escandinavia, Suiza y Austria, ofreciendo soluciones avanzadas para producción de palets, aserraderos, tambores de cable y embalaje de madera automatizado.",
+      "Jointec es el agente exclusivo de CAPE en Escandinavia, Suiza y Austria, ofreciendo soluciones modernas para producción de palets, aserraderos, tambores de cable y embalaje de madera automatizado.",
     explore: "Explorar equipos CAPE",
     contact: "Contactar con Jointec",
     aboutEyebrow: "Maquinaria CAPE para madera",
     aboutTitle: "Acerca de CAPE",
     aboutText1:
-      "CAPE es uno de los fabricantes líderes de maquinaria para madera destinada a producción de palets, aserraderos y tambores de cable. Su tecnología está pensada para productores industriales que necesitan soluciones fiables, automatizadas y escalables.",
-    aboutText2:
-      "A través de Jointec, los clientes de Escandinavia, Suiza y Austria acceden a maquinaria CAPE con conocimiento técnico local, apoyo de proyecto y coordinación de servicio a largo plazo.",
+      "CAPE es fabricante líder de maquinaria para madera destinada a producción de palets, aserraderos y tambores de cable. Su tecnología está pensada para productores industriales que necesitan soluciones fiables, automatizadas y escalables.",
     agentEyebrow: "Representación exclusiva",
     agentTitle: "Jointec - Agente exclusivo de CAPE",
     agentText:
@@ -65,17 +61,15 @@ const COPY = {
   sv: {
     title: "CAPE Woodworking Machinery | Exklusiv agent i Skandinavien, Schweiz och Österrike | Jointec",
     eyebrow: "Exklusiv agent för CAPE",
-    heroTitle: "CAPE Woodworking Machinery, levererad av Jointec",
+    heroTitle: "CAPE Woodworking Machinery, representerad av Jointec",
     heroText:
-      "Jointec är exklusiv agent för CAPE i Skandinavien, Schweiz och Österrike och erbjuder avancerade lösningar för pallproduktion, sågverk, kabeltrummor och automatiserad träemballageproduktion.",
+      "Jointec är exklusiv agent för CAPE i Skandinavien, Schweiz och Österrike och erbjuder moderna lösningar för pallproduktion, sågverk, kabeltrummor och automatiserad träemballageproduktion.",
     explore: "Utforska CAPE-utrustning",
     contact: "Kontakta Jointec",
     aboutEyebrow: "CAPE träbearbetningsutrustning",
     aboutTitle: "Om CAPE",
     aboutText1:
-      "CAPE är en av de ledande tillverkarna av träbearbetningsutrustning för pall-, sågverks- och kabeltrumsproduktion. Tekniken är utvecklad för industriella producenter som behöver tillförlitliga, automatiserade och skalbara lösningar.",
-    aboutText2:
-      "Genom Jointec får kunder i Skandinavien, Schweiz och Österrike tillgång till CAPE-utrustning tillsammans med lokal teknisk kunskap, projektstöd och långsiktig servicekoordinering.",
+      "CAPE är ledande tillverkare av träbearbetningsutrustning för pall-, sågverks- och kabeltrumsproduktion. Tekniken är utvecklad för industriella producenter som behöver tillförlitliga, automatiserade och skalbara lösningar.",
     agentEyebrow: "Exklusiv representation",
     agentTitle: "Jointec - Exklusiv agent för CAPE",
     agentText:
@@ -91,17 +85,15 @@ const COPY = {
   de: {
     title: "CAPE Woodworking Machinery | Exklusiver Agent in Skandinavien, Schweiz und Österreich | Jointec",
     eyebrow: "Exklusiver Agent für CAPE",
-    heroTitle: "CAPE Woodworking Machinery, geliefert von Jointec",
+    heroTitle: "CAPE Woodworking Machinery, vertreten durch Jointec",
     heroText:
-      "Jointec ist exklusiver Agent für CAPE in Skandinavien, der Schweiz und Österreich und bietet fortschrittliche Maschinenlösungen für Palettenproduktion, Sägewerke, Kabeltrommeln und automatisierte Holzverpackungsproduktion.",
+      "Jointec ist exklusiver Agent für CAPE in Skandinavien, der Schweiz und Österreich und bietet moderne Maschinenlösungen für Palettenproduktion, Sägewerke, Kabeltrommeln und automatisierte Holzverpackungsproduktion.",
     explore: "CAPE-Ausrüstung entdecken",
     contact: "Jointec kontaktieren",
     aboutEyebrow: "CAPE Holzbearbeitungsmaschinen",
     aboutTitle: "Über CAPE",
     aboutText1:
-      "CAPE gehört zu den führenden Herstellern von Holzbearbeitungsmaschinen für Paletten-, Sägewerks- und Kabeltrommelproduktion. Die Technologie ist für industrielle Produzenten entwickelt, die zuverlässige, automatisierte und skalierbare Lösungen benötigen.",
-    aboutText2:
-      "Über Jointec erhalten Kunden in Skandinavien, der Schweiz und Österreich Zugang zu CAPE-Maschinen mit lokaler technischer Kompetenz, Projektunterstützung und langfristiger Servicekoordination.",
+      "CAPE ist ein führender Hersteller von Holzbearbeitungsmaschinen für Paletten-, Sägewerks- und Kabeltrommelproduktion. Die Technologie ist für industrielle Produzenten entwickelt, die zuverlässige, automatisierte und skalierbare Lösungen benötigen.",
     agentEyebrow: "Exklusive Vertretung",
     agentTitle: "Jointec - Exklusiver Agent für CAPE",
     agentText:
@@ -117,17 +109,15 @@ const COPY = {
   fr: {
     title: "CAPE Woodworking Machinery | Agent exclusif en Scandinavie, Suisse et Autriche | Jointec",
     eyebrow: "Agent exclusif de CAPE",
-    heroTitle: "CAPE Woodworking Machinery, fournie par Jointec",
+    heroTitle: "CAPE Woodworking Machinery, représentée par Jointec",
     heroText:
-      "Jointec est l’agent exclusif de CAPE en Scandinavie, Suisse et Autriche, avec des solutions avancées pour la production de palettes, les scieries, les tourets de câble et l’emballage bois automatisé.",
+      "Jointec est l’agent exclusif de CAPE en Scandinavie, Suisse et Autriche, avec des solutions modernes pour la production de palettes, les scieries, les tourets de câble et l’emballage bois automatisé.",
     explore: "Explorer les équipements CAPE",
     contact: "Contacter Jointec",
     aboutEyebrow: "Machines CAPE pour le bois",
     aboutTitle: "À propos de CAPE",
     aboutText1:
-      "CAPE est l’un des principaux fabricants de machines pour le bois destinées à la production de palettes, aux scieries et aux tourets de câble. Sa technologie s’adresse aux producteurs industriels qui recherchent fiabilité, automatisation et évolutivité.",
-    aboutText2:
-      "Avec Jointec, les clients de Scandinavie, Suisse et Autriche accèdent aux machines CAPE avec expertise technique locale, accompagnement de projet et coordination du service à long terme.",
+      "CAPE est un fabricant leader de machines pour le bois destinées à la production de palettes, aux scieries et aux tourets de câble. Sa technologie s’adresse aux producteurs industriels qui recherchent fiabilité, automatisation et évolutivité.",
     agentEyebrow: "Représentation exclusive",
     agentTitle: "Jointec - Agent exclusif de CAPE",
     agentText:
@@ -215,7 +205,7 @@ export default function CapePage() {
             <h2 className="mt-4 text-4xl font-light tracking-[-0.03em]">{copy.aboutTitle}</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-brand-dark/72">
               <p>{copy.aboutText1}</p>
-              <p>{copy.aboutText2}</p>
+              {copy.aboutText2 ? <p>{copy.aboutText2}</p> : null}
             </div>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a href="https://cape.es/" target="_blank" rel="noreferrer" className="secondary-button">
