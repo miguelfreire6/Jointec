@@ -23,7 +23,7 @@ export const CUSTOMER_CASES = [
     ],
     overviewImage: "/images/reference-kotka-cape-line.jpg",
     video: "/videos/kotka-cape-pallet-line.mp4",
-    videoPoster: "/images/kotka-video-poster.png",
+    videoPoster: "/images/kotka-video-poster.jpg",
     media: [
       { type: "image", src: "/images/reference-kotka-cape-line.jpg", alt: "CAPE pallet nailing line at the Kotka operating site" },
       { type: "image", src: "/images/reference-kotka-cape-machine.jpg", alt: "CAPE pallet machinery operating at Kotka" },
@@ -112,7 +112,7 @@ export const CUSTOMER_CASES = [
     overviewImage: "/images/reference-klippan-site.jpg",
     media: [
       { type: "image", src: "/images/reference-klippan-site.jpg", alt: "Klippan Block Production Line reference site" },
-      { type: "video", src: "/videos/reference-klippan-site.mp4", alt: "Klippan Block Production Line in operation" },
+      { type: "video", src: "/videos/reference-klippan-site.mp4", poster: "/images/reference-klippan-video-poster.jpg", alt: "Klippan Block Production Line in operation" },
     ],
     visitLabel: "Request Visit to Klippan Site",
     mailto:
@@ -137,7 +137,7 @@ export const CUSTOMER_CASES = [
     overviewImage: "/images/microdryer.jpg",
     media: [
       { type: "image", src: "/images/reference-norrkoping-01.jpg", alt: "Norrköping Microdryer operating site" },
-      { type: "video", src: "/videos/reference-norrkoping-01.mp4", alt: "Norrköping Microdryer in operation" },
+      { type: "video", src: "/videos/reference-norrkoping-01.mp4", poster: "/images/reference-norrkoping-video-poster.jpg", alt: "Norrköping Microdryer in operation" },
     ],
     visitLabel: "Request Visit to Norrköping Site",
     mailto:

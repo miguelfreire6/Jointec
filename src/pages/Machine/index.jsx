@@ -412,16 +412,38 @@ export default function MachinePage() {
                   </h2>
                 </>
               )}
-              <div className={`${detail.slug === "block-production-line" ? "" : "mt-8"} overflow-hidden rounded-3xl border border-brand-dark/10 bg-black shadow-panel`}>
-                <video
-                  src={detail.video}
-                  poster={detail.videoPoster || detail.image || undefined}
-                  className="aspect-video w-full bg-black object-cover"
-                  controls
-                  preload="metadata"
-                  playsInline
-                />
-              </div>
+              {detail.videoSections?.length ? (
+                <div className={`${detail.slug === "block-production-line" ? "" : "mt-8"} grid gap-8`}>
+                  {detail.videoSections.map((videoSection) => (
+                    <div key={videoSection.video}>
+                      <h3 className="mb-4 text-[11px] font-semibold uppercase tracking-[0.32em] text-brand-accent">
+                        {videoSection.title}
+                      </h3>
+                      <div className="overflow-hidden rounded-3xl border border-brand-dark/10 bg-black shadow-panel">
+                        <video
+                          src={videoSection.video}
+                          poster={videoSection.poster || detail.image || undefined}
+                          className="aspect-video w-full bg-black object-cover"
+                          controls
+                          preload="metadata"
+                          playsInline
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className={`${detail.slug === "block-production-line" ? "" : "mt-8"} overflow-hidden rounded-3xl border border-brand-dark/10 bg-black shadow-panel`}>
+                  <video
+                    src={detail.video}
+                    poster={detail.videoPoster || detail.image || undefined}
+                    className="aspect-video w-full bg-black object-cover"
+                    controls
+                    preload="metadata"
+                    playsInline
+                  />
+                </div>
+              )}
             </div>
           </section>
           <PpwrSection ppwr={detail.ppwr} language={language} detail={detail} />

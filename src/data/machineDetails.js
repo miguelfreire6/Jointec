@@ -261,6 +261,19 @@ export const MACHINE_DETAILS = {
   "nonstop-topfoil-pallet": {
     ...MACHINE_SOLUTIONS[2],
     video: "/videos/nonstop-topfoil-web.mp4",
+    videoPoster: "/images/nonstop-topfoil.jpg",
+    videoSections: [
+      {
+        title: "TOPFOIL",
+        video: "/videos/nonstop-topfoil-web.mp4",
+        poster: "/images/nonstop-topfoil.jpg",
+      },
+      {
+        title: "NONSTOP PALLET",
+        video: "/videos/nonstop-pallet-web.mp4",
+        poster: "/images/nonstop-pallet-video-poster.jpg",
+      },
+    ],
     pageTitle: "Nonstop & Topfoil Pallet Production Solution | Jointec",
     headline: "Turn Standard Pallets into Protective Pallet Solutions",
     intro:

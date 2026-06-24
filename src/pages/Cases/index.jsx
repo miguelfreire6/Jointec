@@ -723,6 +723,7 @@ function SiteMediaGrid({ media }) {
           {item.type === "video" ? (
             <video
               src={item.src}
+              poster={item.poster}
               aria-label={item.alt}
               className="aspect-video w-full bg-brand-dark object-cover"
               controls
