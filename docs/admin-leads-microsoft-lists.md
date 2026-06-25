@@ -18,28 +18,28 @@ The admin page is not linked in the public website navigation.
 
 ## Microsoft List Columns
 
-Create a Microsoft List for website leads with these columns:
+The current Microsoft List is named `Jointec Website Leads` and uses these internal column names:
 
 - Title
-- Company
-- Email
-- Phone
-- Country
+- COMPANY
+- EMAIL
+- PHONE
+- COUNTRY
 - MachineInterest
-- SourcePage
-- LeadStatus
-- Message
+- Sourcepage
+- Leadstatus
+- message
 - Notes
 - Consent
 - CreatedDate
 
-Important: Microsoft has display names and internal field names. The code expects the internal
-field names above. To avoid issues, create the columns using those exact names first. The visible
-display names can be renamed later if needed.
+Important: Microsoft has display names and internal field names. The Cloudflare function writes
+to the internal names above. If the visible display names are changed later, keep the internal
+names unchanged or update `functions/api/leads.js`.
 
-## Vercel Environment Variables
+## Cloudflare Environment Variables
 
-Add these environment variables in Vercel:
+Add these environment variables in the Cloudflare Pages project:
 
 ```txt
 ADMIN_PASSWORD=choose-a-private-admin-password
@@ -80,6 +80,6 @@ missing.
 
 ## Local Development Note
 
-The local Vite preview at `127.0.0.1:5173` does not run Vercel API routes. In local preview, the
+The local Vite preview at `127.0.0.1:5173` does not run Cloudflare Pages Functions. In local preview, the
 admin page can only show browser test leads. The real login and Microsoft Lists connection work
-after deployment on Vercel or when running with Vercel's local server.
+after deployment on Cloudflare Pages or when running through Cloudflare's local Pages tooling.

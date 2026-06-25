@@ -163,7 +163,7 @@ export default function AdminLeadsPage() {
           {!session.adminConfigured ? (
             <div className="mt-5 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-950">
               Admin login is not configured yet. Add `ADMIN_PASSWORD` and `ADMIN_SESSION_SECRET`
-              as environment variables in Vercel before production.
+              as environment variables in Cloudflare before production.
             </div>
           ) : null}
 
@@ -275,7 +275,7 @@ function ConnectionStatus({ session, loadError }) {
       <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-950">
         <p className="font-semibold">Local preview mode</p>
         <p className="mt-2">
-          This Vite preview cannot run Vercel API routes, so it shows test leads stored in this
+          This Vite preview cannot run Cloudflare Pages Functions, so it shows test leads stored in this
           browser. After deployment, this page requires the private admin password and reads from
           Microsoft Lists.
         </p>
@@ -288,7 +288,7 @@ function ConnectionStatus({ session, loadError }) {
       <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-950">
         <p className="font-semibold">Microsoft Lists connection still needs configuration</p>
         <p className="mt-2">
-          Admin login is active, but Microsoft Lists cannot be used until these Vercel environment
+          Admin login is active, but Microsoft Lists cannot be used until these Cloudflare environment
           variables are set: {(session.missingMicrosoftEnv || []).join(", ") || "Microsoft Graph credentials"}.
         </p>
         {loadError ? <p className="mt-2">Current error: {loadError}</p> : null}
