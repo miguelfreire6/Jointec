@@ -56,6 +56,26 @@ export const CUSTOMER_CASES = [
     overviewImage: "/images/reference-asljunga.jpg",
     media: [
       { type: "video", src: "/videos/reference-block-line-110.mp4", alt: "Åsljunga Block Production Line in operation" },
+      {
+        type: "video",
+        src: "/videos/reference-asljunga-img-4783.mp4",
+        poster: "/images/reference-asljunga-img-4783-poster.jpg",
+        alt: "Åsljunga reference site equipment in operation",
+        orientation: "portrait",
+      },
+      {
+        type: "video",
+        src: "/videos/reference-asljunga-img-8168.mp4",
+        poster: "/images/reference-asljunga-img-8168-poster.jpg",
+        alt: "Åsljunga reference site production equipment",
+        orientation: "portrait",
+      },
+      {
+        type: "video",
+        src: "/videos/reference-asljunga-img-1479.mp4",
+        poster: "/images/reference-asljunga-img-1479-poster.jpg",
+        alt: "Åsljunga production line at the reference site",
+      },
     ],
     gallery: ["Main site image", "Block Production Line image", "CAPE Tandem Line image", "Production flow image", "Finished pallet/block image"],
     visitLabel: "Request Visit to Åsljunga Site",
