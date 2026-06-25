@@ -713,34 +713,41 @@ function SiteMediaGrid({ media }) {
 
   return (
     <div className="mt-8 grid items-start gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {media.map((item, index) => (
-        <figure
-          key={item.src}
-          className={`self-start overflow-hidden rounded-3xl border border-brand-dark/8 bg-white shadow-sm ${
-            index === 0 && media.length > 2 ? "sm:col-span-2" : ""
-          }`}
-        >
-          {item.type === "video" ? (
-            <video
-              src={item.src}
-              poster={item.poster}
-              aria-label={item.alt}
-              className="aspect-video w-full bg-brand-dark object-cover"
-              controls
-              muted
-              playsInline
-              preload="metadata"
-            />
-          ) : (
-            <img
-              src={item.src}
-              alt={item.alt}
-              className="aspect-video w-full object-cover"
-              loading="lazy"
-            />
-          )}
-        </figure>
-      ))}
+      {media.map((item, index) => {
+        const isPortrait = item.orientation === "portrait";
+        const mediaClass = isPortrait
+          ? "aspect-[9/16] max-h-[680px] w-full bg-brand-dark object-contain"
+          : "aspect-video w-full bg-brand-dark object-cover";
+
+        return (
+          <figure
+            key={item.src}
+            className={`self-start overflow-hidden rounded-3xl border border-brand-dark/8 bg-white shadow-sm ${
+              index === 0 && media.length > 2 ? "sm:col-span-2" : ""
+            }`}
+          >
+            {item.type === "video" ? (
+              <video
+                src={item.src}
+                poster={item.poster}
+                aria-label={item.alt}
+                className={mediaClass}
+                controls
+                muted
+                playsInline
+                preload="metadata"
+              />
+            ) : (
+              <img
+                src={item.src}
+                alt={item.alt}
+                className={mediaClass}
+                loading="lazy"
+              />
+            )}
+          </figure>
+        );
+      })}
     </div>
   );
 }
