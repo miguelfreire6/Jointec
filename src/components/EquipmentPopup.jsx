@@ -61,7 +61,7 @@ export default function EquipmentPopup() {
           <div className="bg-black">
             <video
               ref={videoRef}
-              src="/videos/equipment-pallet-blocks-onsite.mov"
+              src="/videos/equipment-pallet-blocks-onsite.mp4"
               className="aspect-video h-full w-full object-contain"
               controls
               autoPlay
