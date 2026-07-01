@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import App from "./App";
+import EquipmentPopup from "./components/EquipmentPopup";
 import FefpebPopup from "./components/FefpebPopup";
 import AdminLeadsPage from "./pages/Admin/Leads";
 import AboutPage from "./pages/About";
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <FefpebPopup />
+      <EquipmentPopup />
       <Routes>
         <Route path="/" element={<Navigate to="/about" replace />} />
         <Route path="/home" element={<App />} />
