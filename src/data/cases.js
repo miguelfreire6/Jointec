@@ -22,6 +22,8 @@ export const CUSTOMER_CASES = [
       "Strong reference site for modern pallet production",
     ],
     overviewImage: "/images/reference-kotka-cape-line.jpg",
+    video: "/videos/kotka-cape-tech-teaser.mp4",
+    videoPoster: "/images/kotka-video-poster.png",
     media: [
       { type: "image", src: "/images/reference-kotka-cape-line.jpg", alt: "CAPE pallet nailing line at the Kotka operating site" },
       { type: "image", src: "/images/reference-kotka-cape-machine.jpg", alt: "CAPE pallet machinery operating at Kotka" },
