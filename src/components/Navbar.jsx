@@ -15,7 +15,7 @@ function Navbar() {
   const updatesHref = isHome ? "#machine-updates" : "/about#machine-updates";
 
   const navItems = [
-    { label: t("navbar.machines"), to: "/machines" },
+    { label: t("navbar.machines"), to: "/machines", showEquipmentPopup: true },
     { label: t("navbar.cape"),     to: "/cape" },
     { label: t("navbar.cases"),    to: "/cases" },
     { label: t("navbar.news"),     to: "/news" },
@@ -54,7 +54,12 @@ function Navbar() {
         <nav className="hidden flex-1 items-center justify-center gap-7 lg:flex">
           {navItems.map((item) =>
             item.to ? (
-              <Link key={item.label} to={item.to} className="nav-link">
+              <Link
+                key={item.label}
+                to={item.to}
+                state={item.showEquipmentPopup ? { showEquipmentPopup: true } : undefined}
+                className="nav-link"
+              >
                 {item.label}
               </Link>
             ) : (
@@ -92,6 +97,7 @@ function Navbar() {
                 <Link
                   key={item.label}
                   to={item.to}
+                  state={item.showEquipmentPopup ? { showEquipmentPopup: true } : undefined}
                   className="nav-link w-fit"
                   onClick={() => setOpen(false)}
                 >

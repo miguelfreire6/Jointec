@@ -102,7 +102,7 @@ export const CUSTOMER_CASES = [
       "Strong example for customers located far from suppliers or major logistics routes",
       "Relevant for producers who want better control over their own block supply",
     ],
-    overviewImage: "/images/reference-bodo.jpg",
+    overviewImage: "/images/reference-bodo-cover.jpg",
     media: [
       { type: "image", src: "/images/reference-bodo-03.jpg", alt: "Recycled wood material at Bodø site" },
       { type: "video", src: "/videos/reference-bodo-7307.mp4", alt: "Bodø Block Production Line in operation" },
